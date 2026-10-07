@@ -1,0 +1,24 @@
+PASS: closure
+PASS: sensitivities
+PASS: gradient
+PASS: update
+{
+  "closure": {
+    "max_closure_norm": 6.485546236472086e-16,
+    "max_stationarity_norm": 1.8197260308886025e-15,
+    "sampled_feasibility_margin": 0.8703427356309943,
+    "max_hessian_condition": 54.84446567459903
+  },
+  "sensitivities": {
+    "max_finite_difference_error": 5.418321347150368e-10,
+    "max_damped_system_residual": 6.661338147750939e-16
+  },
+  "gradient": {
+    "max_finite_difference_error": 2.7271696012576285e-10,
+    "endpoint_direct_gradient_norm": 0.4768078992291612
+  },
+  "update": {
+    "masked_projection": "passed",
+    "zero_and_two_step_histories": "passed"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "example": "rotation",
+  "lengths": [
+    4.0,
+    1.5,
+    4.2,
+    3.0
+  ],
+  "frames": 48,
+  "newton_iters": 8,
+  "newton_damping": 1e-08,
+  "max_closure_norm": 1.3042167484290357e-15,
+  "max_stationarity_norm": 4.764185116837852e-15,
+  "sampled_feasibility_margin": 1.3046215877903329,
+  "max_hessian_condition": 59.41865459841565
+}

@@ -1,0 +1,158 @@
+{
+  "contact_cases": [
+    {
+      "case": "frictionless",
+      "backend": "scipy",
+      "velocity": [
+        1.0,
+        0.0,
+        0.9999999999999971
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 8.659739592076218e-15,
+      "impact_energy_change": -1.5000000000000029,
+      "qp_status": 1,
+      "qp_calls": 1
+    },
+    {
+      "case": "fixed_friction_budget",
+      "backend": "scipy",
+      "velocity": [
+        3.3,
+        0.0,
+        1.000000000000006
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 1.7985612998927558e-14,
+      "impact_energy_change": -4.054999999999994,
+      "qp_status": 1,
+      "qp_calls": 1
+    },
+    {
+      "case": "two_tangent_components",
+      "backend": "scipy",
+      "velocity": [
+        2.4999999999999973,
+        2.500000000000002,
+        1.0000000000000062
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 2.220446049250313e-14,
+      "impact_energy_change": -7.749999999999996,
+      "qp_status": 1,
+      "qp_calls": 1
+    },
+    {
+      "case": "corner_and_inactive_wall",
+      "backend": "scipy",
+      "velocity": [
+        1.0000000000000155,
+        1.5000000000000178,
+        0.0
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 7.993605777301097e-14,
+      "impact_energy_change": -4.874999999999957,
+      "qp_status": 1,
+      "qp_calls": 1
+    },
+    {
+      "case": "frictionless",
+      "backend": "jaxopt",
+      "velocity": [
+        1.0000000000690294,
+        0.0,
+        1.0000000001247171
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 3.741513765476157e-10,
+      "impact_energy_change": -1.4999999998062534,
+      "qp_status": 1,
+      "qp_calls": 1
+    },
+    {
+      "case": "fixed_friction_budget",
+      "backend": "jaxopt",
+      "velocity": [
+        3.300000000881264,
+        0.0,
+        0.9999999998186478
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 1.8363741638438569e-09,
+      "impact_energy_change": -4.05499999727318,
+      "qp_status": 1,
+      "qp_calls": 1
+    },
+    {
+      "case": "two_tangent_components",
+      "backend": "jaxopt",
+      "velocity": [
+        2.4999999995631224,
+        2.4999999998577365,
+        1.0000000001247178
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 1.499761648236332e-09,
+      "impact_energy_change": -7.7500000013231345,
+      "qp_status": 1,
+      "qp_calls": 1
+    },
+    {
+      "case": "corner_and_inactive_wall",
+      "backend": "jaxopt",
+      "velocity": [
+        0.9999999999891335,
+        1.499999999983699,
+        0.0
+      ],
+      "minimum_gap": 0.0,
+      "contact_residual": 3.035864892808604e-10,
+      "impact_energy_change": -4.8750000000353175,
+      "qp_status": 1,
+      "qp_calls": 1
+    }
+  ],
+  "collision_cases": [
+    {
+      "case": "approaching",
+      "time": 0.5,
+      "hit": true
+    },
+    {
+      "case": "parallel",
+      "time": "inf",
+      "hit": false
+    },
+    {
+      "case": "separating",
+      "time": "inf",
+      "hit": false
+    },
+    {
+      "case": "touching_approaching",
+      "time": 0.0,
+      "hit": true
+    },
+    {
+      "case": "touching_separating",
+      "time": "inf",
+      "hit": false
+    },
+    {
+      "case": "outside_interval",
+      "time": 0.5,
+      "hit": false
+    },
+    {
+      "case": "radius_clearance",
+      "time": 0.375,
+      "hit": true
+    }
+  ],
+  "additional_regressions": [
+    "integer_velocity_fractional_mass_both_backends",
+    "all_contacts_inactive_both_backends_infeasibility_detector_disabled",
+    "earliest_of_two_planes_at_interval_end"
+  ]
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw2-poker-application"
+version = "0.1.0"
+description = "Poker linear-programming application for HW2"
+requires-python = ">=3.11"
+dependencies = ["jax>=0.4.38", "jaxopt==0.8.5", "numpy>=1.26"]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "scipy>=1.16"]
+
+[tool.setuptools]
+py-modules = ["games", "poker", "qp"]
+packages = ["examples"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

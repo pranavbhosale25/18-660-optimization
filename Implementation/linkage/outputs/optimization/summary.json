@@ -1,0 +1,45 @@
+{
+  "implementation": "optimize",
+  "num_updates": 40,
+  "num_evaluated_designs": 41,
+  "step_size": 0.01,
+  "frames": 48,
+  "newton_iters": 8,
+  "newton_damping": 1e-08,
+  "sensitivity_damping": 0.0,
+  "min_length": 0.001,
+  "design_mask": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "initial_loss": 0.6496242337987741,
+  "final_loss": 0.054162290159747585,
+  "best_loss": 0.0463881296489799,
+  "best_index": 39,
+  "initial_lengths": [
+    2.2800000000000002,
+    0.91,
+    2.8000000000000003,
+    2.3000000000000003
+  ],
+  "final_lengths": [
+    2.1073289406694675,
+    1.0128155227115645,
+    2.531154776502593,
+    2.543867860061336
+  ],
+  "best_lengths": [
+    2.108345347893261,
+    1.013541763232287,
+    2.528153471624214,
+    2.551705825210635
+  ],
+  "best_simulation_diagnostics": {
+    "max_closure_norm": 6.853760514980977e-16,
+    "max_stationarity_norm": 1.3836736972708136e-15,
+    "sampled_feasibility_margin": 1.0716929210017583,
+    "max_hessian_condition": 71.6135574084647
+  }
+}

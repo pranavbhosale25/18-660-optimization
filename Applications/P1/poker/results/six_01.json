@@ -1,0 +1,116 @@
+{
+  "backend": "jaxopt",
+  "jax": "0.4.38",
+  "python": "3.12.14",
+  "precision": "float64",
+  "solver_tolerance": 1e-08,
+  "solver_maxiter": 30000,
+  "devices": [
+    "TFRT_CPU_0"
+  ],
+  "deck_size": 6,
+  "public_boards": 6,
+  "private_types_per_board": 5,
+  "bids": [
+    0,
+    1
+  ],
+  "kernel_shape_per_board": [
+    10,
+    10
+  ],
+  "first_call_seconds": 0.573308042017743,
+  "median_repeat_seconds": 0.009857541997916996,
+  "timing_note": "First call includes solver compilation; repeats reuse it.",
+  "exact_self_play_payoff": -2.867684639875618e-17,
+  "maximum_board_nash_gap": 5.499058430835646e-09,
+  "mean_board_nash_gap": 5.499057491772004e-09,
+  "board_lower_bounds": [
+    -2.749528937862067e-09,
+    -2.749528937862067e-09,
+    -2.7495283827505546e-09,
+    -2.7495289656176425e-09,
+    -2.749529215417823e-09,
+    -2.749528049683647e-09
+  ],
+  "board_upper_bounds": [
+    2.74952885459534e-09,
+    2.7495290350065815e-09,
+    2.749528354994979e-09,
+    2.749529007251006e-09,
+    2.749529215417823e-09,
+    2.749527994172496e-09
+  ],
+  "board_nash_gaps": [
+    5.499057792457407e-09,
+    5.499057972868648e-09,
+    5.4990567377455335e-09,
+    5.499057972868648e-09,
+    5.499058430835646e-09,
+    5.499056043856143e-09
+  ],
+  "all_lp_statuses_success": true,
+  "maximum_lp_feasibility_residual": 8.87573325947244e-09,
+  "maximum_raw_simplex_error": 8.87573325947244e-09,
+  "equilibrium_vs_baselines_exact_chips": {
+    "always_bid_0": 0.38216961452444,
+    "always_bid_1": -2.3989786268607816e-09,
+    "uniform": 0.1910848060627307
+  },
+  "best_response_gain_against_always_max": 0.2,
+  "always_max_symmetric_nash_gap": 0.4,
+  "sample_mean": -0.00824,
+  "sample_standard_error": 0.006254232515384052,
+  "samples": 50000,
+  "board_0_hole_cards": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "board_0_row_strategy": [
+    [
+      7.165947087987844e-09,
+      0.9999999928340528
+    ],
+    [
+      0.7261012752925171,
+      0.27389872470748294
+    ],
+    [
+      0.7261012847954631,
+      0.27389871520453685
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.6072320549962503,
+      0.39276794500374973
+    ]
+  ],
+  "board_0_col_strategy": [
+    [
+      7.165947087987844e-09,
+      0.9999999928340528
+    ],
+    [
+      0.7261012752925171,
+      0.27389872470748294
+    ],
+    [
+      0.7261012847954631,
+      0.27389871520453685
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.6072320549962503,
+      0.39276794500374973
+    ]
+  ]
+}

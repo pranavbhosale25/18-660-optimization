@@ -1,0 +1,152 @@
+{
+  "Applications/P1/poker/examples/__init__.py": {
+    "mtime": 1789975918.0,
+    "seen": 1791162605.924279,
+    "ast_hash": "2ecac37482b33c4694ac754998ed2357",
+    "semantic_hash": "2ecac37482b33c4694ac754998ed2357"
+  },
+  "Applications/P1/poker/examples/poker_demo.py": {
+    "mtime": 1790051122.0,
+    "seen": 1791162605.9242828,
+    "ast_hash": "73afa553ff61cffd976441cf6b9a3eaa",
+    "semantic_hash": "73afa553ff61cffd976441cf6b9a3eaa"
+  },
+  "Applications/P1/poker/games.py": {
+    "mtime": 1790051324.0,
+    "seen": 1791162605.924285,
+    "ast_hash": "729679c45b3285852204ae16abf3c34d",
+    "semantic_hash": "729679c45b3285852204ae16abf3c34d"
+  },
+  "Applications/P1/poker/poker.py": {
+    "mtime": 1789975918.0,
+    "seen": 1791162605.924285,
+    "ast_hash": "1dd252a3c1ad1c1e6d47c0894e3f01e1",
+    "semantic_hash": "1dd252a3c1ad1c1e6d47c0894e3f01e1"
+  },
+  "Applications/P1/poker/pyproject.toml": {
+    "mtime": 1790051130.0,
+    "seen": 1791162605.924286,
+    "ast_hash": "dd7af6b974418530c1a967abdc8aa7de",
+    "semantic_hash": "dd7af6b974418530c1a967abdc8aa7de"
+  },
+  "Applications/P1/poker/qp.py": {
+    "mtime": 1790078710.0,
+    "seen": 1791162605.924286,
+    "ast_hash": "e3b96c6062d53f332e62d6b4ce22fe43",
+    "semantic_hash": "e3b96c6062d53f332e62d6b4ce22fe43"
+  },
+  "Applications/P1/poker/tests/conftest.py": {
+    "mtime": 1790051122.0,
+    "seen": 1791162605.924287,
+    "ast_hash": "f488535bd1836b0acb785974126bdd7e",
+    "semantic_hash": "f488535bd1836b0acb785974126bdd7e"
+  },
+  "Applications/P1/poker/tests/test_poker.py": {
+    "mtime": 1790051128.0,
+    "seen": 1791162605.924287,
+    "ast_hash": "4393b2f24eb18ca4a04b7597a2de17dc",
+    "semantic_hash": "4393b2f24eb18ca4a04b7597a2de17dc"
+  },
+  "Applications/P2/physics/examples/__init__.py": {
+    "mtime": 1789975918.0,
+    "seen": 1791162605.924288,
+    "ast_hash": "2ecac37482b33c4694ac754998ed2357",
+    "semantic_hash": "2ecac37482b33c4694ac754998ed2357"
+  },
+  "Applications/P2/physics/examples/physics_demo.py": {
+    "mtime": 1790078478.0,
+    "seen": 1791162605.924288,
+    "ast_hash": "0bfb3dbec44a36a28b75459e78fdc300",
+    "semantic_hash": "0bfb3dbec44a36a28b75459e78fdc300"
+  },
+  "Applications/P2/physics/physics.py": {
+    "mtime": 1790084046.0,
+    "seen": 1791162605.924289,
+    "ast_hash": "30f85a9b454428affc406105cbc853e4",
+    "semantic_hash": "30f85a9b454428affc406105cbc853e4"
+  },
+  "Applications/P2/physics/pyproject.toml": {
+    "mtime": 1790051130.0,
+    "seen": 1791162605.924289,
+    "ast_hash": "866634741d32302158852e498f69886d",
+    "semantic_hash": "866634741d32302158852e498f69886d"
+  },
+  "Applications/P2/physics/qp.py": {
+    "mtime": 1789976738.0,
+    "seen": 1791162605.92429,
+    "ast_hash": "0cd74c8fd09d8027fa01f887ad31cf00",
+    "semantic_hash": "0cd74c8fd09d8027fa01f887ad31cf00"
+  },
+  "Applications/P2/physics/tests/conftest.py": {
+    "mtime": 1790051126.0,
+    "seen": 1791162605.92429,
+    "ast_hash": "f488535bd1836b0acb785974126bdd7e",
+    "semantic_hash": "f488535bd1836b0acb785974126bdd7e"
+  },
+  "Applications/P2/physics/tests/test_physics.py": {
+    "mtime": 1790078480.0,
+    "seen": 1791162605.9242911,
+    "ast_hash": "a2ea4492349af430e69fc8f1f036e389",
+    "semantic_hash": "a2ea4492349af430e69fc8f1f036e389"
+  },
+  "Applications/P2/physics/viewer.py": {
+    "mtime": 1789975918.0,
+    "seen": 1791162605.9242911,
+    "ast_hash": "aa1d0c34694aaae4b6b83511f530890b",
+    "semantic_hash": "aa1d0c34694aaae4b6b83511f530890b"
+  },
+  "Applications/P2/physics/worlds.py": {
+    "mtime": 1790051124.0,
+    "seen": 1791162605.924292,
+    "ast_hash": "248166b3cdb10f5c564076ea88db6fa4",
+    "semantic_hash": "248166b3cdb10f5c564076ea88db6fa4"
+  },
+  "Implementation/linkage/linkage_core.py": {
+    "mtime": 1790077422.0,
+    "seen": 1791162605.924292,
+    "ast_hash": "6030172f146d19344424b11df4fbad2e",
+    "semantic_hash": "6030172f146d19344424b11df4fbad2e"
+  },
+  "Implementation/linkage/linkage_viz.py": {
+    "mtime": 1789959136.0,
+    "seen": 1791162605.924293,
+    "ast_hash": "81ded2b5fd3ea935ef0379a390398b5c",
+    "semantic_hash": "81ded2b5fd3ea935ef0379a390398b5c"
+  },
+  "Implementation/linkage/optimize.py": {
+    "mtime": 1790077062.0,
+    "seen": 1791162605.924293,
+    "ast_hash": "7ad31c188aa32c0c7b88962ebf4c2cf0",
+    "semantic_hash": "7ad31c188aa32c0c7b88962ebf4c2cf0"
+  },
+  "Implementation/linkage/simulate.py": {
+    "mtime": 1790041500.0,
+    "seen": 1791162605.924294,
+    "ast_hash": "fd1e4a054be352b98a9bf886ffb02cbd",
+    "semantic_hash": "fd1e4a054be352b98a9bf886ffb02cbd"
+  },
+  "Applications/P1/poker/README.md": {
+    "mtime": 1790078400.0,
+    "seen": 1791162605.924294,
+    "ast_hash": "87ce17ddf4ef144d5b5761cd72730e44",
+    "semantic_hash": "87ce17ddf4ef144d5b5761cd72730e44"
+  },
+  "Applications/P2/physics/README.md": {
+    "mtime": 1790078402.0,
+    "seen": 1791162605.924295,
+    "ast_hash": "ba5f5b4dafd6c382ce48982adbc6bbfe",
+    "semantic_hash": "ba5f5b4dafd6c382ce48982adbc6bbfe"
+  },
+  "Implementation/linkage/README.md": {
+    "mtime": 1790077286.0,
+    "seen": 1791162605.924296,
+    "ast_hash": "7e9c7ad338dced0d098a06951520465a",
+    "semantic_hash": "7e9c7ad338dced0d098a06951520465a"
+  },
+  "Implementation/linkage/requirements.txt": {
+    "mtime": 1790041644.0,
+    "seen": 1791162605.924296,
+    "ast_hash": "a32f7a5e4057becf451a37a0f79f273a",
+    "semantic_hash": "a32f7a5e4057becf451a37a0f79f273a"
+  }
+}

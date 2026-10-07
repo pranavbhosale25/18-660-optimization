@@ -1,0 +1,5 @@
+# CPU dependencies. Compatible ranges, not an exact lock file.
+jax>=0.4.35,<0.10
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+pillow>=10,<13

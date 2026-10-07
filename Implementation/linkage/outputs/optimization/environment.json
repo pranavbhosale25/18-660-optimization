@@ -1,0 +1,13 @@
+{
+  "python": "3.14.3",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "jax": "0.9.2",
+    "jaxlib": "0.9.2",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "display_backend_for_saved_run": "Agg",
+  "numerical_settings": "all optimize.py defaults"
+}

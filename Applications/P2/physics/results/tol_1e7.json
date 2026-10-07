@@ -1,0 +1,35 @@
+{
+  "backend": "jaxopt",
+  "jax": "0.4.38",
+  "devices": [
+    "TFRT_CPU_0"
+  ],
+  "model": "Version D: fixed-budget velocity QP; point mass, no rotation",
+  "precision": "float64",
+  "solver_tolerance": 1e-07,
+  "solver_maxiter": 20000,
+  "seed": 2026,
+  "friction_coefficient": 0.25,
+  "restitution": 0.6,
+  "contact_tolerance": 1e-07,
+  "complementarity_tolerance": 2e-06,
+  "worlds": 8,
+  "planes": 8,
+  "steps": 180,
+  "dt": 0.008333333333333333,
+  "first_call_seconds": 3.923633750062436,
+  "repeat_seconds": 2.294504416990094,
+  "all_steps_success": true,
+  "minimum_gap": -5.191314045305262e-11,
+  "max_contact_residual": 7.739565615528601e-07,
+  "maximum_impact_energy_increase": 0.0,
+  "total_collision_events": 78,
+  "total_qp_solves": 78,
+  "total_qp_iterations": 9118,
+  "qp_status_codes": [
+    1
+  ],
+  "all_qp_status_success": true,
+  "one_qp_per_event": true,
+  "timing_note": "First call includes compilation; repeat is a warmed JAXopt rollout."
+}
