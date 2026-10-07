@@ -1,7 +1,0 @@
-jax>=0.4.38
-jaxopt==0.8.5
-numpy>=1.26
-
-[test]
-pytest>=8
-scipy>=1.16

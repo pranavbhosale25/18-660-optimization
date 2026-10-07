@@ -1,0 +1,151 @@
+Running batched_relaxation with adam (cpu, float64)...
+Recording batched_relaxation: method=adam, size=full, backend=cpu, dtype=float64
+  warmup   nominal      rep=1 success=True nit=474 f=9.235931e-12 time=0.447191s
+  measured nominal      rep=1 success=True nit=474 f=9.235931e-12 time=0.164359s
+  measured nominal      rep=2 success=True nit=474 f=9.235931e-12 time=0.165035s
+  measured nominal      rep=3 success=True nit=474 f=9.235931e-12 time=0.164587s
+  measured nominal      rep=4 success=True nit=474 f=9.235931e-12 time=0.166544s
+  measured nominal      rep=5 success=True nit=474 f=9.235931e-12 time=0.163772s
+  warmup   robustness-1 rep=1 success=True nit=543 f=1.002830e-11 time=0.207047s
+  measured robustness-1 rep=1 success=True nit=543 f=1.002830e-11 time=0.190135s
+  measured robustness-1 rep=2 success=True nit=543 f=1.002830e-11 time=0.187692s
+  measured robustness-1 rep=3 success=True nit=543 f=1.002830e-11 time=0.192955s
+  measured robustness-1 rep=4 success=True nit=543 f=1.002830e-11 time=0.193256s
+  measured robustness-1 rep=5 success=True nit=543 f=1.002830e-11 time=0.188652s
+  warmup   robustness-2 rep=1 success=True nit=527 f=1.000979e-11 time=0.210861s
+  measured robustness-2 rep=1 success=True nit=527 f=1.000979e-11 time=0.227016s
+  measured robustness-2 rep=2 success=True nit=527 f=1.000979e-11 time=0.210352s
+  measured robustness-2 rep=3 success=True nit=527 f=1.000979e-11 time=0.222481s
+  measured robustness-2 rep=4 success=True nit=527 f=1.000979e-11 time=0.187460s
+  measured robustness-2 rep=5 success=True nit=527 f=1.000979e-11 time=0.193434s
+  warmup   robustness-3 rep=1 success=True nit=530 f=9.674521e-12 time=0.209527s
+  measured robustness-3 rep=1 success=True nit=530 f=9.674521e-12 time=0.190087s
+  measured robustness-3 rep=2 success=True nit=530 f=9.674521e-12 time=0.188798s
+  measured robustness-3 rep=3 success=True nit=530 f=9.674521e-12 time=0.190378s
+  measured robustness-3 rep=4 success=True nit=530 f=9.674521e-12 time=0.184940s
+  measured robustness-3 rep=5 success=True nit=530 f=9.674521e-12 time=0.188187s
+Finished batched_relaxation: 20/20 measured runs succeeded; average time=0.188006s
+Results written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/batched_relaxation-adam-full-cpu-float64.json
+Convergence plot written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/batched_relaxation-adam-full-cpu-float64-convergence.png
+Running implicit_dynamics with newton (cpu, float64)...
+Recording implicit_dynamics: method=newton, size=full, backend=cpu, dtype=float64
+  warmup   nominal      rep=1 success=True nit=3 f=-2.001989e+00 time=0.773546s
+  measured nominal      rep=1 success=True nit=3 f=-2.001989e+00 time=0.001903s
+  measured nominal      rep=2 success=True nit=3 f=-2.001989e+00 time=0.001737s
+  measured nominal      rep=3 success=True nit=3 f=-2.001989e+00 time=0.001696s
+  measured nominal      rep=4 success=True nit=3 f=-2.001989e+00 time=0.001632s
+  measured nominal      rep=5 success=True nit=3 f=-2.001989e+00 time=0.001984s
+  warmup   robustness-1 rep=1 success=True nit=3 f=-2.001989e+00 time=0.075692s
+  measured robustness-1 rep=1 success=True nit=3 f=-2.001989e+00 time=0.001808s
+  measured robustness-1 rep=2 success=True nit=3 f=-2.001989e+00 time=0.001752s
+  measured robustness-1 rep=3 success=True nit=3 f=-2.001989e+00 time=0.001716s
+  measured robustness-1 rep=4 success=True nit=3 f=-2.001989e+00 time=0.002199s
+  measured robustness-1 rep=5 success=True nit=3 f=-2.001989e+00 time=0.002890s
+  warmup   robustness-2 rep=1 success=True nit=3 f=-2.001989e+00 time=0.090651s
+  measured robustness-2 rep=1 success=True nit=3 f=-2.001989e+00 time=0.001819s
+  measured robustness-2 rep=2 success=True nit=3 f=-2.001989e+00 time=0.001733s
+  measured robustness-2 rep=3 success=True nit=3 f=-2.001989e+00 time=0.001696s
+  measured robustness-2 rep=4 success=True nit=3 f=-2.001989e+00 time=0.001786s
+  measured robustness-2 rep=5 success=True nit=3 f=-2.001989e+00 time=0.001799s
+  warmup   robustness-3 rep=1 success=True nit=3 f=-2.001989e+00 time=0.074795s
+  measured robustness-3 rep=1 success=True nit=3 f=-2.001989e+00 time=0.001795s
+  measured robustness-3 rep=2 success=True nit=3 f=-2.001989e+00 time=0.001727s
+  measured robustness-3 rep=3 success=True nit=3 f=-2.001989e+00 time=0.001681s
+  measured robustness-3 rep=4 success=True nit=3 f=-2.001989e+00 time=0.001678s
+  measured robustness-3 rep=5 success=True nit=3 f=-2.001989e+00 time=0.001907s
+Finished implicit_dynamics: 20/20 measured runs succeeded; average time=0.001847s
+Results written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/implicit_dynamics-newton-full-cpu-float64.json
+Convergence plot written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/implicit_dynamics-newton-full-cpu-float64-convergence.png
+Running occupancy_inversion with lbfgs (cpu, float64)...
+Recording occupancy_inversion: method=lbfgs, size=full, backend=cpu, dtype=float64
+  warmup   nominal      rep=1 success=True nit=8 f=6.827755e-01 time=0.336650s
+  measured nominal      rep=1 success=True nit=8 f=6.827755e-01 time=0.009542s
+  measured nominal      rep=2 success=True nit=8 f=6.827755e-01 time=0.009221s
+  measured nominal      rep=3 success=True nit=8 f=6.827755e-01 time=0.010047s
+  measured nominal      rep=4 success=True nit=8 f=6.827755e-01 time=0.009418s
+  measured nominal      rep=5 success=True nit=8 f=6.827755e-01 time=0.008877s
+  warmup   robustness-1 rep=1 success=True nit=8 f=6.827755e-01 time=0.084399s
+  measured robustness-1 rep=1 success=True nit=8 f=6.827755e-01 time=0.009519s
+  measured robustness-1 rep=2 success=True nit=8 f=6.827755e-01 time=0.008858s
+  measured robustness-1 rep=3 success=True nit=8 f=6.827755e-01 time=0.008591s
+  measured robustness-1 rep=4 success=True nit=8 f=6.827755e-01 time=0.008789s
+  measured robustness-1 rep=5 success=True nit=8 f=6.827755e-01 time=0.008662s
+  warmup   robustness-2 rep=1 success=True nit=8 f=6.827755e-01 time=0.076438s
+  measured robustness-2 rep=1 success=True nit=8 f=6.827755e-01 time=0.009360s
+  measured robustness-2 rep=2 success=True nit=8 f=6.827755e-01 time=0.008701s
+  measured robustness-2 rep=3 success=True nit=8 f=6.827755e-01 time=0.008768s
+  measured robustness-2 rep=4 success=True nit=8 f=6.827755e-01 time=0.008458s
+  measured robustness-2 rep=5 success=True nit=8 f=6.827755e-01 time=0.009695s
+  warmup   robustness-3 rep=1 success=True nit=8 f=6.827755e-01 time=0.078994s
+  measured robustness-3 rep=1 success=True nit=8 f=6.827755e-01 time=0.010701s
+  measured robustness-3 rep=2 success=True nit=8 f=6.827755e-01 time=0.012094s
+  measured robustness-3 rep=3 success=True nit=8 f=6.827755e-01 time=0.010650s
+  measured robustness-3 rep=4 success=True nit=8 f=6.827755e-01 time=0.009153s
+  measured robustness-3 rep=5 success=True nit=8 f=6.827755e-01 time=0.009959s
+Finished occupancy_inversion: 20/20 measured runs succeeded; average time=0.009453s
+Results written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/occupancy_inversion-lbfgs-full-cpu-float64.json
+Convergence plot written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/occupancy_inversion-lbfgs-full-cpu-float64-convergence.png
+Running implicit_diffusion with cg (cpu, float64)...
+Recording implicit_diffusion: method=cg, size=full, backend=cpu, dtype=float64
+  warmup   nominal      rep=1 success=True nit=75 f=-2.711584e+02 time=0.289548s
+  measured nominal      rep=1 success=True nit=75 f=-2.711584e+02 time=0.138154s
+  measured nominal      rep=2 success=True nit=75 f=-2.711584e+02 time=0.152706s
+  measured nominal      rep=3 success=True nit=75 f=-2.711584e+02 time=0.235610s
+  measured nominal      rep=4 success=True nit=75 f=-2.711584e+02 time=0.140351s
+  measured nominal      rep=5 success=True nit=75 f=-2.711584e+02 time=0.214833s
+  warmup   robustness-1 rep=1 success=True nit=70 f=-2.711584e+02 time=0.176602s
+  measured robustness-1 rep=1 success=True nit=70 f=-2.711584e+02 time=0.128091s
+  measured robustness-1 rep=2 success=True nit=70 f=-2.711584e+02 time=0.122982s
+  measured robustness-1 rep=3 success=True nit=70 f=-2.711584e+02 time=0.123966s
+  measured robustness-1 rep=4 success=True nit=70 f=-2.711584e+02 time=0.124433s
+  measured robustness-1 rep=5 success=True nit=70 f=-2.711584e+02 time=0.122853s
+  warmup   robustness-2 rep=1 success=True nit=100 f=-2.711584e+02 time=0.212962s
+  measured robustness-2 rep=1 success=True nit=100 f=-2.711584e+02 time=0.180082s
+  measured robustness-2 rep=2 success=True nit=100 f=-2.711584e+02 time=0.179176s
+  measured robustness-2 rep=3 success=True nit=100 f=-2.711584e+02 time=0.179757s
+  measured robustness-2 rep=4 success=True nit=100 f=-2.711584e+02 time=0.201828s
+  measured robustness-2 rep=5 success=True nit=100 f=-2.711584e+02 time=0.203144s
+  warmup   robustness-3 rep=1 success=True nit=92 f=-2.711584e+02 time=0.188742s
+  measured robustness-3 rep=1 success=True nit=92 f=-2.711584e+02 time=0.153072s
+  measured robustness-3 rep=2 success=True nit=92 f=-2.711584e+02 time=0.153046s
+  measured robustness-3 rep=3 success=True nit=92 f=-2.711584e+02 time=0.153443s
+  measured robustness-3 rep=4 success=True nit=92 f=-2.711584e+02 time=0.154549s
+  measured robustness-3 rep=5 success=True nit=92 f=-2.711584e+02 time=0.215111s
+Finished implicit_diffusion: 20/20 measured runs succeeded; average time=0.163859s
+Results written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/implicit_diffusion-cg-full-cpu-float64.json
+Convergence plot written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/implicit_diffusion-cg-full-cpu-float64-convergence.png
+Running shallow_arch with trust-region (cpu, float64)...
+Recording shallow_arch: method=trust-region, size=full, backend=cpu, dtype=float64
+  warmup   nominal      rep=1 success=True nit=6 f=-7.074000e-01 time=0.146349s
+  measured nominal      rep=1 success=True nit=6 f=-7.074000e-01 time=0.006109s
+  measured nominal      rep=2 success=True nit=6 f=-7.074000e-01 time=0.005764s
+  measured nominal      rep=3 success=True nit=6 f=-7.074000e-01 time=0.005612s
+  measured nominal      rep=4 success=True nit=6 f=-7.074000e-01 time=0.005662s
+  measured nominal      rep=5 success=True nit=6 f=-7.074000e-01 time=0.005983s
+  warmup   robustness-1 rep=1 success=True nit=6 f=-7.074000e-01 time=0.039863s
+  measured robustness-1 rep=1 success=True nit=6 f=-7.074000e-01 time=0.005710s
+  measured robustness-1 rep=2 success=True nit=6 f=-7.074000e-01 time=0.006207s
+  measured robustness-1 rep=3 success=True nit=6 f=-7.074000e-01 time=0.005955s
+  measured robustness-1 rep=4 success=True nit=6 f=-7.074000e-01 time=0.005902s
+  measured robustness-1 rep=5 success=True nit=6 f=-7.074000e-01 time=0.005651s
+  warmup   robustness-2 rep=1 success=True nit=6 f=-7.074000e-01 time=0.042639s
+  measured robustness-2 rep=1 success=True nit=6 f=-7.074000e-01 time=0.006497s
+  measured robustness-2 rep=2 success=True nit=6 f=-7.074000e-01 time=0.005935s
+  measured robustness-2 rep=3 success=True nit=6 f=-7.074000e-01 time=0.005830s
+  measured robustness-2 rep=4 success=True nit=6 f=-7.074000e-01 time=0.006445s
+  measured robustness-2 rep=5 success=True nit=6 f=-7.074000e-01 time=0.005945s
+  warmup   robustness-3 rep=1 success=True nit=7 f=-7.074000e-01 time=0.041084s
+  measured robustness-3 rep=1 success=True nit=7 f=-7.074000e-01 time=0.006334s
+  measured robustness-3 rep=2 success=True nit=7 f=-7.074000e-01 time=0.006081s
+  measured robustness-3 rep=3 success=True nit=7 f=-7.074000e-01 time=0.006193s
+  measured robustness-3 rep=4 success=True nit=7 f=-7.074000e-01 time=0.005946s
+  measured robustness-3 rep=5 success=True nit=7 f=-7.074000e-01 time=0.006188s
+  warmup   robustness-4 rep=1 success=True nit=7 f=-7.074000e-01 time=0.039956s
+  measured robustness-4 rep=1 success=True nit=7 f=-7.074000e-01 time=0.006250s
+  measured robustness-4 rep=2 success=True nit=7 f=-7.074000e-01 time=0.006126s
+  measured robustness-4 rep=3 success=True nit=7 f=-7.074000e-01 time=0.007582s
+  measured robustness-4 rep=4 success=True nit=7 f=-7.074000e-01 time=0.006260s
+  measured robustness-4 rep=5 success=True nit=7 f=-7.074000e-01 time=0.006345s
+Finished shallow_arch: 25/25 measured runs succeeded; average time=0.006100s
+Results written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/shallow_arch-trust-region-full-cpu-float64.json
+Convergence plot written to /Users/pranav.bhosale/Downloads/Student_Distribution/Applications/unified_jax_optim-0.1.3/benchmark-results/full-cpu-float64/shallow_arch-trust-region-full-cpu-float64-convergence.png

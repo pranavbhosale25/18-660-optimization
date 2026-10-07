@@ -1,0 +1,903 @@
+{
+  "context": {
+    "case_key": "implicit_dynamics",
+    "case_title": "Small implicit nonlinear dynamics step",
+    "size": "small",
+    "dimension": 8,
+    "method": "newton",
+    "options": {
+      "max_iter": 50,
+      "gtol": 1e-08,
+      "damping": 1e-08,
+      "store_history": true
+    },
+    "mode": "prepared",
+    "repeats": 1,
+    "warmups": 1,
+    "backend": "cpu",
+    "dtype": "float64",
+    "devices": [
+      "cpu:0"
+    ],
+    "x64_enabled": true
+  },
+  "summary": {
+    "measured_runs": 4,
+    "successful_runs": 4,
+    "average_elapsed_seconds": 0.0017711562500000002
+  },
+  "runs": [
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "nominal",
+      "start_index": 0,
+      "phase": "nominal",
+      "kind": "warmup",
+      "repetition": 1,
+      "elapsed_seconds": 0.38695604100000003,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 2.8274492268498056e-11,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.7514483413224209,
+          "grad_norm": 3.2002927932707426,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.0019079949796366,
+          "grad_norm": 0.05653869140759294,
+          "step_norm": 0.15828433651400872,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.001988626425942,
+          "grad_norm": 4.0500918858278644e-05,
+          "step_norm": 0.002876325467093335,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 2.8274492268498056e-11,
+          "step_norm": 1.9785687207846448e-06,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.032920083,
+          "fun": -1.7514483413224209
+        },
+        {
+          "elapsed_seconds": 0.16886225000000002,
+          "fun": -1.7514483413224209
+        },
+        {
+          "elapsed_seconds": 0.38295062500000004,
+          "fun": -2.0019079949796366
+        },
+        {
+          "elapsed_seconds": 0.383227083,
+          "fun": -2.0019079949796366
+        },
+        {
+          "elapsed_seconds": 0.383573875,
+          "fun": -2.001988626425942
+        },
+        {
+          "elapsed_seconds": 0.38377975000000003,
+          "fun": -2.001988626425942
+        },
+        {
+          "elapsed_seconds": 0.38405979100000004,
+          "fun": -2.0019886264655806
+        }
+      ]
+    },
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "nominal",
+      "start_index": 0,
+      "phase": "nominal",
+      "kind": "measured",
+      "repetition": 1,
+      "elapsed_seconds": 0.001855791,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 2.8274492268498056e-11,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.7514483413224209,
+          "grad_norm": 3.2002927932707426,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.0019079949796366,
+          "grad_norm": 0.05653869140759294,
+          "step_norm": 0.15828433651400872,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.001988626425942,
+          "grad_norm": 4.0500918858278644e-05,
+          "step_norm": 0.002876325467093335,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 2.8274492268498056e-11,
+          "step_norm": 1.9785687207846448e-06,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.00013637500000000002,
+          "fun": -1.7514483413224209
+        },
+        {
+          "elapsed_seconds": 0.00046320800000000006,
+          "fun": -1.7514483413224209
+        },
+        {
+          "elapsed_seconds": 0.000771958,
+          "fun": -2.0019079949796366
+        },
+        {
+          "elapsed_seconds": 0.000988083,
+          "fun": -2.0019079949796366
+        },
+        {
+          "elapsed_seconds": 0.001259333,
+          "fun": -2.001988626425942
+        },
+        {
+          "elapsed_seconds": 0.0014508330000000001,
+          "fun": -2.001988626425942
+        },
+        {
+          "elapsed_seconds": 0.0017176250000000002,
+          "fun": -2.0019886264655806
+        }
+      ]
+    },
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "robustness-1",
+      "start_index": 1,
+      "phase": "robustness",
+      "kind": "warmup",
+      "repetition": 1,
+      "elapsed_seconds": 0.069439625,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 3.5088962354744127e-10,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.7222171888940823,
+          "grad_norm": 3.305272110544181,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.0017531300267595,
+          "grad_norm": 0.09612145557629993,
+          "step_norm": 0.17272677116048668,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.0019886259877366,
+          "grad_norm": 0.00014084341849473795,
+          "step_norm": 0.004932152870833986,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 3.5088962354744127e-10,
+          "step_norm": 6.853790896243964e-06,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.026797625000000002,
+          "fun": -1.7222171888940823
+        },
+        {
+          "elapsed_seconds": 0.067809166,
+          "fun": -1.7222171888940823
+        },
+        {
+          "elapsed_seconds": 0.06826950000000001,
+          "fun": -2.0017531300267595
+        },
+        {
+          "elapsed_seconds": 0.068505541,
+          "fun": -2.0017531300267595
+        },
+        {
+          "elapsed_seconds": 0.068788583,
+          "fun": -2.0019886259877366
+        },
+        {
+          "elapsed_seconds": 0.06900091600000001,
+          "fun": -2.0019886259877366
+        },
+        {
+          "elapsed_seconds": 0.069279875,
+          "fun": -2.0019886264655806
+        }
+      ]
+    },
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "robustness-1",
+      "start_index": 1,
+      "phase": "robustness",
+      "kind": "measured",
+      "repetition": 1,
+      "elapsed_seconds": 0.001738125,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 3.5088962354744127e-10,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.7222171888940823,
+          "grad_norm": 3.305272110544181,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.0017531300267595,
+          "grad_norm": 0.09612145557629993,
+          "step_norm": 0.17272677116048668,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.0019886259877366,
+          "grad_norm": 0.00014084341849473795,
+          "step_norm": 0.004932152870833986,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 3.5088962354744127e-10,
+          "step_norm": 6.853790896243964e-06,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.000102625,
+          "fun": -1.7222171888940823
+        },
+        {
+          "elapsed_seconds": 0.000385583,
+          "fun": -1.7222171888940823
+        },
+        {
+          "elapsed_seconds": 0.0006687080000000001,
+          "fun": -2.0017531300267595
+        },
+        {
+          "elapsed_seconds": 0.000859375,
+          "fun": -2.0017531300267595
+        },
+        {
+          "elapsed_seconds": 0.001136208,
+          "fun": -2.0019886259877366
+        },
+        {
+          "elapsed_seconds": 0.001323333,
+          "fun": -2.0019886259877366
+        },
+        {
+          "elapsed_seconds": 0.0016072080000000002,
+          "fun": -2.0019886264655806
+        }
+      ]
+    },
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "robustness-2",
+      "start_index": 2,
+      "phase": "robustness",
+      "kind": "warmup",
+      "repetition": 1,
+      "elapsed_seconds": 0.07170245800000001,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 1.2052862195313907e-12,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.7026522515094773,
+          "grad_norm": 3.5383769131505467,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.001943719212123,
+          "grad_norm": 0.04298080608384107,
+          "step_norm": 0.16996824319168763,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.0019886264623716,
+          "grad_norm": 1.1566908173727843e-05,
+          "step_norm": 0.0021071594291005805,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 1.2052862195313907e-12,
+          "step_norm": 5.608352670303227e-07,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.028791833000000003,
+          "fun": -1.7026522515094773
+        },
+        {
+          "elapsed_seconds": 0.070050916,
+          "fun": -1.7026522515094773
+        },
+        {
+          "elapsed_seconds": 0.070514333,
+          "fun": -2.001943719212123
+        },
+        {
+          "elapsed_seconds": 0.070746875,
+          "fun": -2.001943719212123
+        },
+        {
+          "elapsed_seconds": 0.071053541,
+          "fun": -2.0019886264623716
+        },
+        {
+          "elapsed_seconds": 0.07125379100000001,
+          "fun": -2.0019886264623716
+        },
+        {
+          "elapsed_seconds": 0.07153891600000001,
+          "fun": -2.0019886264655806
+        }
+      ]
+    },
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "robustness-2",
+      "start_index": 2,
+      "phase": "robustness",
+      "kind": "measured",
+      "repetition": 1,
+      "elapsed_seconds": 0.0017599590000000002,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 1.2052862195313907e-12,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.7026522515094773,
+          "grad_norm": 3.5383769131505467,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.001943719212123,
+          "grad_norm": 0.04298080608384107,
+          "step_norm": 0.16996824319168763,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.0019886264623716,
+          "grad_norm": 1.1566908173727843e-05,
+          "step_norm": 0.0021071594291005805,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 1.2052862195313907e-12,
+          "step_norm": 5.608352670303227e-07,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.000110792,
+          "fun": -1.7026522515094773
+        },
+        {
+          "elapsed_seconds": 0.00038787500000000004,
+          "fun": -1.7026522515094773
+        },
+        {
+          "elapsed_seconds": 0.00067975,
+          "fun": -2.001943719212123
+        },
+        {
+          "elapsed_seconds": 0.000870709,
+          "fun": -2.001943719212123
+        },
+        {
+          "elapsed_seconds": 0.0011445000000000001,
+          "fun": -2.0019886264623716
+        },
+        {
+          "elapsed_seconds": 0.0013388340000000001,
+          "fun": -2.0019886264623716
+        },
+        {
+          "elapsed_seconds": 0.0016177090000000002,
+          "fun": -2.0019886264655806
+        }
+      ]
+    },
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "robustness-3",
+      "start_index": 3,
+      "phase": "robustness",
+      "kind": "warmup",
+      "repetition": 1,
+      "elapsed_seconds": 0.070743416,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 1.034799538257224e-11,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.737387594137699,
+          "grad_norm": 3.288072526970459,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.0019147159351074,
+          "grad_norm": 0.05371658736192506,
+          "step_norm": 0.16250011862013236,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.001988626445649,
+          "grad_norm": 2.7674227229038784e-05,
+          "step_norm": 0.0027732264355114526,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 1.034799538257224e-11,
+          "step_norm": 1.4510953626077198e-06,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.027459916,
+          "fun": -1.737387594137699
+        },
+        {
+          "elapsed_seconds": 0.06911675,
+          "fun": -1.737387594137699
+        },
+        {
+          "elapsed_seconds": 0.06957466600000001,
+          "fun": -2.0019147159351074
+        },
+        {
+          "elapsed_seconds": 0.069800416,
+          "fun": -2.0019147159351074
+        },
+        {
+          "elapsed_seconds": 0.070089625,
+          "fun": -2.001988626445649
+        },
+        {
+          "elapsed_seconds": 0.070303583,
+          "fun": -2.001988626445649
+        },
+        {
+          "elapsed_seconds": 0.070573625,
+          "fun": -2.0019886264655806
+        }
+      ]
+    },
+    {
+      "case_key": "implicit_dynamics",
+      "start_id": "robustness-3",
+      "start_index": 3,
+      "phase": "robustness",
+      "kind": "measured",
+      "repetition": 1,
+      "elapsed_seconds": 0.00173075,
+      "backend": "cpu",
+      "dtype": "float64",
+      "method": "newton",
+      "success": true,
+      "status": 0,
+      "message": "Gradient tolerance reached.",
+      "fun": -2.0019886264655806,
+      "minimum_value": -2.0019886264655806,
+      "objective_gap": 0.0,
+      "grad_norm": 1.034799538257224e-11,
+      "nit": 3,
+      "nfev": 4,
+      "njev": 4,
+      "nhev": 3,
+      "nhvp": 0,
+      "work": {
+        "minor_iterations": 6,
+        "line_search_calls": 3,
+        "line_search_iterations": 3,
+        "line_search_zoom_iterations": 0,
+        "damping_iterations": 3,
+        "trust_region_cg_iterations": 0,
+        "accepted_steps": 3,
+        "rejected_steps": 0,
+        "gradient_fallbacks": 0,
+        "direction_restarts": 0,
+        "cauchy_fallbacks": 0
+      },
+      "history": [
+        {
+          "iteration": 0,
+          "fun": -1.737387594137699,
+          "grad_norm": 3.288072526970459,
+          "step_norm": 0.0,
+          "accepted": true,
+          "step_size": null,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 1,
+          "fun": -2.0019147159351074,
+          "grad_norm": 0.05371658736192506,
+          "step_norm": 0.16250011862013236,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 2,
+          "fun": -2.001988626445649,
+          "grad_norm": 2.7674227229038784e-05,
+          "step_norm": 0.0027732264355114526,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        },
+        {
+          "iteration": 3,
+          "fun": -2.0019886264655806,
+          "grad_norm": 1.034799538257224e-11,
+          "step_norm": 1.4510953626077198e-06,
+          "accepted": true,
+          "step_size": 1.0,
+          "trust_radius": null,
+          "reduction_ratio": null
+        }
+      ],
+      "objective_timeline": [
+        {
+          "elapsed_seconds": 0.00010816600000000001,
+          "fun": -1.737387594137699
+        },
+        {
+          "elapsed_seconds": 0.000393791,
+          "fun": -1.737387594137699
+        },
+        {
+          "elapsed_seconds": 0.000666916,
+          "fun": -2.0019147159351074
+        },
+        {
+          "elapsed_seconds": 0.0008665410000000001,
+          "fun": -2.0019147159351074
+        },
+        {
+          "elapsed_seconds": 0.0011284580000000002,
+          "fun": -2.001988626445649
+        },
+        {
+          "elapsed_seconds": 0.0013305,
+          "fun": -2.001988626445649
+        },
+        {
+          "elapsed_seconds": 0.0015855410000000002,
+          "fun": -2.0019886264655806
+        }
+      ]
+    }
+  ]
+}

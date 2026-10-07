@@ -1,0 +1,12 @@
+device=cpu:0; precision=float64
+problem                    preconditioner                  status                                   nit   nfev   gtol     f          ||g||inf   ms    
+-------------------------  ------------------------------  ---------------------------------------  ----  -----  -------  ---------  ---------  ------
+Rosenbrock (2D)            fixed initial Hessian diagonal  converged: gradient tolerance satisfied  26    181    1.0e-05  8.197e-13  1.620e-06  0.202 
+Extended Rosenbrock (10D)  fixed initial Hessian diagonal  converged: gradient tolerance satisfied  142   576    1.0e-05  2.429e-11  7.901e-06  0.599 
+Powell singular (4D)       identity                        converged: gradient tolerance satisfied  50    261    1.0e-05  1.880e-08  6.947e-06  0.367 
+Beale (2D)                 Jacobi                          converged: gradient tolerance satisfied  14    71     1.0e-05  6.571e-12  4.736e-06  0.104 
+Wood (4D)                  identity                        converged: gradient tolerance satisfied  81    387    1.0e-05  4.169e-11  5.097e-06  0.557 
+Freudenstein--Roth (2D)    Jacobi                          converged: gradient tolerance satisfied  15    72     1.0e-05  4.898e+01  1.479e-06  0.119 
+Brown badly scaled (2D)    Jacobi                          converged: gradient tolerance satisfied  14    36     1.0e-05  2.314e-25  9.620e-07  0.136 
+Ill-conditioned quadratic  identity                        maximum iteration count reached          3000  10700  1.0e-05  1.850e+02  9.934e+02  52.672
+Ill-conditioned quadratic  fixed diagonal                  converged: gradient tolerance satisfied  1     2      1.0e-05  2.056e-25  3.009e-09  0.105 

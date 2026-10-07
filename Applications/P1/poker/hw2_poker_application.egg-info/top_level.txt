@@ -1,4 +1,0 @@
-examples
-games
-poker
-qp

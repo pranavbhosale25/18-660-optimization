@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw1-principled-physics-benchmark"
+version = "0.1.3"
+description = "Student scaffold for the HW1 principled-physics benchmark"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = {file = "LICENSE"}
+dependencies = [
+  "hw1-optimizer-runtime==0.1.3",
+  "jax==0.11.1",
+  "matplotlib>=3.10",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.optional-dependencies]
+cuda13 = ["jax[cuda13]==0.11.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+unified_jax_optim = ["py.typed", "benchmarks/data/*.npz"]

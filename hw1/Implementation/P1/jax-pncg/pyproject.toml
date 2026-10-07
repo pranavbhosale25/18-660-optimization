@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jax-pncg"
+version = "0.1.0"
+description = "JIT- and vmap-compatible preconditioned Polak-Ribiere nonlinear conjugate gradient"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Carnegie Mellon University"}]
+dependencies = [
+  "jax>=0.4.30",
+  "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = [
+  "matplotlib>=3.10",
+  "pytest>=8",
+  "ruff>=0.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
