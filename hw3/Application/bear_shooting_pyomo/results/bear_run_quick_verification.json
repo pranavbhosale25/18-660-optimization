@@ -1,0 +1,55 @@
+{
+  "independent_scene_and_rollout": true,
+  "device": "cpu",
+  "horizon": 15,
+  "duration_s": 1.0,
+  "control_shape": [
+    15,
+    4
+  ],
+  "initial_com_m": [
+    -0.5602593637746314,
+    -0.000573336347568027,
+    3.4820516417750143
+  ],
+  "final_com_m": [
+    0.17325471341609955,
+    0.00792966689914465,
+    3.1825225353240967
+  ],
+  "com_displacement_m": [
+    0.7335140771907309,
+    0.008503003246712677,
+    -0.29952910645091757
+  ],
+  "forward_body_lengths": 0.0750014048654089,
+  "mean_forward_speed_m_per_s": 0.7335140771907309,
+  "terminal_com_velocity_m_per_s": [
+    1.3337373733520508,
+    0.01749286986887455,
+    1.7521506547927856
+  ],
+  "fraction_of_control_intervals_with_forward_com_progress": 0.9333333333333333,
+  "maximum_absolute_lateral_com_displacement_m": 0.008503003246712677,
+  "com_height_range_m": [
+    3.0008535385131836,
+    3.482053279876709
+  ],
+  "maximum_absolute_activation": 0.299871568649118,
+  "target_displacement_bounds_m": [
+    0.733500337600708,
+    0.983500337600708
+  ],
+  "target_acceptance_tolerance_m": 0.000366750168800354,
+  "reaches_target": true,
+  "maximum_saved_observation_difference": 0.0,
+  "contact_diagnostics": {
+    "initial_minimum_gap_m": 0.009999699890613556,
+    "final_minimum_gap_m": -0.026542559266090393,
+    "minimum_gap_m": -0.036623790860176086,
+    "maximum_contacting_particles": 116,
+    "first_contact_time_s": 0.001875,
+    "substeps_with_contact": 4713
+  },
+  "fraction_of_physics_substeps_with_contact": 0.981875
+}

@@ -1,0 +1,9 @@
+JAX 0.9.0.1; TFRT_CPU_0; float64; tolerance 1e-06
+HS06                           n=     2 CONVERGED               it= 20 f=2.390688085e-14 KKT=9.139e-07 compile=1.102s warm=0.001107s
+HS07                           n=     2 CONVERGED               it=  8 f=-1.732050808 KKT=3.135e-08 compile=1.080s warm=0.000337s
+HS26                           n=     3 CONVERGED               it= 23 f=5.195687039e-10 KKT=6.185e-07 compile=1.052s warm=0.000864s
+HS71                           n=     4 CONVERGED               it=  7 f=17.01401729 KKT=2.912e-09 compile=1.454s warm=0.000491s
+HS100                          n=     7 CONVERGED               it= 17 f=680.6300574 KKT=2.208e-07 compile=1.829s warm=0.002043s
+NW-Ex18.3                      n=     5 CONVERGED               it=  3 f=0.05394984776 KKT=5.923e-07 compile=1.781s warm=0.000277s
+Circle                         n=     2 CONVERGED               it= 23 f=-1.000000001 KKT=4.693e-07 compile=0.862s warm=0.000284s
+Conflicting-linearizations     n=     1 CONVERGED               it=  2 f=1 KKT=0.000e+00 compile=0.974s warm=0.000101s

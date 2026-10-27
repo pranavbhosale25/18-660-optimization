@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bear-shooting"
+version = "0.2.0"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+description = "Student-facing, actuation-only direct shooting with Newton, Warp, and IPOPT"
+requires-python = ">=3.10,<3.14"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pyomo==6.10.1", "warp-lang==1.16.0"]
+
+[project.optional-dependencies]
+bear = ["newton==1.5.2", "usd-core>=25.5,<26.5"]
+usd = ["usd-core>=25.5,<26.5"]
+viewer = ["newton==1.5.2", "usd-core>=25.5,<26.5", "pyglet>=2.1.6,<3", "imgui-bundle>=1.92.0", "pillow>=11.3.0", "PyOpenGL>=3.1.0"]
+cyipopt = ["cyipopt>=1.5"]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["newton: requires compatible Newton and the bear asset", "ipopt: invokes real IPOPT"]

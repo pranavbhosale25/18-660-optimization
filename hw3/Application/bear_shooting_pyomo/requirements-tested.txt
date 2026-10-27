@@ -1,0 +1,8 @@
+numpy==2.3.5
+scipy==1.17.0
+pyomo==6.10.1
+warp-lang==1.16.0
+newton==1.5.2
+usd-core==26.3
+# Also required: an IPOPT native runtime (validated with 3.14.11/SPRAL and 3.14.19/MUMPS).
+# This is not a pip requirement. See docs/INSTALL.md.

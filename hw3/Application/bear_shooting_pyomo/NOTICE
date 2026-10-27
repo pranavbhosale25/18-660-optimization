@@ -1,0 +1,16 @@
+Bear Shooting teaching implementation, version 0.2.0
+Copyright (c) 2026 Carnegie Mellon University.
+
+The Newton bear adapter is based on the setup of Newton's diffsim bear example:
+Copyright (c) 2025 The Newton Developers, Apache License 2.0.
+The source reference is recorded in docs/SOURCES.md and in newton_bear.py.
+
+Newton, Warp, Pyomo, IPOPT, USD, and their libraries remain subject to their
+respective licenses. Their packages and native libraries are external
+dependencies and are not bundled in this source archive.
+
+assets/bear.usd is an unmodified copy of
+newton/examples/assets/bear.usd from Newton 1.5.2. Its source and SHA-256 are
+recorded in docs/SOURCES.md. The asset remains subject to the upstream Newton
+project's licensing and is not embedded in the installable Python wheel.
+

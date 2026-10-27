@@ -1,0 +1,15 @@
+JAX 0.9.0.1; TFRT_CPU_0; float64; tolerance 1e-06
+HS06                           n=     2 CONVERGED               it= 20 f=2.390688085e-14 KKT=9.139e-07 compile=1.221s warm=0.000335s
+HS07                           n=     2 CONVERGED               it=  8 f=-1.732050808 KKT=3.135e-08 compile=0.917s warm=0.000229s
+HS26                           n=     3 CONVERGED               it= 23 f=5.195687039e-10 KKT=6.185e-07 compile=1.227s warm=0.000452s
+HS71                           n=     4 CONVERGED               it=  7 f=17.01401729 KKT=2.912e-09 compile=1.147s warm=0.000329s
+HS100                          n=     7 CONVERGED               it= 17 f=680.6300574 KKT=2.208e-07 compile=1.681s warm=0.000426s
+NW-Ex18.3                      n=     5 CONVERGED               it=  3 f=0.05394984776 KKT=5.923e-07 compile=1.618s warm=0.000155s
+Circle                         n=     2 CONVERGED               it= 23 f=-1.000000001 KKT=4.693e-07 compile=1.006s warm=0.000360s
+Conflicting-linearizations     n=     1 CONVERGED               it=  2 f=1 KKT=0.000e+00 compile=1.104s warm=0.000136s
+BROYDN3D-1000                  n=  1000 CONVERGED               it=  4 f=0 KKT=2.106e-07 compile=2.360s warm=0.002963s
+BROYDN3D-10000                 n= 10000 CONVERGED               it=  4 f=0 KKT=2.047e-07 compile=2.844s warm=0.064804s
+Nonlinear-control-2000         n=  2000 CONVERGED               it=  9 f=11.22078142 KKT=3.861e-07 compile=3.194s warm=0.088986s
+Nonlinear-control-10000        n= 10000 CONVERGED               it=  9 f=54.16199928 KKT=8.251e-07 compile=3.715s warm=1.305385s
+Constrained-Rosenbrock-1000    n=  1000 CONVERGED               it= 88 f=3.373025064e-15 KKT=7.559e-07 compile=1.448s warm=0.028655s
+HS71 batch: {"problem": "HS71", "batch_size": 3, "compile_seconds": 2.432410124980379, "warm_median_seconds": 0.0006955410353839397, "success": [true, true, true], "iterations": [7, 6, 5], "kkt_inf": [2.9116744570956143e-09, 1.8289243719493697e-07, 1.5018919441445178e-09], "x": [[0.9999999999929229, 4.742999639222161, 3.8211499816720202, 1.3794082935089347], [0.9999999999824927, 4.742999753976524, 3.821149831903679, 1.3794083141744373], [0.9999999999999718, 4.742999637010833, 3.821149984517517, 1.379408293126027]], "note": "Independent starts, same problem; no claim that batching beats sequential execution."}

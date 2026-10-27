@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw3-sqp-implementation"
+version = "0.1.0"
+description = "SQP implementation exercise for HW3"
+requires-python = ">=3.11,<3.15"
+dependencies = ["jax==0.9.0.1", "jaxlib==0.9.0.1", "numpy>=2.0,<3"]
+license = "MIT"
+
+[project.optional-dependencies]
+test = ["pytest>=8", "scipy>=1.11"]
+
+[tool.setuptools.packages.find]
+include = ["jax_sqp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = ["gpu: requires a GPU backend", "slow: larger scale integration test"]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"examples/*.py" = ["E402"]

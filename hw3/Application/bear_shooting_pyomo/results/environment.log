@@ -1,0 +1,44 @@
+Warp 1.16.0 initialized:
+   CUDA not enabled in this build
+   Devices:
+     "cpu"      : "arm"
+   Kernel cache:
+     /private/tmp/optimization-hw3-warp/1.16.0
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit https://github.com/coin-or/Ipopt
+******************************************************************************
+
+Module bear_shooting.warp_rollout b9df30c load on device 'cpu' took 445.74 ms  (compiled)
+Module bear_shooting.toy c277d63 load on device 'cpu' took 50.81 ms  (compiled)
+{
+  "python": "3.12.14 (main, Aug 12 2026, 13:57:54) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pyomo": "6.10.1",
+  "warp": "1.16.0",
+  "newton": "1.5.2",
+  "pxr": "26.3",
+  "cyipopt": "MISSING",
+  "warp_devices": [
+    "cpu"
+  ],
+  "ipopt_probe": {
+    "controls": [
+      [
+        0.24995212649446702,
+        0.24995212649446702,
+        0.24995212649446702
+      ]
+    ],
+    "status": "Solve_Succeeded",
+    "library": "/Users/pranav.bhosale/Downloads/Student_Distribution-3/.venv/lib/python3.12/site-packages/casadi/libipopt.dylib",
+    "modeling_layer": "Pyomo"
+  },
+  "ok": true,
+  "errors": []
+}
