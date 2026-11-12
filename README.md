@@ -16,6 +16,7 @@
 
 ## Homework 4
 
+- [Complete submission PDF](hw4/output/pdf/hw4_complete_writeup.pdf)
 - [Setup and reproduction commands](hw4/README.md)
 - [Implementation — SGD and Langevin methods](hw4/Implementation/writeup.md)
 - [Application — Geometry compensation](hw4/Application/writeup.md)

@@ -28,7 +28,7 @@
 - Form `D₂` from second differences of the identity. This also handles fewer than three controls, when the smoothness term has no rows.
 - Set centerline decision bounds to `[-6, 6]` and radius bounds to `±0.45 r_0 / τ_r`, which are `±4.5` for the supplied data.
 - For each section and XYZ coordinate, use `A_pos x = (τ_p/√3) W x_channel`. Append a zero block for radius controls.
-- Reserve the maximum allowed radius `1.45 r_0` at each bath wall. Stack **A_ub = [A_pos; -A_pos]** and **b_ub = [B_max - 1.45 r_0 - p*; p* - B_min - 1.45 r_0]**, with coordinates stacked in channel order.
+- Reserve the maximum allowed radius `1.45 r_0` at each bath wall. Stack **A_ub = [A_pos; -A_pos]** and **b_ub = [B_max - 1.45 r_0 - p\*; p\* - B_min - 1.45 r_0]**, with coordinates stacked in channel order.
 - These inequalities keep the commanded centerline and the reserved circular filament envelope inside the bath at every supplied path section.
 
 ## Why the coefficient event controls geometry

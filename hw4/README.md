@@ -2,6 +2,8 @@
 
 ## Deliverables
 
+- [Complete submission PDF](output/pdf/hw4_complete_writeup.pdf): handwritten theory, implementation writeup, application writeup, and all nine figures.
+- [Implementation and application PDF](output/pdf/implementation_application_writeup.pdf): the two typed writeups and figures, without the handwritten theory pages.
 - [Implementation writeup](Implementation/writeup.md): Exercises 2.1 and 2.2, including ten-seed sweeps, trajectory comparisons, error bars, and experimental conclusions.
 - [Application writeup](Application/writeup.md): Exercise 3.1, including the matrix derivations, all 18 optimized decision vectors, validation tables, and exaggerated geometry figures.
 - Completed starter packages in `Implementation/jax_stochopt/` and `Application/geocomp_python/`.
