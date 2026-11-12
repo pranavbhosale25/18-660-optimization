@@ -13,3 +13,12 @@
 - [2.1 — Linkage](hw2/Implementation/linkage/solution.md)
 - [3.1 — Poker](hw2/Applications/P1/poker/solutions.md)
 - [3.2 — Contact physics](hw2/Applications/P2/physics/solutions.md)
+
+## Homework 4
+
+- [Setup and reproduction commands](hw4/README.md)
+- [Implementation — SGD and Langevin methods](hw4/Implementation/writeup.md)
+- [Application — Geometry compensation](hw4/Application/writeup.md)
+- [Submission ZIP](hw4/output/HW4_Submission.zip)
+
+ChatGPT was used to update this README and to help develop and check the Homework 4 code and solutions.

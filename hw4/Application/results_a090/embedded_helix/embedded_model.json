@@ -1,0 +1,75 @@
+{
+  "parameters": {
+    "radius_mm": 0.6,
+    "travel_speed_mm_s": 5.0,
+    "nozzle_outer_radius_mm": 0.45,
+    "bath_yield_stress_pa": 8.0,
+    "bath_consistency_pa_s_n": 4.0,
+    "bath_flow_index": 0.5,
+    "bath_recovery_time_s": 0.15,
+    "drag_compliance_mm_pa": 0.008,
+    "density_mismatch_kg_m3": 80.0,
+    "transient_mobility_mm_s_pa": 0.8,
+    "flow_calibration_gain": 1.18,
+    "equivalent_radius_offset_mm": 0.035,
+    "path_response_gain": 0.97,
+    "causal_mixing_fraction": 0.1,
+    "centerline_budget_mm": 0.18,
+    "radius_budget_mm": 0.06,
+    "residual_sd_fraction": 0.18,
+    "bath_clearance_mm": 3.0
+  },
+  "calibrated": false,
+  "drag_stress_scale_pa": 21.333333333333336,
+  "path_lag_scale_mm": 0.1706666666666667,
+  "transient_vertical_drift_mm": -0.0565056,
+  "effective_radius_gain": 1.0862780491200215,
+  "nominal_flow_mm3_s": 5.654866776461628,
+  "causal_memory_length_mm": 4.746440104663143,
+  "mean_field_projection_error_max_mm": 0.035428045875503585,
+  "projection_residual_included_in_probability_model": false,
+  "rheology_model": "HB scalar stress scale + empirical compliance, NOT a fluid solution",
+  "frame_model": "frozen target frames, affine small-deformation approximation",
+  "bath_bounds_mm": [
+    [
+      -9.594173538549487,
+      -9.599580013571636,
+      -9.571680172746998
+    ],
+    [
+      9.597864403786453,
+      9.5914711346542,
+      9.570438171644248
+    ]
+  ],
+  "command_channel_order": [
+    "dx",
+    "dy",
+    "dz",
+    "radius"
+  ],
+  "command_scales_mm": [
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.10392304845413264,
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+  ],
+  "schedule_is_machine_ready": false,
+  "schedule_note": "Fixed-speed circular-area conversion; no G-code, pump dynamics or collision planning"
+}

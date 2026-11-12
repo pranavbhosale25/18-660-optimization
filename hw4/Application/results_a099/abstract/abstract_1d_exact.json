@@ -1,0 +1,111 @@
+{
+  "name": "abstract_1d_exact",
+  "result": {
+    "x": [
+      -0.22897072539031882
+    ],
+    "objective": 0.026213796542884395,
+    "probability": 0.9500000000000125,
+    "working_target": 0.95,
+    "lower_bound": 0.026213796538307917,
+    "absolute_gap": 4.5764780853829734e-12,
+    "iterations": 3,
+    "status": "converged",
+    "exact_oracle": true,
+    "anchor": [
+      -0.9
+    ],
+    "history": [
+      {
+        "iteration": 0,
+        "lower_bound": 0.0,
+        "upper_bound": 0.026213796542887333,
+        "absolute_gap": 0.026213796542887333,
+        "candidate_probability": 1.0494515075362587e-21,
+        "candidate_objective": 2.0,
+        "candidate": [
+          2.0
+        ],
+        "boundary": [
+          -0.22897072539033164
+        ],
+        "n_cuts": 4
+      },
+      {
+        "iteration": 1,
+        "lower_bound": 0.0,
+        "upper_bound": 0.026213796542884395,
+        "absolute_gap": 0.026213796542884395,
+        "candidate_probability": 0.9499999999897055,
+        "candidate_objective": 0.026213796538307917,
+        "candidate": [
+          -0.22897072537033164
+        ],
+        "boundary": [
+          -0.22897072539031882
+        ],
+        "n_cuts": 6
+      },
+      {
+        "iteration": 2,
+        "lower_bound": 0.026213796538307917,
+        "upper_bound": 0.026213796542884395,
+        "absolute_gap": 4.5764780853829734e-12,
+        "candidate_probability": 0.9499999999897055,
+        "candidate_objective": 0.026213796538307917,
+        "candidate": [
+          -0.22897072537033164
+        ],
+        "boundary": [
+          -0.22897072539031882
+        ],
+        "n_cuts": 8
+      }
+    ],
+    "chance_cuts": [
+      {
+        "iteration": 0,
+        "normal": [
+          1.0
+        ],
+        "rhs": -0.22897072537033164,
+        "boundary": [
+          -0.22897072539033164
+        ],
+        "logp": -0.051293294387530476
+      },
+      {
+        "iteration": 1,
+        "normal": [
+          1.0
+        ],
+        "rhs": -0.22897072537031882,
+        "boundary": [
+          -0.22897072539031882
+        ],
+        "logp": -0.05129329438753737
+      },
+      {
+        "iteration": 2,
+        "normal": [
+          1.0
+        ],
+        "rhs": -0.22897072537031882,
+        "boundary": [
+          -0.22897072539031882
+        ],
+        "logp": -0.05129329438753737
+      }
+    ],
+    "elapsed_seconds": 0.18241766700521111
+  },
+  "validation": {
+    "successes": 94978,
+    "n": 100000,
+    "estimate": 0.94978,
+    "confidence": 0.95,
+    "ci_lower": 0.9484082740365342,
+    "ci_upper": 0.9511255629374047
+  },
+  "baseline_probability": 0.691462461274013
+}

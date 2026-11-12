@@ -1,0 +1,64 @@
+abstract_1d_exact converged iterations 3 p 0.9500000000000125
+abstract_2d_independent converged iterations 16 p 0.9500000000000519
+abstract_2d_correlated converged iterations 15 p 0.954000000000048
+dlp_ellipsoid optimizing; baseline box p = 1.226485086690304e-18
+     0  lower=0.0000000 upper=0.1742648 gap=0.174
+    25  lower=0.1640777 upper=0.1737065 gap=0.00963
+    50  lower=0.1685657 upper=0.1689260 gap=0.00036
+dlp_ellipsoid converged iterations 69 validating
+dlp_ellipsoid box MC 0.90326 mesh MC 0.9358
+dlp_sleeve optimizing; baseline box p = 1.6293971890672315e-35
+     0  lower=0.0000000 upper=0.3034787 gap=0.303
+    25  lower=0.2958807 upper=0.3034787 gap=0.0076
+    50  lower=0.3015822 upper=0.3021964 gap=0.000614
+    75  lower=0.3019699 upper=0.3020028 gap=3.29e-05
+dlp_sleeve converged iterations 81 validating
+dlp_sleeve box MC 0.90336 mesh MC 0.92759
+cnc_cylinder optimizing; baseline box p = 2.3133934361774087e-44
+     0  lower=0.0000000 upper=0.5738984 gap=0.574
+    25  lower=0.5276776 upper=0.5403792 gap=0.0127
+    50  lower=0.5362530 upper=0.5373799 gap=0.00113
+    75  lower=0.5369779 upper=0.5370541 gap=7.62e-05
+cnc_cylinder converged iterations 85 validating
+cnc_cylinder box MC 0.9045 mesh MC 0.92396
+cnc_pocket_plate optimizing; baseline box p = 6.477827774227948e-31
+     0  lower=0.0000000 upper=0.4243666 gap=0.424
+    25  lower=0.3315380 upper=0.3396441 gap=0.00811
+    50  lower=0.3365045 upper=0.3371202 gap=0.000616
+    75  lower=0.3369316 upper=0.3369720 gap=4.03e-05
+cnc_pocket_plate converged iterations 85 validating
+cnc_pocket_plate box MC 0.90459 mesh MC 0.90639
+embedded_helix optimizing; baseline box p = 2.082874083407804e-187
+     0  lower=0.0000000 upper=0.7865808 gap=0.787
+    25  lower=0.5148835 upper=0.7865808 gap=0.272
+    50  lower=0.6988832 upper=0.7865808 gap=0.0877
+    75  lower=0.7418290 upper=0.7803953 gap=0.0386
+   100  lower=0.7546091 upper=0.7678000 gap=0.0132
+   125  lower=0.7593525 upper=0.7646354 gap=0.00528
+   150  lower=0.7611377 upper=0.7638660 gap=0.00273
+   175  lower=0.7620868 upper=0.7633260 gap=0.00124
+   200  lower=0.7625118 upper=0.7629723 gap=0.00046
+   225  lower=0.7626569 upper=0.7628990 gap=0.000242
+   250  lower=0.7627327 upper=0.7628498 gap=0.000117
+   275  lower=0.7627713 upper=0.7628217 gap=5.04e-05
+   300  lower=0.7627885 upper=0.7628150 gap=2.65e-05
+embedded_helix converged iterations 310 validating
+embedded_helix box MC 0.90483 mesh MC 1.0
+embedded_serpentine optimizing; baseline box p = 2.1058111395541742e-122
+     0  lower=0.0000000 upper=0.6141370 gap=0.614
+    25  lower=0.2822653 upper=0.6141370 gap=0.332
+    50  lower=0.5294783 upper=0.6141370 gap=0.0847
+    75  lower=0.5749255 upper=0.6053158 gap=0.0304
+   100  lower=0.5851445 upper=0.6021976 gap=0.0171
+   125  lower=0.5901297 upper=0.5979010 gap=0.00777
+   150  lower=0.5925774 upper=0.5959241 gap=0.00335
+   175  lower=0.5935533 upper=0.5953252 gap=0.00177
+   200  lower=0.5940962 upper=0.5949019 gap=0.000806
+   225  lower=0.5943915 upper=0.5947526 gap=0.000361
+   250  lower=0.5944833 upper=0.5947162 gap=0.000233
+   275  lower=0.5945624 upper=0.5946731 gap=0.000111
+   300  lower=0.5945966 upper=0.5946421 gap=4.55e-05
+   325  lower=0.5946105 upper=0.5946352 gap=2.47e-05
+embedded_serpentine converged iterations 330 validating
+embedded_serpentine box MC 0.90489 mesh MC 1.0
+Outputs: /Users/pranav.bhosale/Downloads/Student_Distribution-4/Application/results_a090

@@ -1,0 +1,117 @@
+{
+  "name": "cnc_pocket_plate",
+  "process": "cnc",
+  "shape": "pocket_plate",
+  "calibrated": false,
+  "target_probability": 0.99,
+  "working_probability": 0.994,
+  "tolerance_mm": 0.14,
+  "status": "converged",
+  "iterations": 80,
+  "objective": 0.45207577841936464,
+  "lp_gap": 2.141255122384278e-05,
+  "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+  "solver_seconds": 10.98429258307442,
+  "n_qmc_points": 2048,
+  "probability_seed": 17,
+  "baseline_box_probability": 6.477827774227948e-31,
+  "optimized_box_probability": 0.9940000000000138,
+  "independent_qmc_checks": {
+    "mean": 0.9939999892012589,
+    "standard_error": 1.7242668991037486e-08,
+    "min": 0.9939999389040014,
+    "max": 0.9940000142850036,
+    "values": [
+      0.9940000085476977,
+      0.9939999389040014,
+      0.9939999950683326,
+      0.9940000142850036
+    ]
+  },
+  "scipy_probability_check": 0.993999972257559,
+  "validation": {
+    "baseline_box": {
+      "successes": 0,
+      "n": 100000,
+      "estimate": 0.0,
+      "confidence": 0.95,
+      "ci_lower": 0.0,
+      "ci_upper": 3.68881141579242e-05
+    },
+    "optimized_box": {
+      "successes": 99383,
+      "n": 100000,
+      "estimate": 0.99383,
+      "confidence": 0.95,
+      "ci_lower": 0.9933250530284143,
+      "ci_upper": 0.9943059729170619
+    },
+    "baseline_mesh": {
+      "successes": 0,
+      "n": 100000,
+      "estimate": 0.0,
+      "confidence": 0.95,
+      "ci_lower": 0.0,
+      "ci_upper": 3.68881141579242e-05
+    },
+    "optimized_mesh": {
+      "successes": 99409,
+      "n": 100000,
+      "estimate": 0.99409,
+      "confidence": 0.95,
+      "ci_lower": 0.9935953121672316,
+      "ci_upper": 0.99455569016903
+    },
+    "seed": 20261,
+    "requested_target": 0.99,
+    "tolerance_mm": 0.14,
+    "baseline_max_displacement_quantiles_mm": [
+      0.28090239642598935,
+      0.31134147816582347,
+      0.32485001745272496
+    ],
+    "optimized_max_displacement_quantiles_mm": [
+      0.1037434881956189,
+      0.12579318040323778,
+      0.13648909985396893
+    ],
+    "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+  },
+  "basis_guarantee": {
+    "nonnegative": true,
+    "partition_error": 3.3306690738754696e-16,
+    "unit_normal_error": 2.220446049250313e-16,
+    "bound_mm": 0.14
+  },
+  "x": [
+    -1.08130694061416,
+    -0.7589706719955848,
+    -0.43394988346335867,
+    -0.4267044951381711,
+    -1.2310118795232432,
+    -1.4598858393326895,
+    -1.4268128924641952,
+    -1.0895746904869306
+  ],
+  "command_coefficients_mm": [
+    -0.15138297168598241,
+    -0.10625589407938188,
+    -0.06075298368487022,
+    -0.05973862931934396,
+    -0.17234166313325405,
+    -0.20438401750657653,
+    -0.19975380494498735,
+    -0.1525404566681703
+  ],
+  "mean_output_coefficients_mm": [
+    0.07632686843834563,
+    0.07579743125750746,
+    0.08469793204253301,
+    0.07872443612268143,
+    0.07353647751200501,
+    0.07218903261361387,
+    0.07110291634165977,
+    0.07519811370619792
+  ],
+  "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code."
+}

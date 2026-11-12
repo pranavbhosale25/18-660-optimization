@@ -1,0 +1,55 @@
+{
+  "runtime": {
+    "jax_version": "0.10.0",
+    "dtype": "float32",
+    "device": "cpu:0",
+    "seed": 7
+  },
+  "energy_and_score_comparison": {
+    "energy_final_params": [
+      1.8899829387664795,
+      -1.3806343078613281,
+      0.29788288474082947
+    ],
+    "score_final_params": [
+      1.8899829387664795,
+      -1.3806343078613281,
+      0.2978828549385071
+    ],
+    "maximum_shared_key_path_difference": 2.9802322387695312e-08,
+    "initial_temperature": 0.75,
+    "last_temperature": 0.2999999523162842,
+    "last_effective_batch_size": 19
+  },
+  "gaussian_ensemble": {
+    "independent_chains": 4096,
+    "observed_mean": 0.31710168719291687,
+    "observed_variance": 0.4976974427700043
+  },
+  "annealed_double_well": {
+    "initial_params": [
+      -1.7999999523162842,
+      -1.2999999523162842,
+      -0.6000000238418579,
+      -0.15000000596046448,
+      0.15000000596046448,
+      0.6000000238418579,
+      1.2999999523162842,
+      1.7999999523162842
+    ],
+    "final_params": [
+      1.0050535202026367,
+      0.9748698472976685,
+      0.7889217734336853,
+      1.0293471813201904,
+      -0.9049281477928162,
+      -0.9646236300468445,
+      0.9355855584144592,
+      0.9138039946556091
+    ],
+    "final_total_energy": 0.057270802557468414,
+    "maximum_absolute_coordinate": 1.0293471813201904,
+    "initial_temperature": 0.44999998807907104,
+    "last_temperature": 0.015000000596046448
+  }
+}

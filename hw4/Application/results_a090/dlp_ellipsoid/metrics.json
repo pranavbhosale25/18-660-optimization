@@ -1,0 +1,117 @@
+{
+  "name": "dlp_ellipsoid",
+  "process": "dlp",
+  "shape": "ellipsoid",
+  "calibrated": false,
+  "target_probability": 0.9,
+  "working_probability": 0.904,
+  "tolerance_mm": 0.2,
+  "status": "converged",
+  "iterations": 69,
+  "objective": 0.16883010696641979,
+  "lp_gap": 2.0941815048580725e-05,
+  "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+  "solver_seconds": 11.053598457947373,
+  "n_qmc_points": 2048,
+  "probability_seed": 17,
+  "baseline_box_probability": 1.226485086690304e-18,
+  "optimized_box_probability": 0.9040000000000208,
+  "independent_qmc_checks": {
+    "mean": 0.9040005450811073,
+    "standard_error": 4.1656822216767397e-07,
+    "min": 0.9039999138612572,
+    "max": 0.9040017205685495,
+    "values": [
+      0.9039999954349938,
+      0.9040005504596288,
+      0.9039999138612572,
+      0.9040017205685495
+    ]
+  },
+  "scipy_probability_check": 0.9040011326518196,
+  "validation": {
+    "baseline_box": {
+      "successes": 0,
+      "n": 100000,
+      "estimate": 0.0,
+      "confidence": 0.95,
+      "ci_lower": 0.0,
+      "ci_upper": 3.68881141579242e-05
+    },
+    "optimized_box": {
+      "successes": 90326,
+      "n": 100000,
+      "estimate": 0.90326,
+      "confidence": 0.95,
+      "ci_lower": 0.901411151354985,
+      "ci_upper": 0.9050854213993904
+    },
+    "baseline_mesh": {
+      "successes": 0,
+      "n": 100000,
+      "estimate": 0.0,
+      "confidence": 0.95,
+      "ci_lower": 0.0,
+      "ci_upper": 3.68881141579242e-05
+    },
+    "optimized_mesh": {
+      "successes": 93580,
+      "n": 100000,
+      "estimate": 0.9358,
+      "confidence": 0.95,
+      "ci_lower": 0.9342631465367327,
+      "ci_upper": 0.9373115170573664
+    },
+    "seed": 20261,
+    "requested_target": 0.9,
+    "tolerance_mm": 0.2,
+    "baseline_max_displacement_quantiles_mm": [
+      0.38427534156758636,
+      0.4246961919242149,
+      0.44228572770941216
+    ],
+    "optimized_max_displacement_quantiles_mm": [
+      0.16847691995182157,
+      0.20282110210603688,
+      0.21955026683097875
+    ],
+    "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+  },
+  "basis_guarantee": {
+    "nonnegative": true,
+    "partition_error": 3.3306690738754696e-16,
+    "unit_normal_error": 2.220446049250313e-16,
+    "bound_mm": 0.2
+  },
+  "x": [
+    1.2681714987390187,
+    1.4278305421163975,
+    0.4483159189011514,
+    0.4319068603526911,
+    -0.1571477023760659,
+    -0.18206762770363374,
+    0.45696957663883125,
+    0.4490549318577087
+  ],
+  "command_coefficients_mm": [
+    0.25363429974780377,
+    0.2855661084232795,
+    0.08966318378023029,
+    0.08638137207053823,
+    -0.03142954047521318,
+    -0.03641352554072675,
+    0.09139391532776625,
+    0.08981098637154174
+  ],
+  "mean_output_coefficients_mm": [
+    -0.1350377857308001,
+    -0.1452064174749195,
+    -0.13224846491035785,
+    -0.13494068672501702,
+    -0.11030989949249,
+    -0.11439186059436901,
+    -0.13234271592050378,
+    -0.12505463009223158
+  ],
+  "description": "DLP-inspired: anisotropic contraction, positive curing offset, height-dependent response and smooth warp. All numbers are synthetic; no exposure, layer, photopolymer or support simulation."
+}

@@ -1,0 +1,117 @@
+{
+  "name": "cnc_cylinder",
+  "process": "cnc",
+  "shape": "cylinder",
+  "calibrated": false,
+  "target_probability": 0.95,
+  "working_probability": 0.954,
+  "tolerance_mm": 0.12,
+  "status": "converged",
+  "iterations": 82,
+  "objective": 0.5798006297295055,
+  "lp_gap": 2.0740859768331177e-05,
+  "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+  "solver_seconds": 11.462133749970235,
+  "n_qmc_points": 2048,
+  "probability_seed": 17,
+  "baseline_box_probability": 2.3133934361774087e-44,
+  "optimized_box_probability": 0.9540000000000989,
+  "independent_qmc_checks": {
+    "mean": 0.9539999506782332,
+    "standard_error": 6.282113517077966e-08,
+    "min": 0.9539998079258171,
+    "max": 0.954000114103439,
+    "values": [
+      0.9539999349470272,
+      0.9539998079258171,
+      0.9539999457366497,
+      0.954000114103439
+    ]
+  },
+  "scipy_probability_check": 0.9539996467692219,
+  "validation": {
+    "baseline_box": {
+      "successes": 0,
+      "n": 100000,
+      "estimate": 0.0,
+      "confidence": 0.95,
+      "ci_lower": 0.0,
+      "ci_upper": 3.68881141579242e-05
+    },
+    "optimized_box": {
+      "successes": 95449,
+      "n": 100000,
+      "estimate": 0.95449,
+      "confidence": 0.95,
+      "ci_lower": 0.9531799783721281,
+      "ci_upper": 0.9557735784791012
+    },
+    "baseline_mesh": {
+      "successes": 0,
+      "n": 100000,
+      "estimate": 0.0,
+      "confidence": 0.95,
+      "ci_lower": 0.0,
+      "ci_upper": 3.68881141579242e-05
+    },
+    "optimized_mesh": {
+      "successes": 96613,
+      "n": 100000,
+      "estimate": 0.96613,
+      "confidence": 0.95,
+      "ci_lower": 0.9649902195330967,
+      "ci_upper": 0.967242639085921
+    },
+    "seed": 20261,
+    "requested_target": 0.95,
+    "tolerance_mm": 0.12,
+    "baseline_max_displacement_quantiles_mm": [
+      0.24089517354262113,
+      0.26205771790864335,
+      0.2714597797827558
+    ],
+    "optimized_max_displacement_quantiles_mm": [
+      0.0991660946020387,
+      0.11774364819123499,
+      0.12673060810348175
+    ],
+    "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+  },
+  "basis_guarantee": {
+    "nonnegative": true,
+    "partition_error": 2.220446049250313e-16,
+    "unit_normal_error": 2.220446049250313e-16,
+    "bound_mm": 0.12
+  },
+  "x": [
+    -1.2721542198854499,
+    -0.9141260712790217,
+    -1.2579151154209312,
+    -0.8780307884156013,
+    -1.2531600142660344,
+    -1.25122464537554,
+    -0.5660307438892037,
+    -1.011506125605586
+  ],
+  "command_coefficients_mm": [
+    -0.15265850638625397,
+    -0.1096951285534826,
+    -0.15094981385051173,
+    -0.10536369460987216,
+    -0.15037920171192412,
+    -0.1501469574450648,
+    -0.06792368926670445,
+    -0.1213807350726703
+  ],
+  "mean_output_coefficients_mm": [
+    0.07998177675264984,
+    0.07693936266662443,
+    0.07880091972968106,
+    0.0780192229384352,
+    0.0744407037231598,
+    0.07446753892007368,
+    0.07516057738377992,
+    0.07727878341010323
+  ],
+  "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code."
+}

@@ -1,0 +1,2498 @@
+[
+  {
+    "name": "dlp_ellipsoid",
+    "process": "dlp",
+    "shape": "ellipsoid",
+    "calibrated": false,
+    "target_probability": 0.9,
+    "working_probability": 0.904,
+    "tolerance_mm": 0.2,
+    "status": "converged",
+    "iterations": 69,
+    "objective": 0.16883010696641979,
+    "lp_gap": 2.0941815048580725e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 11.053598457947373,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 1.226485086690304e-18,
+    "optimized_box_probability": 0.9040000000000208,
+    "independent_qmc_checks": {
+      "mean": 0.9040005450811073,
+      "standard_error": 4.1656822216767397e-07,
+      "min": 0.9039999138612572,
+      "max": 0.9040017205685495,
+      "values": [
+        0.9039999954349938,
+        0.9040005504596288,
+        0.9039999138612572,
+        0.9040017205685495
+      ]
+    },
+    "scipy_probability_check": 0.9040011326518196,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 90326,
+        "n": 100000,
+        "estimate": 0.90326,
+        "confidence": 0.95,
+        "ci_lower": 0.901411151354985,
+        "ci_upper": 0.9050854213993904
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 93580,
+        "n": 100000,
+        "estimate": 0.9358,
+        "confidence": 0.95,
+        "ci_lower": 0.9342631465367327,
+        "ci_upper": 0.9373115170573664
+      },
+      "seed": 20261,
+      "requested_target": 0.9,
+      "tolerance_mm": 0.2,
+      "baseline_max_displacement_quantiles_mm": [
+        0.38427534156758636,
+        0.4246961919242149,
+        0.44228572770941216
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.16847691995182157,
+        0.20282110210603688,
+        0.21955026683097875
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.2
+    },
+    "x": [
+      1.2681714987390187,
+      1.4278305421163975,
+      0.4483159189011514,
+      0.4319068603526911,
+      -0.1571477023760659,
+      -0.18206762770363374,
+      0.45696957663883125,
+      0.4490549318577087
+    ],
+    "command_coefficients_mm": [
+      0.25363429974780377,
+      0.2855661084232795,
+      0.08966318378023029,
+      0.08638137207053823,
+      -0.03142954047521318,
+      -0.03641352554072675,
+      0.09139391532776625,
+      0.08981098637154174
+    ],
+    "mean_output_coefficients_mm": [
+      -0.1350377857308001,
+      -0.1452064174749195,
+      -0.13224846491035785,
+      -0.13494068672501702,
+      -0.11030989949249,
+      -0.11439186059436901,
+      -0.13234271592050378,
+      -0.12505463009223158
+    ],
+    "description": "DLP-inspired: anisotropic contraction, positive curing offset, height-dependent response and smooth warp. All numbers are synthetic; no exposure, layer, photopolymer or support simulation.",
+    "folder": "results_a090/dlp_ellipsoid"
+  },
+  {
+    "name": "dlp_sleeve",
+    "process": "dlp",
+    "shape": "sleeve",
+    "calibrated": false,
+    "target_probability": 0.9,
+    "working_probability": 0.904,
+    "tolerance_mm": 0.16,
+    "status": "converged",
+    "iterations": 81,
+    "objective": 0.3019977729856183,
+    "lp_gap": 1.9469447832987097e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 12.747962167020887,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 1.6293971890672315e-35,
+    "optimized_box_probability": 0.9040000000001637,
+    "independent_qmc_checks": {
+      "mean": 0.9040065413243868,
+      "standard_error": 3.8262062352184726e-07,
+      "min": 0.9040055476243782,
+      "max": 0.9040074120939149,
+      "values": [
+        0.9040055476243782,
+        0.9040065606750874,
+        0.9040066449041669,
+        0.9040074120939149
+      ]
+    },
+    "scipy_probability_check": 0.9040062612260559,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 90336,
+        "n": 100000,
+        "estimate": 0.90336,
+        "confidence": 0.95,
+        "ci_lower": 0.901511994219264,
+        "ci_upper": 0.9051845726867048
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 92759,
+        "n": 100000,
+        "estimate": 0.92759,
+        "confidence": 0.95,
+        "ci_lower": 0.9259662692631433,
+        "ci_upper": 0.92918887748477
+      },
+      "seed": 20261,
+      "requested_target": 0.9,
+      "tolerance_mm": 0.16,
+      "baseline_max_displacement_quantiles_mm": [
+        0.32775560881992855,
+        0.3596666981133632,
+        0.37389328860750753
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.13622635833845273,
+        0.16335013656188874,
+        0.17672105985537392
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.16
+    },
+    "x": [
+      0.7545155584599034,
+      1.5241761196325048,
+      0.7721954235066193,
+      1.4628384529344616,
+      0.10071318669026645,
+      0.09395372475363051,
+      -0.8683567662201942,
+      -0.8733804373577256
+    ],
+    "command_coefficients_mm": [
+      0.12072248935358454,
+      0.24386817914120076,
+      0.12355126776105908,
+      0.23405415246951386,
+      0.016114109870442633,
+      0.015032595960580881,
+      -0.13893708259523108,
+      -0.13974086997723612
+    ],
+    "mean_output_coefficients_mm": [
+      -0.10167783794787112,
+      -0.11682372212187495,
+      -0.10224312902098551,
+      -0.11627676375119864,
+      -0.09471507695212683,
+      -0.09532064184022382,
+      0.09893548050894829,
+      0.09834536271827415
+    ],
+    "description": "DLP-inspired: anisotropic contraction, positive curing offset, height-dependent response and smooth warp. All numbers are synthetic; no exposure, layer, photopolymer or support simulation.",
+    "folder": "results_a090/dlp_sleeve"
+  },
+  {
+    "name": "cnc_cylinder",
+    "process": "cnc",
+    "shape": "cylinder",
+    "calibrated": false,
+    "target_probability": 0.9,
+    "working_probability": 0.904,
+    "tolerance_mm": 0.12,
+    "status": "converged",
+    "iterations": 85,
+    "objective": 0.5370280266304699,
+    "lp_gap": 2.1450476822337805e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 12.250134291010909,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.3133934361774087e-44,
+    "optimized_box_probability": 0.9040000000001147,
+    "independent_qmc_checks": {
+      "mean": 0.9040000050707445,
+      "standard_error": 1.25197404723368e-07,
+      "min": 0.9039997201933145,
+      "max": 0.9040003246742865,
+      "values": [
+        0.9039999419465903,
+        0.9039997201933145,
+        0.9040000334687867,
+        0.9040003246742865
+      ]
+    },
+    "scipy_probability_check": 0.9039993557214546,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 90450,
+        "n": 100000,
+        "estimate": 0.9045,
+        "confidence": 0.95,
+        "ci_lower": 0.9026616455298324,
+        "ci_upper": 0.9063148546983801
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 92396,
+        "n": 100000,
+        "estimate": 0.92396,
+        "confidence": 0.95,
+        "ci_lower": 0.92229983099754,
+        "ci_upper": 0.9255955289883302
+      },
+      "seed": 20261,
+      "requested_target": 0.9,
+      "tolerance_mm": 0.12,
+      "baseline_max_displacement_quantiles_mm": [
+        0.24089517354262113,
+        0.26205771790864335,
+        0.2714597797827558
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.10397020472823226,
+        0.12260110950176413,
+        0.1315746067431505
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.12
+    },
+    "x": [
+      -1.231707631723131,
+      -0.8739728185067837,
+      -1.2168978495395257,
+      -0.8388067408560506,
+      -1.2087103530537793,
+      -1.2053731549394864,
+      -0.5298883055704913,
+      -0.9723679216346386
+    ],
+    "command_coefficients_mm": [
+      -0.1478049158067757,
+      -0.10487673822081403,
+      -0.14602774194474308,
+      -0.10065680890272606,
+      -0.1450452423664535,
+      -0.14464477859273836,
+      -0.06358659666845895,
+      -0.11668415059615662
+    ],
+    "mean_output_coefficients_mm": [
+      0.08474032565054582,
+      0.08166112729002359,
+      0.08362468716686666,
+      0.08263491269818854,
+      0.07965915835432275,
+      0.07984992410783259,
+      0.0794203327600068,
+      0.0818874761759912
+    ],
+    "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code.",
+    "folder": "results_a090/cnc_cylinder"
+  },
+  {
+    "name": "cnc_pocket_plate",
+    "process": "cnc",
+    "shape": "pocket_plate",
+    "calibrated": false,
+    "target_probability": 0.9,
+    "working_probability": 0.904,
+    "tolerance_mm": 0.14,
+    "status": "converged",
+    "iterations": 85,
+    "objective": 0.3369605743864015,
+    "lp_gap": 1.6681845124211225e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 12.072376874973997,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 6.477827774227948e-31,
+    "optimized_box_probability": 0.9040000000000022,
+    "independent_qmc_checks": {
+      "mean": 0.9040004040924086,
+      "standard_error": 1.147808355444052e-07,
+      "min": 0.9040000984007587,
+      "max": 0.9040006522731389,
+      "values": [
+        0.9040004063821371,
+        0.9040000984007587,
+        0.9040004593135996,
+        0.9040006522731389
+      ]
+    },
+    "scipy_probability_check": 0.9040000691306065,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 90459,
+        "n": 100000,
+        "estimate": 0.90459,
+        "confidence": 0.95,
+        "ci_lower": 0.9027524108366929,
+        "ci_upper": 0.9064040841270178
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 90639,
+        "n": 100000,
+        "estimate": 0.90639,
+        "confidence": 0.95,
+        "ci_lower": 0.9045678217529803,
+        "ci_upper": 0.9081885679059102
+      },
+      "seed": 20261,
+      "requested_target": 0.9,
+      "tolerance_mm": 0.14,
+      "baseline_max_displacement_quantiles_mm": [
+        0.28090239642598935,
+        0.31134147816582347,
+        0.32485001745272496
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.12230356058146233,
+        0.14485313081586942,
+        0.1559315260909744
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.14
+    },
+    "x": [
+      -0.9432009417813478,
+      -0.6240610204572774,
+      -0.32639218797541275,
+      -0.30417938654313276,
+      -1.0761701351047626,
+      -1.3063514830170102,
+      -1.273435021861048,
+      -0.9536711905595243
+    ],
+    "command_coefficients_mm": [
+      -0.1320481318493887,
+      -0.08736854286401885,
+      -0.04569490631655779,
+      -0.04258511411603859,
+      -0.15066381891466676,
+      -0.18288920762238145,
+      -0.17828090306054672,
+      -0.13351396667833343
+    ],
+    "mean_output_coefficients_mm": [
+      0.0952898857007499,
+      0.09430497966154752,
+      0.09950781145195958,
+      0.09555639885363498,
+      0.0947694056759733,
+      0.09323261375706748,
+      0.09210600364563012,
+      0.09386318239321459
+    ],
+    "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code.",
+    "folder": "results_a090/cnc_pocket_plate"
+  },
+  {
+    "name": "embedded_helix",
+    "process": "embedded",
+    "shape": "helix",
+    "calibrated": false,
+    "target_probability": 0.9,
+    "working_probability": 0.904,
+    "tolerance_mm": 0.24,
+    "status": "converged",
+    "iterations": 310,
+    "objective": 0.7628125445570062,
+    "lp_gap": 2.059819067912194e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 113.35807520803064,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.082874083407804e-187,
+    "optimized_box_probability": 0.9040000000000336,
+    "independent_qmc_checks": {
+      "mean": 0.9039935163908424,
+      "standard_error": 3.284404727230274e-06,
+      "min": 0.9039859678352588,
+      "max": 0.9040008148436308,
+      "values": [
+        0.9040008148436308,
+        0.9039905456069134,
+        0.9039967372775666,
+        0.9039859678352588
+      ]
+    },
+    "scipy_probability_check": 0.9039897223530518,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 90483,
+        "n": 100000,
+        "estimate": 0.90483,
+        "confidence": 0.95,
+        "ci_lower": 0.9029944540763686,
+        "ci_upper": 0.9066420268483315
+      },
+      "baseline_mesh": {
+        "successes": 2344,
+        "n": 100000,
+        "estimate": 0.02344,
+        "confidence": 0.95,
+        "ci_lower": 0.02251111447191269,
+        "ci_upper": 0.024396665983765303
+      },
+      "optimized_mesh": {
+        "successes": 100000,
+        "n": 100000,
+        "estimate": 1.0,
+        "confidence": 0.95,
+        "ci_lower": 0.9999631118858421,
+        "ci_upper": 1.0
+      },
+      "seed": 20261,
+      "requested_target": 0.9,
+      "tolerance_mm": 0.24,
+      "baseline_max_displacement_quantiles_mm": [
+        0.2670467526498751,
+        0.2964474019362909,
+        0.3102556305598832
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.11076743642841061,
+        0.1334969977194341,
+        0.14418972824586304
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "type": "fixed-frame tube: vector centerline budget + scalar radius budget",
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "frame_unit_error": 2.220446049250313e-16,
+      "centerline_budget_mm": 0.18,
+      "radius_budget_mm": 0.06,
+      "feature_limits_mm": [
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "bound_mm": 0.24,
+      "scope": "all corresponding points on the triangle surfaces, not CAD or fluid physics"
+    },
+    "x": [
+      0.9999897666342252,
+      1.1075598414400252,
+      -4.3162962420959206,
+      1.0939598857403225,
+      1.3793056470935083,
+      -0.10830969550316988,
+      2.0912814677853255,
+      -0.0173542491680592,
+      -2.492547630999208,
+      0.214857231139565,
+      0.46341952806812076,
+      0.4511426513575747,
+      0.4992682309307314,
+      0.5450608466018783,
+      0.5989186258090434,
+      -0.7730014079764483,
+      -0.7710259744733667,
+      -0.8339988077864282,
+      -0.9015435600776055,
+      -0.9657207252608007
+    ],
+    "command_coefficients_mm": [
+      0.10392198497156538,
+      0.1151009950678232,
+      -0.44856266350972496,
+      0.11368764621266894,
+      0.14334164759595744,
+      -0.011255873733828275,
+      0.217332345307884,
+      -0.0018035064771773073,
+      -0.2590331482305642,
+      0.02232861844243779,
+      0.048159970070014595,
+      0.046884119616759104,
+      0.051885476554623486,
+      0.05664438477185755,
+      0.062241449370035756,
+      -0.0463800844785869,
+      -0.046261558468402006,
+      -0.05003992846718569,
+      -0.05409261360465633,
+      -0.05794324351564804
+    ],
+    "mean_output_coefficients_mm": [
+      -0.042386980069921795,
+      -0.060119351702358034,
+      0.06760435376787977,
+      -0.05690923642901809,
+      -0.045416833665075845,
+      0.016371146770456074,
+      -0.06156514907523486,
+      -0.021747672564546676,
+      0.06075470853774875,
+      -0.011857221541514106,
+      -0.05204589033202479,
+      -0.05501574897751267,
+      -0.05330075570366081,
+      -0.05177868429421584,
+      -0.04778786296352178,
+      0.031135161786591745,
+      0.033011344286301945,
+      0.032438953049128624,
+      0.031536702995813175,
+      0.029168455672428845
+    ],
+    "description": "Embedded extrusion into a support bath: tangent-directed nozzle/wake lag, transient density drift, flow-to-radius bias and correlated path/radius errors. Optimizes 3-D nozzle offsets and filament radius with fixed target frames. Synthetic reduced-order model; not a fluid, gelation or collision simulation.",
+    "folder": "results_a090/embedded_helix"
+  },
+  {
+    "name": "embedded_serpentine",
+    "process": "embedded",
+    "shape": "serpentine",
+    "calibrated": false,
+    "target_probability": 0.9,
+    "working_probability": 0.904,
+    "tolerance_mm": 0.24,
+    "status": "converged",
+    "iterations": 330,
+    "objective": 0.5946330141260698,
+    "lp_gap": 2.1125862502247017e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 117.07312120799907,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.1058111395541742e-122,
+    "optimized_box_probability": 0.904000000000069,
+    "independent_qmc_checks": {
+      "mean": 0.9039668335160863,
+      "standard_error": 3.297634752574179e-06,
+      "min": 0.9039608350383687,
+      "max": 0.9039745740697221,
+      "values": [
+        0.9039745740697221,
+        0.9039608350383687,
+        0.9039700292593953,
+        0.903961895696859
+      ]
+    },
+    "scipy_probability_check": 0.9039600522311358,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 90489,
+        "n": 100000,
+        "estimate": 0.90489,
+        "confidence": 0.95,
+        "ci_lower": 0.9030549654376093,
+        "ci_upper": 0.9067015119772593
+      },
+      "baseline_mesh": {
+        "successes": 4859,
+        "n": 100000,
+        "estimate": 0.04859,
+        "confidence": 0.95,
+        "ci_lower": 0.04726549093157924,
+        "ci_upper": 0.04994076892007725
+      },
+      "optimized_mesh": {
+        "successes": 100000,
+        "n": 100000,
+        "estimate": 1.0,
+        "confidence": 0.95,
+        "ci_lower": 0.9999631118858421,
+        "ci_upper": 1.0
+      },
+      "seed": 20261,
+      "requested_target": 0.9,
+      "tolerance_mm": 0.24,
+      "baseline_max_displacement_quantiles_mm": [
+        0.2603037008761738,
+        0.2830895961418591,
+        0.29347570256329725
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.11723494039971713,
+        0.14054266928908798,
+        0.15144747541659448
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "type": "fixed-frame tube: vector centerline budget + scalar radius budget",
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "frame_unit_error": 1.1102230246251565e-16,
+      "centerline_budget_mm": 0.18,
+      "radius_budget_mm": 0.06,
+      "feature_limits_mm": [
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "bound_mm": 0.24,
+      "scope": "all corresponding points on the triangle surfaces, not CAD or fluid physics"
+    },
+    "x": [
+      0.25725725533722676,
+      1.3914855167105795,
+      -0.11251670158694593,
+      1.6133206642174653,
+      0.45737749631080127,
+      0.8144776694199353,
+      1.0174843951879684,
+      -3.7913535575905986,
+      1.0234991883641704,
+      1.0869263155040483,
+      -0.008026331844562322,
+      0.5617669913812036,
+      0.5217631143554334,
+      0.663409196102969,
+      0.01010731827565073,
+      -0.7678632319763291,
+      -0.7677297033171366,
+      -0.8317583914619515,
+      -0.9008455649487588,
+      -0.9626469551685005
+    ],
+    "command_coefficients_mm": [
+      0.02673495821158779,
+      0.14460741677633734,
+      -0.011693078630919364,
+      0.1676612015595251,
+      0.047532063710937274,
+      0.08464300230393695,
+      0.10574008010244308,
+      -0.39400901947223593,
+      0.10636515574513511,
+      0.11295669615219907,
+      -0.000834120873191398,
+      0.05838053826524113,
+      0.05422321341473886,
+      0.06894350603152603,
+      0.0010503833269017912,
+      -0.04607179391857975,
+      -0.046063782199028194,
+      -0.049905503487717086,
+      -0.054050733896925524,
+      -0.05775881731011003
+    ],
+    "mean_output_coefficients_mm": [
+      -0.048450852895771335,
+      -0.06250862590241105,
+      -0.01810476986595799,
+      -0.0605467434891826,
+      -0.047083608703588346,
+      -0.036435163606627366,
+      -0.05992157820101067,
+      0.06701821832349242,
+      -0.05675524305370043,
+      -0.04346783334881105,
+      -0.04417246531550151,
+      -0.0560916540812404,
+      -0.05257310114437241,
+      -0.053619782112914086,
+      -0.039208711608981726,
+      0.031470051054678434,
+      0.033228591225459986,
+      0.03258750714011948,
+      0.03158549812009718,
+      0.029360938139464526
+    ],
+    "description": "Embedded extrusion into a support bath: tangent-directed nozzle/wake lag, transient density drift, flow-to-radius bias and correlated path/radius errors. Optimizes 3-D nozzle offsets and filament radius with fixed target frames. Synthetic reduced-order model; not a fluid, gelation or collision simulation.",
+    "folder": "results_a090/embedded_serpentine"
+  },
+  {
+    "name": "dlp_ellipsoid",
+    "process": "dlp",
+    "shape": "ellipsoid",
+    "calibrated": false,
+    "target_probability": 0.95,
+    "working_probability": 0.954,
+    "tolerance_mm": 0.2,
+    "status": "converged",
+    "iterations": 68,
+    "objective": 0.18969023164306678,
+    "lp_gap": 1.870311337096031e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 11.771772833075374,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 1.226485086690304e-18,
+    "optimized_box_probability": 0.9540000000000862,
+    "independent_qmc_checks": {
+      "mean": 0.9540005862057455,
+      "standard_error": 1.7281508161331578e-07,
+      "min": 0.9540002996855408,
+      "max": 0.9540010687934081,
+      "values": [
+        0.9540003782294738,
+        0.954000598114559,
+        0.9540002996855408,
+        0.9540010687934081
+      ]
+    },
+    "scipy_probability_check": 0.954000391577209,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 95425,
+        "n": 100000,
+        "estimate": 0.95425,
+        "confidence": 0.95,
+        "ci_lower": 0.9529367468908219,
+        "ci_upper": 0.9555368242604694
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 97174,
+        "n": 100000,
+        "estimate": 0.97174,
+        "confidence": 0.95,
+        "ci_lower": 0.9706941254998956,
+        "ci_upper": 0.9727583917374893
+      },
+      "seed": 20261,
+      "requested_target": 0.95,
+      "tolerance_mm": 0.2,
+      "baseline_max_displacement_quantiles_mm": [
+        0.38427534156758636,
+        0.4246961919242149,
+        0.44228572770941216
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.1599387192664128,
+        0.1938893021859848,
+        0.21055113223192276
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.2
+    },
+    "x": [
+      1.3229879336877455,
+      1.4797310632018936,
+      0.497771711202422,
+      0.48214076799926575,
+      -0.14474802451228408,
+      -0.1561809763115057,
+      0.49899802915039587,
+      0.49764872266757176
+    ],
+    "command_coefficients_mm": [
+      0.26459758673754913,
+      0.29594621264037874,
+      0.0995543422404844,
+      0.09642815359985316,
+      -0.028949604902456818,
+      -0.031236195262301144,
+      0.09979960583007919,
+      0.09952974453351436
+    ],
+    "mean_output_coefficients_mm": [
+      -0.12482467030812724,
+      -0.1360435106538208,
+      -0.12323685693186094,
+      -0.12580003756544147,
+      -0.10770234912184574,
+      -0.10940630222257393,
+      -0.1247477934030979,
+      -0.11601188738488911
+    ],
+    "description": "DLP-inspired: anisotropic contraction, positive curing offset, height-dependent response and smooth warp. All numbers are synthetic; no exposure, layer, photopolymer or support simulation.",
+    "folder": "results_a095/dlp_ellipsoid"
+  },
+  {
+    "name": "dlp_sleeve",
+    "process": "dlp",
+    "shape": "sleeve",
+    "calibrated": false,
+    "target_probability": 0.95,
+    "working_probability": 0.954,
+    "tolerance_mm": 0.16,
+    "status": "converged",
+    "iterations": 78,
+    "objective": 0.33027430424965387,
+    "lp_gap": 1.961788854365487e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 12.002245083102025,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 1.6293971890672315e-35,
+    "optimized_box_probability": 0.9540000000001099,
+    "independent_qmc_checks": {
+      "mean": 0.9540038219399342,
+      "standard_error": 2.5103366544370667e-07,
+      "min": 0.9540031891944115,
+      "max": 0.9540044177579473,
+      "values": [
+        0.9540031891944115,
+        0.95400383126606,
+        0.954003849541318,
+        0.9540044177579473
+      ]
+    },
+    "scipy_probability_check": 0.9540032444174394,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 95403,
+        "n": 100000,
+        "estimate": 0.95403,
+        "confidence": 0.95,
+        "ci_lower": 0.9527137932943908,
+        "ci_upper": 0.9553197909626222
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 96633,
+        "n": 100000,
+        "estimate": 0.96633,
+        "confidence": 0.95,
+        "ci_lower": 0.9651934126973624,
+        "ci_upper": 0.9674394338212908
+      },
+      "seed": 20261,
+      "requested_target": 0.95,
+      "tolerance_mm": 0.16,
+      "baseline_max_displacement_quantiles_mm": [
+        0.32775560881992855,
+        0.3596666981133632,
+        0.37389328860750753
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.12961003861124756,
+        0.15648750082336954,
+        0.16984558684732276
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.16
+    },
+    "x": [
+      0.8042366337254978,
+      1.5778023637275143,
+      0.8248997648843083,
+      1.5139306654766684,
+      0.13196406989936238,
+      0.13173022196116743,
+      -0.9181414721235114,
+      -0.9179955421468291
+    ],
+    "command_coefficients_mm": [
+      0.12867786139607965,
+      0.2524483781964023,
+      0.13198396238148932,
+      0.24222890647626696,
+      0.02111425118389798,
+      0.02107683551378679,
+      -0.14690263553976182,
+      -0.14687928674349265
+    ],
+    "mean_output_coefficients_mm": [
+      -0.0945269592049938,
+      -0.10950314740542072,
+      -0.09464928181349311,
+      -0.10931447525236127,
+      -0.09036198011147938,
+      -0.09005607293373419,
+      0.09226989574145673,
+      0.09239719796010601
+    ],
+    "description": "DLP-inspired: anisotropic contraction, positive curing offset, height-dependent response and smooth warp. All numbers are synthetic; no exposure, layer, photopolymer or support simulation.",
+    "folder": "results_a095/dlp_sleeve"
+  },
+  {
+    "name": "cnc_cylinder",
+    "process": "cnc",
+    "shape": "cylinder",
+    "calibrated": false,
+    "target_probability": 0.95,
+    "working_probability": 0.954,
+    "tolerance_mm": 0.12,
+    "status": "converged",
+    "iterations": 82,
+    "objective": 0.5798006297295055,
+    "lp_gap": 2.0740859768331177e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 11.462133749970235,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.3133934361774087e-44,
+    "optimized_box_probability": 0.9540000000000989,
+    "independent_qmc_checks": {
+      "mean": 0.9539999506782332,
+      "standard_error": 6.282113517077966e-08,
+      "min": 0.9539998079258171,
+      "max": 0.954000114103439,
+      "values": [
+        0.9539999349470272,
+        0.9539998079258171,
+        0.9539999457366497,
+        0.954000114103439
+      ]
+    },
+    "scipy_probability_check": 0.9539996467692219,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 95449,
+        "n": 100000,
+        "estimate": 0.95449,
+        "confidence": 0.95,
+        "ci_lower": 0.9531799783721281,
+        "ci_upper": 0.9557735784791012
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 96613,
+        "n": 100000,
+        "estimate": 0.96613,
+        "confidence": 0.95,
+        "ci_lower": 0.9649902195330967,
+        "ci_upper": 0.967242639085921
+      },
+      "seed": 20261,
+      "requested_target": 0.95,
+      "tolerance_mm": 0.12,
+      "baseline_max_displacement_quantiles_mm": [
+        0.24089517354262113,
+        0.26205771790864335,
+        0.2714597797827558
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.0991660946020387,
+        0.11774364819123499,
+        0.12673060810348175
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.12
+    },
+    "x": [
+      -1.2721542198854499,
+      -0.9141260712790217,
+      -1.2579151154209312,
+      -0.8780307884156013,
+      -1.2531600142660344,
+      -1.25122464537554,
+      -0.5660307438892037,
+      -1.011506125605586
+    ],
+    "command_coefficients_mm": [
+      -0.15265850638625397,
+      -0.1096951285534826,
+      -0.15094981385051173,
+      -0.10536369460987216,
+      -0.15037920171192412,
+      -0.1501469574450648,
+      -0.06792368926670445,
+      -0.1213807350726703
+    ],
+    "mean_output_coefficients_mm": [
+      0.07998177675264984,
+      0.07693936266662443,
+      0.07880091972968106,
+      0.0780192229384352,
+      0.0744407037231598,
+      0.07446753892007368,
+      0.07516057738377992,
+      0.07727878341010323
+    ],
+    "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code.",
+    "folder": "results_a095/cnc_cylinder"
+  },
+  {
+    "name": "cnc_pocket_plate",
+    "process": "cnc",
+    "shape": "pocket_plate",
+    "calibrated": false,
+    "target_probability": 0.95,
+    "working_probability": 0.954,
+    "tolerance_mm": 0.14,
+    "status": "converged",
+    "iterations": 81,
+    "objective": 0.3696222979055341,
+    "lp_gap": 2.1642223925144588e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 11.290823957999237,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 6.477827774227948e-31,
+    "optimized_box_probability": 0.9540000000001184,
+    "independent_qmc_checks": {
+      "mean": 0.9540002131778128,
+      "standard_error": 6.465979632529396e-08,
+      "min": 0.9540000329550573,
+      "max": 0.9540003408631365,
+      "values": [
+        0.9540002376030569,
+        0.9540000329550573,
+        0.9540002412900007,
+        0.9540003408631365
+      ]
+    },
+    "scipy_probability_check": 0.9540000318200093,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 95513,
+        "n": 100000,
+        "estimate": 0.95513,
+        "confidence": 0.95,
+        "ci_lower": 0.9538286440413601,
+        "ci_upper": 0.9564048746612157
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 95615,
+        "n": 100000,
+        "estimate": 0.95615,
+        "confidence": 0.95,
+        "ci_lower": 0.954862603380392,
+        "ci_upper": 0.9574108544755847
+      },
+      "seed": 20261,
+      "requested_target": 0.95,
+      "tolerance_mm": 0.14,
+      "baseline_max_displacement_quantiles_mm": [
+        0.28090239642598935,
+        0.31134147816582347,
+        0.32485001745272496
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.11670936150577424,
+        0.13907000101055608,
+        0.14999718030623263
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.14
+    },
+    "x": [
+      -0.9829447935164705,
+      -0.6642255485588474,
+      -0.3586485995646221,
+      -0.3406327461198697,
+      -1.1247973500642627,
+      -1.3530808262906833,
+      -1.320062347156524,
+      -0.9928897028454327
+    ],
+    "command_coefficients_mm": [
+      -0.13761227109230587,
+      -0.09299157679823865,
+      -0.050210803939047095,
+      -0.047688584456781764,
+      -0.1574716290089968,
+      -0.18943131568069568,
+      -0.18480872860191339,
+      -0.1390045583983606
+    ],
+    "mean_output_coefficients_mm": [
+      0.08982963126936849,
+      0.08879449876574275,
+      0.09506600735775757,
+      0.09054823132259275,
+      0.08810375958182814,
+      0.08682832466254428,
+      0.08572380097678287,
+      0.08847329091106368
+    ],
+    "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code.",
+    "folder": "results_a095/cnc_pocket_plate"
+  },
+  {
+    "name": "embedded_helix",
+    "process": "embedded",
+    "shape": "helix",
+    "calibrated": false,
+    "target_probability": 0.95,
+    "working_probability": 0.954,
+    "tolerance_mm": 0.24,
+    "status": "converged",
+    "iterations": 301,
+    "objective": 0.8021527817141124,
+    "lp_gap": 2.1983592102703398e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 110.54132904205471,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.082874083407804e-187,
+    "optimized_box_probability": 0.9540000000000515,
+    "independent_qmc_checks": {
+      "mean": 0.9539978074901146,
+      "standard_error": 2.484249897413097e-06,
+      "min": 0.953992608711738,
+      "max": 0.9540028037652319,
+      "values": [
+        0.9540028037652319,
+        0.9539945885455762,
+        0.9540012289379126,
+        0.953992608711738
+      ]
+    },
+    "scipy_probability_check": 0.9539954228708667,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 95471,
+        "n": 100000,
+        "estimate": 0.95471,
+        "confidence": 0.95,
+        "ci_lower": 0.9534029492192769,
+        "ci_upper": 0.9559905945208599
+      },
+      "baseline_mesh": {
+        "successes": 2344,
+        "n": 100000,
+        "estimate": 0.02344,
+        "confidence": 0.95,
+        "ci_lower": 0.02251111447191269,
+        "ci_upper": 0.024396665983765303
+      },
+      "optimized_mesh": {
+        "successes": 100000,
+        "n": 100000,
+        "estimate": 1.0,
+        "confidence": 0.95,
+        "ci_lower": 0.9999631118858421,
+        "ci_upper": 1.0
+      },
+      "seed": 20261,
+      "requested_target": 0.95,
+      "tolerance_mm": 0.24,
+      "baseline_max_displacement_quantiles_mm": [
+        0.2670467526498751,
+        0.2964474019362909,
+        0.3102556305598832
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.1038644237534336,
+        0.12664487461916624,
+        0.13728068739332902
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "type": "fixed-frame tube: vector centerline budget + scalar radius budget",
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "frame_unit_error": 2.220446049250313e-16,
+      "centerline_budget_mm": 0.18,
+      "radius_budget_mm": 0.06,
+      "feature_limits_mm": [
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "bound_mm": 0.24,
+      "scope": "all corresponding points on the triangle surfaces, not CAD or fluid physics"
+    },
+    "x": [
+      1.0306580424453162,
+      1.1551887937259682,
+      -4.376541033602218,
+      1.143997913148931,
+      1.421920811330617,
+      -0.10925847161878195,
+      2.140464440503967,
+      -0.017059246313912084,
+      -2.548545473986038,
+      0.22085773723986468,
+      0.49744406184445117,
+      0.48979965073910814,
+      0.5402972863443967,
+      0.587307480253383,
+      0.6404930440568665,
+      -0.8071311939658707,
+      -0.8080812004239614,
+      -0.8779229240426886,
+      -0.9449229087565905,
+      -1.0113546947069874
+    ],
+    "command_coefficients_mm": [
+      0.10710912568468609,
+      0.12005074098405483,
+      -0.4548234858965431,
+      0.11888775055960299,
+      0.1477703453738513,
+      -0.011354473440063153,
+      0.22244358976484166,
+      -0.0017728488812716692,
+      -0.26485261478061145,
+      0.02295220932864855,
+      0.051695903342281455,
+      0.05090147283657758,
+      0.05614934106840511,
+      0.06103478372784687,
+      0.06656198965205665,
+      -0.048427871637952244,
+      -0.04848487202543768,
+      -0.05267537544256131,
+      -0.05669537452539543,
+      -0.060681281682419236
+    ],
+    "mean_output_coefficients_mm": [
+      -0.03929545357819471,
+      -0.05535222178484561,
+      0.06160727917448544,
+      -0.05193018108477693,
+      -0.04111894145169809,
+      0.016275505055408243,
+      -0.05670810330686574,
+      -0.021689682111270803,
+      0.05514723597885052,
+      -0.011375814482976466,
+      -0.048423182654405546,
+      -0.05091918367523895,
+      -0.04891931020336076,
+      -0.04727580063147922,
+      -0.043338118641135695,
+      0.02891069554610333,
+      0.030600013073402862,
+      0.029579626163863504,
+      0.0287093778444985,
+      0.02619727236519845
+    ],
+    "description": "Embedded extrusion into a support bath: tangent-directed nozzle/wake lag, transient density drift, flow-to-radius bias and correlated path/radius errors. Optimizes 3-D nozzle offsets and filament radius with fixed target frames. Synthetic reduced-order model; not a fluid, gelation or collision simulation.",
+    "folder": "results_a095/embedded_helix"
+  },
+  {
+    "name": "embedded_serpentine",
+    "process": "embedded",
+    "shape": "serpentine",
+    "calibrated": false,
+    "target_probability": 0.95,
+    "working_probability": 0.954,
+    "tolerance_mm": 0.24,
+    "status": "converged",
+    "iterations": 319,
+    "objective": 0.632158410596522,
+    "lp_gap": 1.8799899679011745e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 113.61682516697329,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.1058111395541742e-122,
+    "optimized_box_probability": 0.9540000000000379,
+    "independent_qmc_checks": {
+      "mean": 0.9539806095487897,
+      "standard_error": 2.490504011983732e-06,
+      "min": 0.9539752692210718,
+      "max": 0.9539860462250798,
+      "values": [
+        0.9539860462250798,
+        0.9539752692210718,
+        0.9539834205817419,
+        0.9539777021672653
+      ]
+    },
+    "scipy_probability_check": 0.9539761004381174,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 95484,
+        "n": 100000,
+        "estimate": 0.95484,
+        "confidence": 0.95,
+        "ci_lower": 0.9535347086357548,
+        "ci_upper": 0.9561188273556902
+      },
+      "baseline_mesh": {
+        "successes": 4859,
+        "n": 100000,
+        "estimate": 0.04859,
+        "confidence": 0.95,
+        "ci_lower": 0.04726549093157924,
+        "ci_upper": 0.04994076892007725
+      },
+      "optimized_mesh": {
+        "successes": 100000,
+        "n": 100000,
+        "estimate": 1.0,
+        "confidence": 0.95,
+        "ci_lower": 0.9999631118858421,
+        "ci_upper": 1.0
+      },
+      "seed": 20261,
+      "requested_target": 0.95,
+      "tolerance_mm": 0.24,
+      "baseline_max_displacement_quantiles_mm": [
+        0.2603037008761738,
+        0.2830895961418591,
+        0.29347570256329725
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.10979649559447786,
+        0.13301062346768436,
+        0.14393712907432163
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "type": "fixed-frame tube: vector centerline budget + scalar radius budget",
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "frame_unit_error": 1.1102230246251565e-16,
+      "centerline_budget_mm": 0.18,
+      "radius_budget_mm": 0.06,
+      "feature_limits_mm": [
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "bound_mm": 0.24,
+      "scope": "all corresponding points on the triangle surfaces, not CAD or fluid physics"
+    },
+    "x": [
+      0.2910389243669228,
+      1.4409711636011155,
+      -0.12435755747486187,
+      1.6689872753578747,
+      0.5038167009812115,
+      0.8353956691841606,
+      1.065143873759352,
+      -3.8516294172002707,
+      1.0744867554188595,
+      1.13375746501738,
+      0.013629193960541925,
+      0.6036718626369225,
+      0.5583984116637775,
+      0.70671840808289,
+      0.03666502276639576,
+      -0.8046257847047906,
+      -0.8081782249369897,
+      -0.8742866816407229,
+      -0.9428426403865322,
+      -1.0060374512051482
+    ],
+    "command_coefficients_mm": [
+      0.030245652239022362,
+      0.1497501160559266,
+      -0.012923616471097655,
+      0.17344624548634724,
+      0.05235816742807169,
+      0.08681686460699808,
+      0.11069299840331567,
+      -0.40027307055106637,
+      0.1116639391467179,
+      0.11782353197223577,
+      0.0014163873843521704,
+      0.0627354202312134,
+      0.058030465192045445,
+      0.07344433136662566,
+      0.0038103409375240226,
+      -0.04827754708228744,
+      -0.04849069349621938,
+      -0.05245720089844337,
+      -0.05657055842319193,
+      -0.06036224707230889
+    ],
+    "mean_output_coefficients_mm": [
+      -0.0450454796891598,
+      -0.05754981764630815,
+      -0.019253338337705886,
+      -0.05497846678266538,
+      -0.042392427878971725,
+      -0.03432651717265807,
+      -0.05516766883924153,
+      0.061021512536745426,
+      -0.05168629857672451,
+      -0.03875273969695803,
+      -0.04178174329573891,
+      -0.05167743174108741,
+      -0.04863873449308911,
+      -0.04902115981915843,
+      -0.03625398244061391,
+      0.029073989811165733,
+      0.030596784307439145,
+      0.029817035778509762,
+      0.028848126542510996,
+      0.026534659646282127
+    ],
+    "description": "Embedded extrusion into a support bath: tangent-directed nozzle/wake lag, transient density drift, flow-to-radius bias and correlated path/radius errors. Optimizes 3-D nozzle offsets and filament radius with fixed target frames. Synthetic reduced-order model; not a fluid, gelation or collision simulation.",
+    "folder": "results_a095/embedded_serpentine"
+  },
+  {
+    "name": "dlp_ellipsoid",
+    "process": "dlp",
+    "shape": "ellipsoid",
+    "calibrated": false,
+    "target_probability": 0.99,
+    "working_probability": 0.994,
+    "tolerance_mm": 0.2,
+    "status": "converged",
+    "iterations": 73,
+    "objective": 0.24489766922403342,
+    "lp_gap": 2.048446100061385e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 11.212157082976773,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 1.226485086690304e-18,
+    "optimized_box_probability": 0.9940000000000075,
+    "independent_qmc_checks": {
+      "mean": 0.9940004580415793,
+      "standard_error": 1.4564587285564182e-08,
+      "min": 0.9940004376721682,
+      "max": 0.9940005007379038,
+      "values": [
+        0.9940004522814493,
+        0.9940004414747963,
+        0.9940004376721682,
+        0.9940005007379038
+      ]
+    },
+    "scipy_probability_check": 0.9940000985212423,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 99399,
+        "n": 100000,
+        "estimate": 0.99399,
+        "confidence": 0.95,
+        "ci_lower": 0.9934913396808197,
+        "ci_upper": 0.9944596718008983
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 99684,
+        "n": 100000,
+        "estimate": 0.99684,
+        "confidence": 0.95,
+        "ci_lower": 0.9964723157058342,
+        "ci_upper": 0.9971783804870035
+      },
+      "seed": 20261,
+      "requested_target": 0.99,
+      "tolerance_mm": 0.2,
+      "baseline_max_displacement_quantiles_mm": [
+        0.38427534156758636,
+        0.4246961919242149,
+        0.44228572770941216
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.14028318385777555,
+        0.1737994085638721,
+        0.19010807661656767
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.2
+    },
+    "x": [
+      1.453582603719161,
+      1.5954639806635702,
+      0.6052132244946705,
+      0.5927030520195807,
+      -0.0814163812755221,
+      -0.07982824083417979,
+      0.6030700005693477,
+      0.6079646448987007
+    ],
+    "command_coefficients_mm": [
+      0.2907165207438322,
+      0.3190927961327141,
+      0.12104264489893411,
+      0.11854061040391616,
+      -0.01628327625510442,
+      -0.015965648166835957,
+      0.12061400011386954,
+      0.12159292897974015
+    ],
+    "mean_output_coefficients_mm": [
+      -0.10047046579162,
+      -0.11550540452889319,
+      -0.10352550046713495,
+      -0.10555755894394919,
+      -0.09561386019809183,
+      -0.09500668491614934,
+      -0.10598312531773531,
+      -0.09540174879073589
+    ],
+    "description": "DLP-inspired: anisotropic contraction, positive curing offset, height-dependent response and smooth warp. All numbers are synthetic; no exposure, layer, photopolymer or support simulation.",
+    "folder": "results_a099/dlp_ellipsoid"
+  },
+  {
+    "name": "dlp_sleeve",
+    "process": "dlp",
+    "shape": "sleeve",
+    "calibrated": false,
+    "target_probability": 0.99,
+    "working_probability": 0.994,
+    "tolerance_mm": 0.16,
+    "status": "converged",
+    "iterations": 80,
+    "objective": 0.4021456431265331,
+    "lp_gap": 2.18928552102593e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 12.002624707994983,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 1.6293971890672315e-35,
+    "optimized_box_probability": 0.9940000000000067,
+    "independent_qmc_checks": {
+      "mean": 0.994000758300935,
+      "standard_error": 6.389532679502946e-08,
+      "min": 0.994000619989984,
+      "max": 0.9940009289416435,
+      "values": [
+        0.994000619989984,
+        0.9940007526378725,
+        0.9940007316342404,
+        0.9940009289416435
+      ]
+    },
+    "scipy_probability_check": 0.9940008134453495,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 99407,
+        "n": 100000,
+        "estimate": 0.99407,
+        "confidence": 0.95,
+        "ci_lower": 0.9935745149503473,
+        "ci_upper": 0.9945364892217222
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 99600,
+        "n": 100000,
+        "estimate": 0.996,
+        "confidence": 0.95,
+        "ci_lower": 0.9955890428396652,
+        "ci_upper": 0.9963817626072977
+      },
+      "seed": 20261,
+      "requested_target": 0.99,
+      "tolerance_mm": 0.16,
+      "baseline_max_displacement_quantiles_mm": [
+        0.32775560881992855,
+        0.3596666981133632,
+        0.37389328860750753
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.1142001918330961,
+        0.1408038147027676,
+        0.15396930648717055
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.16
+    },
+    "x": [
+      0.924718666291459,
+      1.6957518642306673,
+      0.9435430903709974,
+      1.632899967452373,
+      0.22915582685053382,
+      0.2251362026236279,
+      -1.0313248920202285,
+      -1.0261610824474001
+    ],
+    "command_coefficients_mm": [
+      0.14795498660663345,
+      0.2713202982769068,
+      0.1509668944593596,
+      0.26126399479237966,
+      0.03666493229608541,
+      0.036021792419780464,
+      -0.16501198272323656,
+      -0.16418577319158403
+    ],
+    "mean_output_coefficients_mm": [
+      -0.07716142668973813,
+      -0.09339460985495934,
+      -0.07753880440691496,
+      -0.09307602009428459,
+      -0.07681151329325783,
+      -0.0770345912716848,
+      0.07717087859162952,
+      0.07798412458022097
+    ],
+    "description": "DLP-inspired: anisotropic contraction, positive curing offset, height-dependent response and smooth warp. All numbers are synthetic; no exposure, layer, photopolymer or support simulation.",
+    "folder": "results_a099/dlp_sleeve"
+  },
+  {
+    "name": "cnc_cylinder",
+    "process": "cnc",
+    "shape": "cylinder",
+    "calibrated": false,
+    "target_probability": 0.99,
+    "working_probability": 0.994,
+    "tolerance_mm": 0.12,
+    "status": "converged",
+    "iterations": 89,
+    "objective": 0.6857978348869728,
+    "lp_gap": 2.153996241194278e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 12.13696679205168,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.3133934361774087e-44,
+    "optimized_box_probability": 0.9940000000000031,
+    "independent_qmc_checks": {
+      "mean": 0.9939999634443755,
+      "standard_error": 1.2198831560784783e-08,
+      "min": 0.9939999477627037,
+      "max": 0.9939999993665694,
+      "values": [
+        0.9939999580453256,
+        0.9939999486029026,
+        0.9939999477627037,
+        0.9939999993665694
+      ]
+    },
+    "scipy_probability_check": 0.9939999809734656,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 99404,
+        "n": 100000,
+        "estimate": 0.99404,
+        "confidence": 0.95,
+        "ci_lower": 0.9935433216852706,
+        "ci_upper": 0.9945076852341701
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 99602,
+        "n": 100000,
+        "estimate": 0.99602,
+        "confidence": 0.95,
+        "ci_lower": 0.9956100165633888,
+        "ci_upper": 0.9964007865075025
+      },
+      "seed": 20261,
+      "requested_target": 0.99,
+      "tolerance_mm": 0.12,
+      "baseline_max_displacement_quantiles_mm": [
+        0.24089517354262113,
+        0.26205771790864335,
+        0.2714597797827558
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.08801533942622985,
+        0.10649540300759192,
+        0.11532607496543303
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.12
+    },
+    "x": [
+      -1.369194270825594,
+      -1.0036275155790582,
+      -1.3517930515357797,
+      -0.9685874924706387,
+      -1.3589326638346686,
+      -1.3572557748376182,
+      -0.6531276427349625,
+      -1.1006733774461923
+    ],
+    "command_coefficients_mm": [
+      -0.16430331249907126,
+      -0.12043530186948698,
+      -0.16221516618429355,
+      -0.11623049909647663,
+      -0.16307191966016021,
+      -0.16287069298051418,
+      -0.0783753171281955,
+      -0.13208080529354307
+    ],
+    "mean_output_coefficients_mm": [
+      0.06856875324148115,
+      0.0664070551671414,
+      0.06775887736425998,
+      0.06736122606719733,
+      0.0620250240857258,
+      0.062021488854011764,
+      0.06490192799253533,
+      0.06677644456938087
+    ],
+    "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code.",
+    "folder": "results_a099/cnc_cylinder"
+  },
+  {
+    "name": "cnc_pocket_plate",
+    "process": "cnc",
+    "shape": "pocket_plate",
+    "calibrated": false,
+    "target_probability": 0.99,
+    "working_probability": 0.994,
+    "tolerance_mm": 0.14,
+    "status": "converged",
+    "iterations": 80,
+    "objective": 0.45207577841936464,
+    "lp_gap": 2.141255122384278e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 10.98429258307442,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 6.477827774227948e-31,
+    "optimized_box_probability": 0.9940000000000138,
+    "independent_qmc_checks": {
+      "mean": 0.9939999892012589,
+      "standard_error": 1.7242668991037486e-08,
+      "min": 0.9939999389040014,
+      "max": 0.9940000142850036,
+      "values": [
+        0.9940000085476977,
+        0.9939999389040014,
+        0.9939999950683326,
+        0.9940000142850036
+      ]
+    },
+    "scipy_probability_check": 0.993999972257559,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 99383,
+        "n": 100000,
+        "estimate": 0.99383,
+        "confidence": 0.95,
+        "ci_lower": 0.9933250530284143,
+        "ci_upper": 0.9943059729170619
+      },
+      "baseline_mesh": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_mesh": {
+        "successes": 99409,
+        "n": 100000,
+        "estimate": 0.99409,
+        "confidence": 0.95,
+        "ci_lower": 0.9935953121672316,
+        "ci_upper": 0.99455569016903
+      },
+      "seed": 20261,
+      "requested_target": 0.99,
+      "tolerance_mm": 0.14,
+      "baseline_max_displacement_quantiles_mm": [
+        0.28090239642598935,
+        0.31134147816582347,
+        0.32485001745272496
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.1037434881956189,
+        0.12579318040323778,
+        0.13648909985396893
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "nonnegative": true,
+      "partition_error": 3.3306690738754696e-16,
+      "unit_normal_error": 2.220446049250313e-16,
+      "bound_mm": 0.14
+    },
+    "x": [
+      -1.08130694061416,
+      -0.7589706719955848,
+      -0.43394988346335867,
+      -0.4267044951381711,
+      -1.2310118795232432,
+      -1.4598858393326895,
+      -1.4268128924641952,
+      -1.0895746904869306
+    ],
+    "command_coefficients_mm": [
+      -0.15138297168598241,
+      -0.10625589407938188,
+      -0.06075298368487022,
+      -0.05973862931934396,
+      -0.17234166313325405,
+      -0.20438401750657653,
+      -0.19975380494498735,
+      -0.1525404566681703
+    ],
+    "mean_output_coefficients_mm": [
+      0.07632686843834563,
+      0.07579743125750746,
+      0.08469793204253301,
+      0.07872443612268143,
+      0.07353647751200501,
+      0.07218903261361387,
+      0.07110291634165977,
+      0.07519811370619792
+    ],
+    "description": "CNC-inspired: positive residual stock from compliance/tool offset, azimuth-dependent bias and correlated residual error. Command is an inward surface offset, not a cutter-center path or G-code.",
+    "folder": "results_a099/cnc_pocket_plate"
+  },
+  {
+    "name": "embedded_helix",
+    "process": "embedded",
+    "shape": "helix",
+    "calibrated": false,
+    "target_probability": 0.99,
+    "working_probability": 0.994,
+    "tolerance_mm": 0.24,
+    "status": "converged",
+    "iterations": 300,
+    "objective": 0.9005180216882066,
+    "lp_gap": 1.8500383322517244e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 111.20873041602317,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.082874083407804e-187,
+    "optimized_box_probability": 0.9940000000000005,
+    "independent_qmc_checks": {
+      "mean": 0.9940033883692585,
+      "standard_error": 8.779266326001612e-07,
+      "min": 0.9940013980578943,
+      "max": 0.9940052226984394,
+      "values": [
+        0.99400444380446,
+        0.9940013980578943,
+        0.9940052226984394,
+        0.9940024889162402
+      ]
+    },
+    "scipy_probability_check": 0.994003093197809,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 99419,
+        "n": 100000,
+        "estimate": 0.99419,
+        "confidence": 0.95,
+        "ci_lower": 0.9936993189940331,
+        "ci_upper": 0.994651674111381
+      },
+      "baseline_mesh": {
+        "successes": 2344,
+        "n": 100000,
+        "estimate": 0.02344,
+        "confidence": 0.95,
+        "ci_lower": 0.02251111447191269,
+        "ci_upper": 0.024396665983765303
+      },
+      "optimized_mesh": {
+        "successes": 100000,
+        "n": 100000,
+        "estimate": 1.0,
+        "confidence": 0.95,
+        "ci_lower": 0.9999631118858421,
+        "ci_upper": 1.0
+      },
+      "seed": 20261,
+      "requested_target": 0.99,
+      "tolerance_mm": 0.24,
+      "baseline_max_displacement_quantiles_mm": [
+        0.2670467526498751,
+        0.2964474019362909,
+        0.3102556305598832
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.08725776283938791,
+        0.11007608814509022,
+        0.12086852558757719
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "type": "fixed-frame tube: vector centerline budget + scalar radius budget",
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "frame_unit_error": 2.220446049250313e-16,
+      "centerline_budget_mm": 0.18,
+      "radius_budget_mm": 0.06,
+      "feature_limits_mm": [
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "bound_mm": 0.24,
+      "scope": "all corresponding points on the triangle surfaces, not CAD or fluid physics"
+    },
+    "x": [
+      1.1050908667716326,
+      1.2638630848831502,
+      -4.51349493479673,
+      1.264931673445413,
+      1.5264638801773924,
+      -0.11850432324013149,
+      2.257699241054858,
+      -0.004182170450058827,
+      -2.679126373579369,
+      0.23575684085709722,
+      0.5876666195517464,
+      0.5875070356929145,
+      0.6369471959812825,
+      0.69100125002799,
+      0.7425856439367037,
+      -0.8971502484289683,
+      -0.9033179042627089,
+      -0.9770833869220782,
+      -1.049354950452018,
+      -1.1126597951261814
+    ],
+    "command_coefficients_mm": [
+      0.1148444116937278,
+      0.13134450460970118,
+      -0.46905615280636287,
+      0.13145555559063474,
+      0.15863477978315846,
+      -0.012315330526108382,
+      0.2346269876230025,
+      -0.00043462390232490515,
+      -0.27842297993623344,
+      0.02450056959578535,
+      0.06107210657855247,
+      0.06105552213745859,
+      0.06619349431068673,
+      0.07181095638852503,
+      0.07717176385617734,
+      -0.0538290149057381,
+      -0.05419907425576253,
+      -0.05862500321532469,
+      -0.06296129702712108,
+      -0.06675958770757089
+    ],
+    "mean_output_coefficients_mm": [
+      -0.031792226149424244,
+      -0.0444661623557841,
+      0.04797510389068527,
+      -0.03989176782986656,
+      -0.03057773560822813,
+      0.01534347368194437,
+      -0.04514467706166661,
+      -0.020334118339823414,
+      0.04207840680643976,
+      -0.010162247648183246,
+      -0.03881960744683566,
+      -0.04054726249046324,
+      -0.038616688726647766,
+      -0.03623749236961696,
+      -0.032471427103198114,
+      0.023043552174155178,
+      0.02439958789783886,
+      0.02311900873261845,
+      0.021905147915052298,
+      0.019590743266921132
+    ],
+    "description": "Embedded extrusion into a support bath: tangent-directed nozzle/wake lag, transient density drift, flow-to-radius bias and correlated path/radius errors. Optimizes 3-D nozzle offsets and filament radius with fixed target frames. Synthetic reduced-order model; not a fluid, gelation or collision simulation.",
+    "folder": "results_a099/embedded_helix"
+  },
+  {
+    "name": "embedded_serpentine",
+    "process": "embedded",
+    "shape": "serpentine",
+    "calibrated": false,
+    "target_probability": 0.99,
+    "working_probability": 0.994,
+    "tolerance_mm": 0.24,
+    "status": "converged",
+    "iterations": 340,
+    "objective": 0.7269032738184369,
+    "lp_gap": 2.1128003174331056e-05,
+    "certificate_label": "diagnostic LP gap only: approximate probability cuts are not certified",
+    "solver_seconds": 124.88727249996737,
+    "n_qmc_points": 2048,
+    "probability_seed": 17,
+    "baseline_box_probability": 2.1058111395541742e-122,
+    "optimized_box_probability": 0.9940000000000031,
+    "independent_qmc_checks": {
+      "mean": 0.9939996863869546,
+      "standard_error": 8.479953459093537e-07,
+      "min": 0.9939973521668964,
+      "max": 0.9940010823690795,
+      "values": [
+        0.9940010823690795,
+        0.9939973521668964,
+        0.9940007846556242,
+        0.9939995263562181
+      ]
+    },
+    "scipy_probability_check": 0.9939976554672935,
+    "validation": {
+      "baseline_box": {
+        "successes": 0,
+        "n": 100000,
+        "estimate": 0.0,
+        "confidence": 0.95,
+        "ci_lower": 0.0,
+        "ci_upper": 3.68881141579242e-05
+      },
+      "optimized_box": {
+        "successes": 99448,
+        "n": 100000,
+        "estimate": 0.99448,
+        "confidence": 0.95,
+        "ci_lower": 0.9940011413231291,
+        "ci_upper": 0.9949298244947057
+      },
+      "baseline_mesh": {
+        "successes": 4859,
+        "n": 100000,
+        "estimate": 0.04859,
+        "confidence": 0.95,
+        "ci_lower": 0.04726549093157924,
+        "ci_upper": 0.04994076892007725
+      },
+      "optimized_mesh": {
+        "successes": 100000,
+        "n": 100000,
+        "estimate": 1.0,
+        "confidence": 0.95,
+        "ci_lower": 0.9999631118858421,
+        "ci_upper": 1.0
+      },
+      "seed": 20261,
+      "requested_target": 0.99,
+      "tolerance_mm": 0.24,
+      "baseline_max_displacement_quantiles_mm": [
+        0.2603037008761738,
+        0.2830895961418591,
+        0.29347570256329725
+      ],
+      "optimized_max_displacement_quantiles_mm": [
+        0.09166345053271693,
+        0.11469739514514914,
+        0.1255382533090286
+      ],
+      "interval_scope": "MC sampling only; two-sided individual 95% intervals"
+    },
+    "basis_guarantee": {
+      "type": "fixed-frame tube: vector centerline budget + scalar radius budget",
+      "nonnegative": true,
+      "partition_error": 2.220446049250313e-16,
+      "frame_unit_error": 1.1102230246251565e-16,
+      "centerline_budget_mm": 0.18,
+      "radius_budget_mm": 0.06,
+      "feature_limits_mm": [
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.10392304845413264,
+        0.06,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "bound_mm": 0.24,
+      "scope": "all corresponding points on the triangle surfaces, not CAD or fluid physics"
+    },
+    "x": [
+      0.3747422775472609,
+      1.5582262070960522,
+      -0.13420221427349124,
+      1.7978479048382665,
+      0.6122419343884238,
+      0.8916029105187133,
+      1.1755994465033666,
+      -3.9878146846652216,
+      1.1953662847181914,
+      1.2325729067856794,
+      0.08393112971153203,
+      0.6994099522325246,
+      0.6576182383188629,
+      0.8165567164733611,
+      0.120636257457227,
+      -0.8958678933354318,
+      -0.9038858761846373,
+      -0.9745005042169225,
+      -1.0487073629089092,
+      -1.1075873324114802
+    ],
+    "command_coefficients_mm": [
+      0.03894435986735602,
+      0.16193561762254235,
+      -0.013946703216595921,
+      0.186837834927668,
+      0.06362604821310006,
+      0.09265809247168193,
+      0.12217187824162087,
+      -0.4144258587005655,
+      0.12422610832720511,
+      0.12809273391513928,
+      0.008722378859821635,
+      0.07268481435516325,
+      0.06834169204513253,
+      0.08485906321160856,
+      0.01253688762905262,
+      -0.053752073600125905,
+      -0.05423315257107824,
+      -0.058470030253015344,
+      -0.06292244177453454,
+      -0.06645523994468881
+    ],
+    "mean_output_coefficients_mm": [
+      -0.036607733289676155,
+      -0.04579314325506098,
+      -0.020152504325483114,
+      -0.04207737445866841,
+      -0.03143936898814431,
+      -0.028660526143914747,
+      -0.044135441298026906,
+      0.04747578743273406,
+      -0.03966481571819555,
+      -0.02878001220571802,
+      -0.03417936255518957,
+      -0.04153414976555453,
+      -0.038077168827236135,
+      -0.03735861970809583,
+      -0.027164881724171797,
+      0.023127131825512334,
+      0.024364320993224886,
+      0.023288096008014847,
+      0.021950901073701817,
+      0.019910938989086316
+    ],
+    "description": "Embedded extrusion into a support bath: tangent-directed nozzle/wake lag, transient density drift, flow-to-radius bias and correlated path/radius errors. Optimizes 3-D nozzle offsets and filament radius with fixed target frames. Synthetic reduced-order model; not a fluid, gelation or collision simulation.",
+    "folder": "results_a099/embedded_serpentine"
+  }
+]

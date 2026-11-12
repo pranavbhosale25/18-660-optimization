@@ -1,0 +1,25 @@
+quadratic_lr0.01_b1 final mean gap 0.0032139171537319657
+quadratic_lr0.01_b16 final mean gap 0.00016234887155476297
+quadratic_lr0.01_b64 final mean gap 4.6543237473936306e-05
+quadratic_lr0.1_b1 final mean gap 0.038084964598295745
+quadratic_lr0.1_b16 final mean gap 0.0014937079036928022
+quadratic_lr0.1_b64 final mean gap 0.0006070490076502386
+quadratic_lr0.3_b1 final mean gap 0.0831733125027901
+quadratic_lr0.3_b16 final mean gap 0.008664381667541582
+quadratic_lr0.3_b64 final mean gap 0.002017611715872448
+quadratic_lr0.9_b1 final mean gap 1.2174634548314118e+171
+quadratic_lr0.9_b16 final mean gap 1.4118808843222447e+171
+quadratic_lr0.9_b64 final mean gap 1.416150208959975e+171
+simplex_lr0.01_b1 final mean gap 0.00013643344795263856
+simplex_lr0.01_b16 final mean gap 2.715352430554957e-05
+simplex_lr0.01_b64 final mean gap 2.6400984246669618e-05
+simplex_lr0.1_b1 final mean gap 0.0016619397007544127
+simplex_lr0.1_b16 final mean gap 5.642052500061598e-05
+simplex_lr0.1_b64 final mean gap 1.6806768121818e-05
+simplex_lr0.3_b1 final mean gap 0.003931998758012969
+simplex_lr0.3_b16 final mean gap 0.0002384774292311362
+simplex_lr0.3_b64 final mean gap 6.391579994444383e-05
+simplex_lr0.9_b1 final mean gap 0.012527620324829736
+simplex_lr0.9_b16 final mean gap 0.0008702038486643901
+simplex_lr0.9_b64 final mean gap 0.00021954442891885945
+Saved experiments to /Users/pranav.bhosale/Downloads/Student_Distribution-4/Implementation/results

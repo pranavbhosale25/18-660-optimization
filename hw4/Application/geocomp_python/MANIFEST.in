@@ -1,0 +1,9 @@
+include README.md
+include pyproject.toml
+prune results
+prune *_results
+prune .venv
+prune .pytest_cache
+prune build
+prune dist
+global-exclude *.py[cod]

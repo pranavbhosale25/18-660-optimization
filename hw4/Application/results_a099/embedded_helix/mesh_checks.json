@@ -1,0 +1,146 @@
+{
+  "target": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.052618452210211254,
+    "volume_mm3": 43.56312994652729,
+    "minimum_equivalent_radius_mm": 0.6,
+    "self_intersection_checked": false
+  },
+  "command_optimized": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.04747758407383442,
+    "volume_mm3": 35.4293454768503,
+    "minimum_equivalent_radius_mm": 0.5332404122924291,
+    "self_intersection_checked": false
+  },
+  "mean_uncompensated": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.058708589758239865,
+    "volume_mm3": 57.015771076709505,
+    "minimum_equivalent_radius_mm": 0.6815168294720129,
+    "self_intersection_checked": false
+  },
+  "mean_optimized": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.054282408838806764,
+    "volume_mm3": 46.89614820529875,
+    "minimum_equivalent_radius_mm": 0.6195907432669211,
+    "self_intersection_checked": false
+  },
+  "realization_uncompensated_01": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05863314478469807,
+    "volume_mm3": 57.13231170469415,
+    "minimum_equivalent_radius_mm": 0.6769649633987521,
+    "self_intersection_checked": false
+  },
+  "realization_optimized_01": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05394881816941437,
+    "volume_mm3": 47.00181874199247,
+    "minimum_equivalent_radius_mm": 0.6150611962766288,
+    "self_intersection_checked": false
+  },
+  "realization_uncompensated_02": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05903412170615983,
+    "volume_mm3": 58.390302862027,
+    "minimum_equivalent_radius_mm": 0.6877302628545203,
+    "self_intersection_checked": false
+  },
+  "realization_optimized_02": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05389791889475466,
+    "volume_mm3": 48.149361348660086,
+    "minimum_equivalent_radius_mm": 0.6180040101923042,
+    "self_intersection_checked": false
+  },
+  "realization_uncompensated_03": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05879858559114113,
+    "volume_mm3": 58.16314373293446,
+    "minimum_equivalent_radius_mm": 0.6823738913080792,
+    "self_intersection_checked": false
+  },
+  "realization_optimized_03": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05440419349112538,
+    "volume_mm3": 47.936448545186636,
+    "minimum_equivalent_radius_mm": 0.6239006140102215,
+    "self_intersection_checked": false
+  },
+  "realization_uncompensated_04": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05825171923509276,
+    "volume_mm3": 58.45691283085845,
+    "minimum_equivalent_radius_mm": 0.6757340213460189,
+    "self_intersection_checked": false
+  },
+  "realization_optimized_04": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05385443520678319,
+    "volume_mm3": 48.20071485252044,
+    "minimum_equivalent_radius_mm": 0.6172607440481611,
+    "self_intersection_checked": false
+  },
+  "realization_uncompensated_05": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.058268386249377316,
+    "volume_mm3": 55.84890972459655,
+    "minimum_equivalent_radius_mm": 0.6744457202965847,
+    "self_intersection_checked": false
+  },
+  "realization_optimized_05": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05362402716605086,
+    "volume_mm3": 45.83050945509436,
+    "minimum_equivalent_radius_mm": 0.613279065811316,
+    "self_intersection_checked": false
+  },
+  "realization_uncompensated_06": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.05891373913557161,
+    "volume_mm3": 57.49929578694829,
+    "minimum_equivalent_radius_mm": 0.6821963997907379,
+    "self_intersection_checked": false
+  },
+  "realization_optimized_06": {
+    "watertight": true,
+    "winding_consistent": true,
+    "nonpositive_target_normal_faces": 0,
+    "min_face_area_mm2": 0.053631837875931,
+    "volume_mm3": 47.33749525625124,
+    "minimum_equivalent_radius_mm": 0.6097703135856462,
+    "self_intersection_checked": false
+  }
+}

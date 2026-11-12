@@ -1,0 +1,174 @@
+{
+  "runtime": {
+    "jax_version": "0.10.0",
+    "dtype": "float64",
+    "backend": "cpu",
+    "devices": [
+      "cpu:0"
+    ],
+    "steps_per_problem": 400,
+    "seed": 7
+  },
+  "random_forcing_quadratic": {
+    "interpretation": "Elastic equilibrium under independent mean-zero random forces",
+    "exact_solution": [
+      0.8,
+      -0.6,
+      0.3,
+      1.1
+    ],
+    "true_individual_gradient_variance_trace": 0.48999999999999994,
+    "optimizers": {
+      "sgd": {
+        "solution": [
+          0.7983349241201395,
+          -0.6019430745907745,
+          0.29574726064563955,
+          1.099779150642594
+        ],
+        "solution_l2_error": 0.004968156902292781,
+        "expected_objective_gap": 2.3416387547518332e-05,
+        "last_learning_rate": 0.0048,
+        "last_batch_size": 128,
+        "effective_sample_count": 28604,
+        "compiled_lane_count": 37984,
+        "last_gradient_variance_estimate": 0.5252399468692228
+      },
+      "adam": {
+        "solution": [
+          0.7969847413603808,
+          -0.6003575133648694,
+          0.29689985272822333,
+          1.1004643842266335
+        ],
+        "solution_l2_error": 0.004364191366852404,
+        "expected_objective_gap": 1.4268514743535191e-05,
+        "last_learning_rate": 0.00217063185823447,
+        "last_batch_size": 128,
+        "effective_sample_count": 33469,
+        "compiled_lane_count": 43712,
+        "last_gradient_variance_estimate": 0.5252399468692228
+      },
+      "newton_cg": {
+        "solution": [
+          0.7972183720695043,
+          -0.602122024013491,
+          0.29620375916663,
+          1.1001197311737332
+        ],
+        "solution_l2_error": 0.005163934534485875,
+        "expected_objective_gap": 2.1516309743658384e-05,
+        "last_learning_rate": 0.018000000000000002,
+        "last_batch_size": 128,
+        "effective_sample_count": 28604,
+        "compiled_lane_count": 37984,
+        "last_gradient_variance_estimate": 0.5252399468692228,
+        "last_linear_solve_residual": 3.878959614448864e-18
+      }
+    }
+  },
+  "simplex_resource_allocation": {
+    "interpretation": "Resource allocation with quadratic congestion and random benefits",
+    "exact_solution": [
+      0.6,
+      0.35,
+      0.05,
+      0.0
+    ],
+    "solution": [
+      0.6016496990164707,
+      0.34891025676418924,
+      0.04944004421933994,
+      0.0
+    ],
+    "solution_l2_error": 0.002054896017134281,
+    "expected_objective_gap": 2.11129882062705e-06,
+    "sum_of_allocations": 0.9999999999999998,
+    "minimum_allocation": 0.0,
+    "maximum_mass_error_across_iterates": 2.220446049250313e-16,
+    "minimum_allocation_across_iterates": 0.0
+  },
+  "stochastic_matrix_design": {
+    "interpretation": "Matrix design energy with random forcing; no learned model",
+    "exact_solution": [
+      [
+        0.6,
+        -0.4,
+        0.3,
+        0.1
+      ],
+      [
+        -0.5,
+        0.2,
+        0.45,
+        -0.2
+      ],
+      [
+        0.2,
+        -0.1,
+        0.5,
+        -0.55
+      ]
+    ],
+    "solution": [
+      [
+        0.5999291352256032,
+        -0.3986914371185074,
+        0.29944739665650577,
+        0.10128805504960825
+      ],
+      [
+        -0.4985780080138501,
+        0.19945068502696012,
+        0.4508003267022309,
+        -0.2025065771593645
+      ],
+      [
+        0.19999056551030953,
+        -0.1010541475265958,
+        0.49739987211829867,
+        -0.5485470492799285
+      ]
+    ],
+    "solution_frobenius_error": 0.004786660813672257,
+    "expected_objective_gap": 1.1456060872572779e-05,
+    "largest_absolute_entry": 0.5999291352256032
+  },
+  "trajectory_hypergradient_and_vmap": {
+    "base_learning_rate": 0.03,
+    "final_expected_energy": 0.04062875968627299,
+    "autodiff_d_final_energy_d_base_lr": -3.0700561445152976,
+    "shared_key_central_finite_difference": -3.070056523914871,
+    "relative_derivative_discrepancy": 1.2358066291833932e-07,
+    "vmap_independent_solution_shape": [
+      4,
+      4
+    ],
+    "vmap_independent_solutions": [
+      [
+        0.484578914472019,
+        -0.5036298697286469,
+        0.29969265779355647,
+        1.102731385669768
+      ],
+      [
+        0.4849188801599534,
+        -0.5088837819443798,
+        0.29448040958831057,
+        1.0980278250681985
+      ],
+      [
+        0.5001139876697793,
+        -0.5070920356324895,
+        0.2961836638052307,
+        1.1005733148488528
+      ],
+      [
+        0.48590002167742347,
+        -0.5017177470056421,
+        0.3021153384513129,
+        1.1049252618599557
+      ]
+    ]
+  }
+}
