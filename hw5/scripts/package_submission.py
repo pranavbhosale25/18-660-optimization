@@ -10,6 +10,7 @@ CONTENTS = [
     "Application",
     "Implementation",
     "Theory/hw5.pdf",
+    "output/pdf",
     "scripts",
     "README.md",
     "reproduce.py",

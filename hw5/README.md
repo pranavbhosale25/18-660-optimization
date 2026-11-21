@@ -2,6 +2,9 @@
 
 ## Deliverables
 
+- [Complete submission PDF](output/pdf/hw5_complete_submission.pdf): handwritten theory followed by the Q2 and Q3 writeups, with all graphs.
+- [Q2 and Q3 writeups PDF](output/pdf/q2_q3_writeups.pdf): implementation and application writeups only.
+
 | Part | Main deliverable | Supporting files |
 |---|---|---|
 | Theory, Exercise 1.1 | [Handwritten theory PDF](Theory/hw5.pdf) | Submitted handwritten solution |

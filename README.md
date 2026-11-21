@@ -24,6 +24,8 @@
 
 ## Homework 5
 
+- [Complete submission PDF](hw5/output/pdf/hw5_complete_submission.pdf)
+- [Q2 and Q3 writeups PDF](hw5/output/pdf/q2_q3_writeups.pdf)
 - [Handwritten theory PDF](hw5/Theory/hw5.pdf)
 - [Setup and reproduction commands](hw5/README.md)
 - [Implementation — REINFORCE and A2C](hw5/Implementation/writeup.md)
