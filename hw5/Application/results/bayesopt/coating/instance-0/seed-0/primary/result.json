@@ -1,0 +1,85 @@
+{
+  "task": "coating",
+  "seed": 0,
+  "config": {
+    "strategy": "bo",
+    "surrogate": "gp",
+    "kernel": "matern52",
+    "warp": "none",
+    "mixed_encoding": "activity",
+    "acquisition": "ei",
+    "optimizer": "candidates",
+    "hyper_method": "map",
+    "hyper_steps": 30,
+    "refit_every": 6,
+    "hyper_optimizer": "adam",
+    "lengthscale": 0.3,
+    "noise": 0.01,
+    "beta": 2.0,
+    "xi": 0.01,
+    "candidates": 512,
+    "local_fraction": 0.5,
+    "local_scale": 0.12,
+    "optimizer_steps": 35,
+    "optimizer_restarts": 4,
+    "known_noise": false,
+    "incumbent": "observed",
+    "recommendation": "posterior",
+    "feasibility": false,
+    "cost_aware": false,
+    "cost_mode": "divide_expected_cost",
+    "n_trees": 32,
+    "tree_depth": 5,
+    "min_leaf": 2,
+    "embedding_dimension": 0,
+    "embeddings": 1,
+    "embedding_bound": 0.75,
+    "replicates": 1,
+    "allow_repeats": false
+  },
+  "score": {
+    "recommendation": [
+      0.8069992615225469,
+      0.13926263873426833,
+      0.589010852717033
+    ],
+    "true_mean": 99.91466401380389,
+    "feasible": true,
+    "passed": true,
+    "target": 94,
+    "constraint": -1.0,
+    "validation_mean": 99.91571347352036,
+    "validation_standard_error": 0.021422318446395455,
+    "validation_runs": 256,
+    "spent": 45,
+    "completed_runs": 45,
+    "observations": 45,
+    "canceled_reservation": 0.0,
+    "instance": 0,
+    "split": "development",
+    "simulator_version": "1.0",
+    "budget": 45,
+    "budget_unit": "experiments"
+  },
+  "diagnostics": {
+    "counts_by_embedding": [
+      45
+    ],
+    "fitted_parameters": [
+      [
+        {
+          "log_amplitude": -0.29479375346524406,
+          "log_lengthscale": [
+            -1.2856291453178603,
+            -1.4722691097144496,
+            -0.9076674171039686
+          ]
+        },
+        -4.199457813065688,
+        -1.3057203982360297
+      ]
+    ],
+    "pending": false
+  },
+  "elapsed_seconds": 2.773859709035605
+}

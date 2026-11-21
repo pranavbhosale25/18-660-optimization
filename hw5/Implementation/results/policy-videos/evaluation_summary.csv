@@ -1,0 +1,9 @@
+case,algorithm,episode,evaluation_seed,return_rounded,length
+cd,reinforce,0,1000,500,500
+cd,reinforce,1,1001,500,500
+cd,a2c,0,1000,147,147
+cd,a2c,1,1001,130,130
+cc,reinforce,0,1000,-1334.195,200
+cc,reinforce,1,1001,-1418.159,200
+cc,a2c,0,1000,-1263.446,200
+cc,a2c,1,1001,-1305.921,200

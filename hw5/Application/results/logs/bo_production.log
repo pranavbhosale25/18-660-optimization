@@ -1,0 +1,98 @@
+[primary] 1 observations; 1.00/120 individual_runs
+[primary] 10 observations; 10.00/120 individual_runs
+[primary] 20 observations; 36.00/120 individual_runs
+[primary] 30 observations; 66.00/120 individual_runs
+[primary] 40 observations; 96.00/120 individual_runs
+{
+  "recommendation": [
+    0.3383543190325282,
+    0.5051975055219711,
+    0.4899933614642318
+  ],
+  "true_mean": 95.62985273730926,
+  "feasible": true,
+  "passed": true,
+  "target": 89,
+  "constraint": -1.0,
+  "validation_mean": 95.63400910179232,
+  "validation_standard_error": 0.08484266917336038,
+  "validation_runs": 256,
+  "spent": 120,
+  "completed_runs": 120,
+  "observations": 48,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 120,
+  "budget_unit": "individual_runs"
+}
+Saved 'primary' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/production/instance-0/seed-0/primary
+[single_run] 1 observations; 1.00/120 individual_runs
+[single_run] 10 observations; 10.00/120 individual_runs
+[single_run] 20 observations; 20.00/120 individual_runs
+[single_run] 30 observations; 30.00/120 individual_runs
+[single_run] 40 observations; 40.00/120 individual_runs
+[single_run] 50 observations; 50.00/120 individual_runs
+[single_run] 60 observations; 60.00/120 individual_runs
+[single_run] 70 observations; 70.00/120 individual_runs
+[single_run] 80 observations; 80.00/120 individual_runs
+[single_run] 90 observations; 90.00/120 individual_runs
+[single_run] 100 observations; 100.00/120 individual_runs
+[single_run] 110 observations; 110.00/120 individual_runs
+[single_run] 120 observations; 120.00/120 individual_runs
+{
+  "recommendation": [
+    0.3513467913174327,
+    0.5091596621992094,
+    0.4983778982450515
+  ],
+  "true_mean": 95.59928106907506,
+  "feasible": true,
+  "passed": true,
+  "target": 89,
+  "constraint": -1.0,
+  "validation_mean": 95.60377467973176,
+  "validation_standard_error": 0.09172677802742937,
+  "validation_runs": 256,
+  "spent": 120,
+  "completed_runs": 120,
+  "observations": 120,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 120,
+  "budget_unit": "individual_runs"
+}
+Saved 'single_run' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/production/instance-0/seed-0/single_run
+[ignore_reported_variance] 1 observations; 1.00/120 individual_runs
+[ignore_reported_variance] 10 observations; 10.00/120 individual_runs
+[ignore_reported_variance] 20 observations; 36.00/120 individual_runs
+[ignore_reported_variance] 30 observations; 66.00/120 individual_runs
+[ignore_reported_variance] 40 observations; 96.00/120 individual_runs
+{
+  "recommendation": [
+    0.6670572662150772,
+    0.897922698265751,
+    0.40535313272569135
+  ],
+  "true_mean": 65.72421151483543,
+  "feasible": true,
+  "passed": false,
+  "target": 89,
+  "constraint": -1.0,
+  "validation_mean": 65.80106240484719,
+  "validation_standard_error": 1.5687350480250772,
+  "validation_runs": 256,
+  "spent": 120,
+  "completed_runs": 120,
+  "observations": 48,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 120,
+  "budget_unit": "individual_runs"
+}
+Saved 'ignore_reported_variance' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/production/instance-0/seed-0/ignore_reported_variance

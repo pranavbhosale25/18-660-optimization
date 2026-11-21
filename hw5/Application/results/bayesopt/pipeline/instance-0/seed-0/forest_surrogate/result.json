@@ -1,0 +1,105 @@
+{
+  "task": "pipeline",
+  "seed": 0,
+  "config": {
+    "strategy": "bo",
+    "surrogate": "forest",
+    "kernel": "matern52",
+    "warp": "none",
+    "mixed_encoding": "activity",
+    "acquisition": "ei",
+    "optimizer": "candidates",
+    "hyper_method": "fixed",
+    "hyper_steps": 30,
+    "refit_every": 6,
+    "hyper_optimizer": "adam",
+    "lengthscale": 0.3,
+    "noise": 0.04,
+    "beta": 2.0,
+    "xi": 0.01,
+    "candidates": 768,
+    "local_fraction": 0.5,
+    "local_scale": 0.12,
+    "optimizer_steps": 35,
+    "optimizer_restarts": 4,
+    "known_noise": false,
+    "incumbent": "observed",
+    "recommendation": "posterior",
+    "feasibility": false,
+    "cost_aware": false,
+    "cost_mode": "divide_expected_cost",
+    "n_trees": 32,
+    "tree_depth": 5,
+    "min_leaf": 2,
+    "embedding_dimension": 0,
+    "embeddings": 1,
+    "embedding_bound": 0.75,
+    "replicates": 1,
+    "allow_repeats": false
+  },
+  "score": {
+    "recommendation": [
+      1.0,
+      14.0,
+      7.0,
+      0.0,
+      15.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 97.84589922333447,
+    "feasible": true,
+    "passed": false,
+    "target": 98.6,
+    "constraint": -1.0,
+    "validation_mean": 97.8467987602343,
+    "validation_standard_error": 0.01836198723976751,
+    "validation_runs": 256,
+    "spent": 80,
+    "completed_runs": 80,
+    "observations": 80,
+    "canceled_reservation": 0.0,
+    "instance": 0,
+    "split": "development",
+    "simulator_version": "1.0",
+    "budget": 80,
+    "budget_unit": "experiments"
+  },
+  "diagnostics": {
+    "counts_by_embedding": [
+      80
+    ],
+    "fitted_parameters": [
+      [
+        {
+          "log_amplitude": 0.0,
+          "log_lengthscale": [
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361,
+            -1.2039728043259361
+          ]
+        },
+        -3.2188758248682006,
+        0.0
+      ]
+    ],
+    "pending": false
+  },
+  "elapsed_seconds": 4.048487625084817
+}

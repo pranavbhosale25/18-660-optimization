@@ -1,0 +1,68 @@
+[
+  {
+    "step": 10,
+    "spent": 44.74252690264977,
+    "recommendation": [
+      0.1,
+      0.15,
+      0.5
+    ],
+    "true_mean": 32.93689756457148,
+    "feasible": true
+  },
+  {
+    "step": 20,
+    "spent": 59.6855004864214,
+    "recommendation": [
+      0.1,
+      0.15,
+      0.5
+    ],
+    "true_mean": 32.93689756457148,
+    "feasible": true
+  },
+  {
+    "step": 30,
+    "spent": 75.6835258637974,
+    "recommendation": [
+      0.1,
+      0.15,
+      0.5
+    ],
+    "true_mean": 32.93689756457148,
+    "feasible": true
+  },
+  {
+    "step": 40,
+    "spent": 91.62884678414552,
+    "recommendation": [
+      0.1,
+      0.15,
+      0.5
+    ],
+    "true_mean": 32.93689756457148,
+    "feasible": true
+  },
+  {
+    "step": 50,
+    "spent": 110.13878294283882,
+    "recommendation": [
+      0.1,
+      0.15,
+      0.5
+    ],
+    "true_mean": 32.93689756457148,
+    "feasible": true
+  },
+  {
+    "step": 57,
+    "spent": 119.9995612440288,
+    "recommendation": [
+      0.1,
+      0.15,
+      0.5
+    ],
+    "true_mean": 32.93689756457148,
+    "feasible": true
+  }
+]

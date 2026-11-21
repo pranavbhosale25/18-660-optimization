@@ -1,0 +1,91 @@
+Running: /Users/pranav.bhosale/Downloads/Student_Distribution-5/.venv/bin/python -m pytest -q
+........................................................................ [ 64%]
+........................................                                 [100%]
+112 passed in 66.43s (0:01:06)
+Running: /Users/pranav.bhosale/Downloads/Student_Distribution-5/.venv/bin/python -m pytest -q
+........................................................................ [ 80%]
+..................                                                       [100%]
+90 passed in 17.08s
+Running: /Users/pranav.bhosale/Downloads/Student_Distribution-5/.venv-l2ws/bin/python -m pytest -q
+.................................................                        [100%]
+49 passed in 12.58s
+Running: /Users/pranav.bhosale/Downloads/Student_Distribution-5/.venv-l2ws/bin/python scripts/check_problem.py --problem kinematics --dtype float64 --device cpu
+{
+  "problem": "kinematics",
+  "checks": "passed",
+  "runtime": {
+    "dtype": "float64",
+    "backend": "cpu",
+    "device": "cpu:0",
+    "device_kind": "cpu",
+    "jax": "0.12.0.1",
+    "x64_enabled": true
+  },
+  "jit": true,
+  "compiled_eager_agreement": "passed",
+  "finite_difference_base_epsilon": 6.0554544523933395e-06,
+  "sampled_checks": [
+    {
+      "shifted": false,
+      "max_directional_gradient_error": 8.860245870323524e-11,
+      "max_feasibility_violation": 0.0,
+      "largest_objective_increase": 0.0,
+      "mean_initial_objective": 0.9806598576655077,
+      "mean_refined_objective": 0.013589077433121613
+    },
+    {
+      "shifted": true,
+      "max_directional_gradient_error": 6.38724628743148e-11,
+      "max_feasibility_violation": 0.0,
+      "largest_objective_increase": 0.0,
+      "mean_initial_objective": 4.016092445769748,
+      "mean_refined_objective": 0.37843612150791117
+    }
+  ],
+  "short_training_updates": 10,
+  "training_unroll": 2,
+  "selected_update": 10,
+  "initial_validation_loss": 1.153737837929198,
+  "final_logged_validation_loss": 1.0460399033547878,
+  "note": "These self-consistency checks do not compare the submitted objective with the assigned mathematical formula, establish semantic correctness, prove a global curvature bound, certify optimality, or establish generalization or a speedup."
+}
+Running: /Users/pranav.bhosale/Downloads/Student_Distribution-5/.venv-l2ws/bin/python scripts/check_problem.py --problem phase --dtype float64 --device cpu
+{
+  "problem": "phase",
+  "checks": "passed",
+  "runtime": {
+    "dtype": "float64",
+    "backend": "cpu",
+    "device": "cpu:0",
+    "device_kind": "cpu",
+    "jax": "0.12.0.1",
+    "x64_enabled": true
+  },
+  "jit": true,
+  "compiled_eager_agreement": "passed",
+  "finite_difference_base_epsilon": 6.0554544523933395e-06,
+  "sampled_checks": [
+    {
+      "shifted": false,
+      "max_directional_gradient_error": 1.570440999465461e-11,
+      "max_feasibility_violation": 0.0,
+      "largest_objective_increase": 0.0,
+      "mean_initial_objective": 0.023872220382764674,
+      "mean_refined_objective": 0.004452659449819592
+    },
+    {
+      "shifted": true,
+      "max_directional_gradient_error": 5.188689755630804e-12,
+      "max_feasibility_violation": 0.0,
+      "largest_objective_increase": 0.0,
+      "mean_initial_objective": 0.018096329953061943,
+      "mean_refined_objective": 0.004871892847230014
+    }
+  ],
+  "short_training_updates": 10,
+  "training_unroll": 2,
+  "selected_update": 10,
+  "initial_validation_loss": 0.01926909678116681,
+  "final_logged_validation_loss": 0.006326257221144077,
+  "note": "These self-consistency checks do not compare the submitted objective with the assigned mathematical formula, establish semantic correctness, prove a global curvature bound, certify optimality, or establish generalization or a speedup."
+}

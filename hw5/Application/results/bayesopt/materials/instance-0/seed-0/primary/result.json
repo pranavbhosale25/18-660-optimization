@@ -1,0 +1,85 @@
+{
+  "task": "materials",
+  "seed": 0,
+  "config": {
+    "strategy": "bo",
+    "surrogate": "gp",
+    "kernel": "matern52",
+    "warp": "none",
+    "mixed_encoding": "activity",
+    "acquisition": "ei",
+    "optimizer": "candidates",
+    "hyper_method": "map",
+    "hyper_steps": 30,
+    "refit_every": 6,
+    "hyper_optimizer": "adam",
+    "lengthscale": 0.3,
+    "noise": 0.02,
+    "beta": 2.0,
+    "xi": 0.01,
+    "candidates": 512,
+    "local_fraction": 0.5,
+    "local_scale": 0.12,
+    "optimizer_steps": 35,
+    "optimizer_restarts": 4,
+    "known_noise": false,
+    "incumbent": "observed",
+    "recommendation": "posterior",
+    "feasibility": true,
+    "cost_aware": true,
+    "cost_mode": "divide_expected_cost",
+    "n_trees": 32,
+    "tree_depth": 5,
+    "min_leaf": 2,
+    "embedding_dimension": 0,
+    "embeddings": 1,
+    "embedding_bound": 0.75,
+    "replicates": 1,
+    "allow_repeats": false
+  },
+  "score": {
+    "recommendation": [
+      0.3122025602415672,
+      0.25025554869707806,
+      0.550049266399784
+    ],
+    "true_mean": 88.85106293061784,
+    "feasible": true,
+    "passed": true,
+    "target": 88,
+    "constraint": -0.2252951053455886,
+    "validation_mean": 88.85181254470105,
+    "validation_standard_error": 0.015301656033139616,
+    "validation_runs": 256,
+    "spent": 120,
+    "completed_runs": 29,
+    "observations": 29,
+    "canceled_reservation": 4.360108392697256,
+    "instance": 0,
+    "split": "development",
+    "simulator_version": "1.0",
+    "budget": 120,
+    "budget_unit": "laboratory_credits"
+  },
+  "diagnostics": {
+    "counts_by_embedding": [
+      29
+    ],
+    "fitted_parameters": [
+      [
+        {
+          "log_amplitude": -0.1126764380308999,
+          "log_lengthscale": [
+            -1.624944718210652,
+            -1.2361227956471466,
+            -1.0148075379728494
+          ]
+        },
+        -4.662252450152706,
+        -1.1032646573741127
+      ]
+    ],
+    "pending": true
+  },
+  "elapsed_seconds": 2.2413424589904025
+}

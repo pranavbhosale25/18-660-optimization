@@ -1,0 +1,20 @@
+{
+  "actor_checkpoint": "actor.npz",
+  "algorithm": "reinforce",
+  "case": "cc",
+  "collection": "episodes",
+  "critic_learning_rate": 0.001,
+  "dtype": "float32",
+  "entropy_coefficient": 0.01,
+  "gamma": 0.99,
+  "horizon": "mc",
+  "iterations": 100,
+  "learning_rate": 0.003,
+  "missing": "bootstrap",
+  "num_envs": 8,
+  "optimizer": "adam",
+  "platform": "cpu",
+  "rollout_length": 500,
+  "seed": 0,
+  "tail": "zero"
+}

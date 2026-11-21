@@ -1,0 +1,86 @@
+[primary] 1 observations; 1.05/120 laboratory_credits
+[primary] 10 observations; 31.44/120 laboratory_credits
+[primary] 20 observations; 67.68/120 laboratory_credits
+{
+  "recommendation": [
+    0.3122025602415672,
+    0.25025554869707806,
+    0.550049266399784
+  ],
+  "true_mean": 88.85106293061784,
+  "feasible": true,
+  "passed": true,
+  "target": 88,
+  "constraint": -0.2252951053455886,
+  "validation_mean": 88.85181254470105,
+  "validation_standard_error": 0.015301656033139616,
+  "validation_runs": 256,
+  "spent": 120,
+  "completed_runs": 29,
+  "observations": 29,
+  "canceled_reservation": 4.360108392697256,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 120,
+  "budget_unit": "laboratory_credits"
+}
+Saved 'primary' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/materials/instance-0/seed-0/primary
+[ignore_cost] 1 observations; 1.05/120 laboratory_credits
+[ignore_cost] 10 observations; 85.80/120 laboratory_credits
+{
+  "recommendation": [
+    0.512672023786818,
+    0.9017365654299728,
+    0.4342084902651163
+  ],
+  "true_mean": 86.41137348225838,
+  "feasible": true,
+  "passed": false,
+  "target": 88,
+  "constraint": -0.18850986400505698,
+  "validation_mean": 86.41212309634157,
+  "validation_standard_error": 0.015301656033139616,
+  "validation_runs": 256,
+  "spent": 120,
+  "completed_runs": 12,
+  "observations": 12,
+  "canceled_reservation": 6.329275162956691,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 120,
+  "budget_unit": "laboratory_credits"
+}
+Saved 'ignore_cost' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/materials/instance-0/seed-0/ignore_cost
+[ignore_feasibility] 1 observations; 1.05/120 laboratory_credits
+[ignore_feasibility] 10 observations; 44.74/120 laboratory_credits
+[ignore_feasibility] 20 observations; 59.69/120 laboratory_credits
+[ignore_feasibility] 30 observations; 75.68/120 laboratory_credits
+[ignore_feasibility] 40 observations; 91.63/120 laboratory_credits
+[ignore_feasibility] 50 observations; 110.14/120 laboratory_credits
+{
+  "recommendation": [
+    0.1,
+    0.15,
+    0.5
+  ],
+  "true_mean": 32.93689756457148,
+  "feasible": true,
+  "passed": false,
+  "target": 88,
+  "constraint": -0.4590983005625052,
+  "validation_mean": 32.93764717865467,
+  "validation_standard_error": 0.0153016560331396,
+  "validation_runs": 256,
+  "spent": 119.9995612440288,
+  "completed_runs": 57,
+  "observations": 57,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 120,
+  "budget_unit": "laboratory_credits"
+}
+Saved 'ignore_feasibility' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/materials/instance-0/seed-0/ignore_feasibility

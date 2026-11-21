@@ -1,0 +1,149 @@
+{
+  "config": {
+    "steps": 1000,
+    "unroll": 0,
+    "loss": "objective",
+    "width": 128,
+    "learning_rate": 0.003,
+    "batch_size": 64,
+    "train_size": 1024,
+    "validation_size": 128,
+    "validate_every": 50,
+    "grad_clip": 10.0,
+    "seed": 7,
+    "jit": true
+  },
+  "history": [
+    {
+      "step": 0,
+      "train_loss": null,
+      "validation_loss": 2.219972348496761,
+      "validation_objective": 2.219972348496761
+    },
+    {
+      "step": 50,
+      "train_loss": 0.17374062965281456,
+      "validation_loss": 0.17718616937235018,
+      "validation_objective": 0.17718616937235018
+    },
+    {
+      "step": 100,
+      "train_loss": 0.13883737416266156,
+      "validation_loss": 0.13989345935518885,
+      "validation_objective": 0.13989345935518885
+    },
+    {
+      "step": 150,
+      "train_loss": 0.09442399078239275,
+      "validation_loss": 0.09936662106714618,
+      "validation_objective": 0.09936662106714618
+    },
+    {
+      "step": 200,
+      "train_loss": 0.057530937262687404,
+      "validation_loss": 0.07535595277468271,
+      "validation_objective": 0.07535595277468271
+    },
+    {
+      "step": 250,
+      "train_loss": 0.08234764312985607,
+      "validation_loss": 0.06996645390936826,
+      "validation_objective": 0.06996645390936826
+    },
+    {
+      "step": 300,
+      "train_loss": 0.06035556079012501,
+      "validation_loss": 0.06790812916563133,
+      "validation_objective": 0.06790812916563133
+    },
+    {
+      "step": 350,
+      "train_loss": 0.05595117364995636,
+      "validation_loss": 0.06824480504571874,
+      "validation_objective": 0.06824480504571874
+    },
+    {
+      "step": 400,
+      "train_loss": 0.06139156073636261,
+      "validation_loss": 0.06763415226543941,
+      "validation_objective": 0.06763415226543941
+    },
+    {
+      "step": 450,
+      "train_loss": 0.08016704439598363,
+      "validation_loss": 0.06440632225615053,
+      "validation_objective": 0.06440632225615053
+    },
+    {
+      "step": 500,
+      "train_loss": 0.06323444069908452,
+      "validation_loss": 0.06767906343992655,
+      "validation_objective": 0.06767906343992655
+    },
+    {
+      "step": 550,
+      "train_loss": 0.07946771410395126,
+      "validation_loss": 0.0656423050451818,
+      "validation_objective": 0.0656423050451818
+    },
+    {
+      "step": 600,
+      "train_loss": 0.05901982419010445,
+      "validation_loss": 0.07908104730428267,
+      "validation_objective": 0.07908104730428267
+    },
+    {
+      "step": 650,
+      "train_loss": 0.06134027685752014,
+      "validation_loss": 0.0661487223537768,
+      "validation_objective": 0.0661487223537768
+    },
+    {
+      "step": 700,
+      "train_loss": 0.06195727543681873,
+      "validation_loss": 0.06550466805593957,
+      "validation_objective": 0.06550466805593957
+    },
+    {
+      "step": 750,
+      "train_loss": 0.054882839203109275,
+      "validation_loss": 0.06585541490031165,
+      "validation_objective": 0.06585541490031165
+    },
+    {
+      "step": 800,
+      "train_loss": 0.054007557736536364,
+      "validation_loss": 0.0657300391218985,
+      "validation_objective": 0.0657300391218985
+    },
+    {
+      "step": 850,
+      "train_loss": 0.06326267848981515,
+      "validation_loss": 0.06296804988804945,
+      "validation_objective": 0.06296804988804945
+    },
+    {
+      "step": 900,
+      "train_loss": 0.05927670954441339,
+      "validation_loss": 0.062071478071731384,
+      "validation_objective": 0.062071478071731384
+    },
+    {
+      "step": 950,
+      "train_loss": 0.057415283969565564,
+      "validation_loss": 0.05895395524760051,
+      "validation_objective": 0.05895395524760051
+    },
+    {
+      "step": 1000,
+      "train_loss": 0.07190075275704666,
+      "validation_loss": 0.0602373146340203,
+      "validation_objective": 0.0602373146340203
+    }
+  ],
+  "elapsed_seconds": 0.45375633297953755,
+  "compilation_seconds": 0.2169563330244273,
+  "execution_seconds": 0.22968204226344824,
+  "best_step": 950,
+  "reference_info": null
+}

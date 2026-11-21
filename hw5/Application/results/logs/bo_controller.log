@@ -1,0 +1,162 @@
+[primary] 1 observations; 1.00/75 experiments
+[primary] 10 observations; 10.00/75 experiments
+[primary] 20 observations; 20.00/75 experiments
+[primary] 30 observations; 30.00/75 experiments
+[primary] 40 observations; 40.00/75 experiments
+[primary] 50 observations; 50.00/75 experiments
+[primary] 60 observations; 60.00/75 experiments
+[primary] 70 observations; 70.00/75 experiments
+{
+  "recommendation": [
+    -0.11900892968144583,
+    -0.7275439854657176,
+    -0.327827660132912,
+    -0.505688042119298,
+    -0.05747145221804051,
+    -0.3321089324704709,
+    -0.5191021418079008,
+    -0.6086170576631471,
+    -0.2545323487093345,
+    -0.08862070310907644,
+    -0.31346013189952426,
+    -0.23641901650818997,
+    0.3502709061829039,
+    -0.021560427179544317,
+    0.23115634732551005,
+    0.8090524138163895,
+    -0.32468607361698654,
+    0.14446317917940066,
+    0.2052147898007728,
+    0.6269238845679457,
+    -0.2758690591906314,
+    -0.002711268743339157,
+    0.27256009842397333,
+    0.7286346996254471
+  ],
+  "true_mean": 99.80036338400406,
+  "feasible": true,
+  "passed": true,
+  "target": 97,
+  "constraint": -1.0,
+  "validation_mean": 99.80111299808725,
+  "validation_standard_error": 0.015301656033139616,
+  "validation_runs": 256,
+  "spent": 75,
+  "completed_runs": 75,
+  "observations": 75,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 75,
+  "budget_unit": "experiments"
+}
+Saved 'primary' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/controller/instance-0/seed-0/primary
+[ambient_gp] 1 observations; 1.00/75 experiments
+[ambient_gp] 10 observations; 10.00/75 experiments
+[ambient_gp] 20 observations; 20.00/75 experiments
+[ambient_gp] 30 observations; 30.00/75 experiments
+[ambient_gp] 40 observations; 40.00/75 experiments
+[ambient_gp] 50 observations; 50.00/75 experiments
+[ambient_gp] 60 observations; 60.00/75 experiments
+[ambient_gp] 70 observations; 70.00/75 experiments
+{
+  "recommendation": [
+    -0.19287087541043557,
+    0.06027000008917471,
+    0.5618062414018268,
+    0.7250328602767055,
+    0.28972411160910894,
+    0.7668403254186869,
+    0.3347455376964428,
+    0.11402996371703766,
+    -1.0,
+    0.23268891673825598,
+    -0.947103246954605,
+    -0.043298499797306045,
+    -0.7740289328651213,
+    0.4287399414084243,
+    0.7101661556139276,
+    -0.5276285461299423,
+    0.1669624744153766,
+    -0.15978352467830081,
+    0.7330158141676846,
+    -0.78318571405835,
+    -0.09446333744937796,
+    0.9614254956035444,
+    0.100698108203229,
+    -0.969514732486081
+  ],
+  "true_mean": 97.53054769222967,
+  "feasible": true,
+  "passed": true,
+  "target": 97,
+  "constraint": -1.0,
+  "validation_mean": 97.53129730631288,
+  "validation_standard_error": 0.015301656033139616,
+  "validation_runs": 256,
+  "spent": 75,
+  "completed_runs": 75,
+  "observations": 75,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 75,
+  "budget_unit": "experiments"
+}
+Saved 'ambient_gp' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/controller/instance-0/seed-0/ambient_gp
+[random_search] 1 observations; 1.00/75 experiments
+[random_search] 10 observations; 10.00/75 experiments
+[random_search] 20 observations; 20.00/75 experiments
+[random_search] 30 observations; 30.00/75 experiments
+[random_search] 40 observations; 40.00/75 experiments
+[random_search] 50 observations; 50.00/75 experiments
+[random_search] 60 observations; 60.00/75 experiments
+[random_search] 70 observations; 70.00/75 experiments
+{
+  "recommendation": [
+    -0.6563433100575415,
+    -0.5517166932412687,
+    -0.500391052644686,
+    -0.6063496777777138,
+    0.16727488388954326,
+    0.991703037426809,
+    0.5707704982115644,
+    -0.6954307749587789,
+    -0.37832651772418213,
+    -0.2731501704991621,
+    0.592309210832004,
+    0.4494106468890431,
+    -0.7632326475107911,
+    -0.3594439808936398,
+    0.28756663260614745,
+    -0.8590309118094108,
+    -0.5021706556535181,
+    -0.8772512158706651,
+    -0.8884108128534756,
+    -0.29618531568706175,
+    -0.6238410360061195,
+    -0.299749244747479,
+    0.21081509584027192,
+    0.7042902431827383
+  ],
+  "true_mean": 73.34721299098862,
+  "feasible": true,
+  "passed": false,
+  "target": 97,
+  "constraint": -1.0,
+  "validation_mean": 73.34796260507181,
+  "validation_standard_error": 0.015301656033139616,
+  "validation_runs": 256,
+  "spent": 75,
+  "completed_runs": 75,
+  "observations": 75,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 75,
+  "budget_unit": "experiments"
+}
+Saved 'random_search' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/controller/instance-0/seed-0/random_search

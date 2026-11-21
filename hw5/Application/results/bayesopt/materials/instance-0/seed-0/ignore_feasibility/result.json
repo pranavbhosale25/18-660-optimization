@@ -1,0 +1,85 @@
+{
+  "task": "materials",
+  "seed": 0,
+  "config": {
+    "strategy": "bo",
+    "surrogate": "gp",
+    "kernel": "matern52",
+    "warp": "none",
+    "mixed_encoding": "activity",
+    "acquisition": "ei",
+    "optimizer": "candidates",
+    "hyper_method": "map",
+    "hyper_steps": 30,
+    "refit_every": 6,
+    "hyper_optimizer": "adam",
+    "lengthscale": 0.3,
+    "noise": 0.02,
+    "beta": 2.0,
+    "xi": 0.01,
+    "candidates": 512,
+    "local_fraction": 0.5,
+    "local_scale": 0.12,
+    "optimizer_steps": 35,
+    "optimizer_restarts": 4,
+    "known_noise": false,
+    "incumbent": "observed",
+    "recommendation": "posterior",
+    "feasibility": false,
+    "cost_aware": true,
+    "cost_mode": "divide_expected_cost",
+    "n_trees": 32,
+    "tree_depth": 5,
+    "min_leaf": 2,
+    "embedding_dimension": 0,
+    "embeddings": 1,
+    "embedding_bound": 0.75,
+    "replicates": 1,
+    "allow_repeats": false
+  },
+  "score": {
+    "recommendation": [
+      0.1,
+      0.15,
+      0.5
+    ],
+    "true_mean": 32.93689756457148,
+    "feasible": true,
+    "passed": false,
+    "target": 88,
+    "constraint": -0.4590983005625052,
+    "validation_mean": 32.93764717865467,
+    "validation_standard_error": 0.0153016560331396,
+    "validation_runs": 256,
+    "spent": 119.9995612440288,
+    "completed_runs": 57,
+    "observations": 57,
+    "canceled_reservation": 0.0,
+    "instance": 0,
+    "split": "development",
+    "simulator_version": "1.0",
+    "budget": 120,
+    "budget_unit": "laboratory_credits"
+  },
+  "diagnostics": {
+    "counts_by_embedding": [
+      57
+    ],
+    "fitted_parameters": [
+      [
+        {
+          "log_amplitude": 0.7166526219630628,
+          "log_lengthscale": [
+            -0.9463678780526901,
+            -0.5065744099588401,
+            -0.42710639893286023
+          ]
+        },
+        -4.615366198610273,
+        -1.3600833607523868
+      ]
+    ],
+    "pending": false
+  },
+  "elapsed_seconds": 1.0659283329732716
+}

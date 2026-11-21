@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reinforce-jax"
+version = "0.1.0"
+description = "Modular native-JAX policy gradients, configurable return horizons, and pathwise control"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Carnegie Mellon University"}]
+requires-python = ">=3.10"
+dependencies = ["jax>=0.4.35", "numpy>=1.26"]
+
+[project.optional-dependencies]
+gym = ["gymnasium>=1.0,<2"]
+visualize = [
+    "gymnasium[classic-control,toy-text,other]>=1.0,<2",
+]
+optax = ["optax>=0.2.4"]
+test = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["reinforce_jax*", "examples*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

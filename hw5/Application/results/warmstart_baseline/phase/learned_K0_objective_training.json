@@ -1,0 +1,65 @@
+{
+  "config": {
+    "steps": 300,
+    "unroll": 0,
+    "loss": "objective",
+    "width": 64,
+    "learning_rate": 0.002,
+    "batch_size": 64,
+    "train_size": 1024,
+    "validation_size": 128,
+    "validate_every": 50,
+    "grad_clip": 10.0,
+    "seed": 7,
+    "jit": true
+  },
+  "history": [
+    {
+      "step": 0,
+      "train_loss": null,
+      "validation_loss": 0.02445687304825621,
+      "validation_objective": 0.02445687304825621
+    },
+    {
+      "step": 50,
+      "train_loss": 0.00038265571969020834,
+      "validation_loss": 0.0003444223324184106,
+      "validation_objective": 0.0003444223324184106
+    },
+    {
+      "step": 100,
+      "train_loss": 0.00018574447815154457,
+      "validation_loss": 0.00016991916602528273,
+      "validation_objective": 0.00016991916602528273
+    },
+    {
+      "step": 150,
+      "train_loss": 9.574344222561844e-05,
+      "validation_loss": 0.00010903318909676983,
+      "validation_objective": 0.00010903318909676983
+    },
+    {
+      "step": 200,
+      "train_loss": 8.009061722117762e-05,
+      "validation_loss": 8.302156487847303e-05,
+      "validation_objective": 8.302156487847303e-05
+    },
+    {
+      "step": 250,
+      "train_loss": 0.00010991578326087611,
+      "validation_loss": 6.278020800746294e-05,
+      "validation_objective": 6.278020800746294e-05
+    },
+    {
+      "step": 300,
+      "train_loss": 6.420125588564842e-05,
+      "validation_loss": 5.214937677962538e-05,
+      "validation_objective": 5.214937677962538e-05
+    }
+  ],
+  "elapsed_seconds": 1.0230872080428526,
+  "compilation_seconds": 0.40103100007399917,
+  "execution_seconds": 0.0883496250025928,
+  "best_step": 300,
+  "reference_info": null
+}

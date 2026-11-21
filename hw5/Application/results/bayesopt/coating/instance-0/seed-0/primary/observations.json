@@ -1,0 +1,632 @@
+[
+  {
+    "x": [
+      0.24000118570761048,
+      0.6284053571840077,
+      0.7679685174805093
+    ],
+    "y": 46.81564228248607,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 1.0,
+    "cumulative_runs": 1
+  },
+  {
+    "x": [
+      0.1528758399473275,
+      0.9371521614079289,
+      0.6371001031793185
+    ],
+    "y": 49.32526719136073,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 2.0,
+    "cumulative_runs": 2
+  },
+  {
+    "x": [
+      0.02038443706771102,
+      0.5096586404925956,
+      0.5465103050865309
+    ],
+    "y": 50.288075012140574,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 3.0,
+    "cumulative_runs": 3
+  },
+  {
+    "x": [
+      0.8894096882867696,
+      0.19723026435433466,
+      0.09602639918981064
+    ],
+    "y": 66.37961823923408,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 4.0,
+    "cumulative_runs": 4
+  },
+  {
+    "x": [
+      0.5835811761214216,
+      0.7988188075272517,
+      0.17333820711110265
+    ],
+    "y": 52.13628850305424,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 5.0,
+    "cumulative_runs": 5
+  },
+  {
+    "x": [
+      0.7559776746247205,
+      0.34379674515127234,
+      0.9387044699976568
+    ],
+    "y": 55.00731612753388,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 6.0,
+    "cumulative_runs": 6
+  },
+  {
+    "x": [
+      0.49273240442970706,
+      0.26591357759630313,
+      0.8763700173849527
+    ],
+    "y": 51.55179843676505,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 7.0,
+    "cumulative_runs": 7
+  },
+  {
+    "x": [
+      0.42392962795980677,
+      0.02452452177785553,
+      0.3029256554372557
+    ],
+    "y": 45.826948848804314,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 8.0,
+    "cumulative_runs": 8
+  },
+  {
+    "x": [
+      0.8625009165962885,
+      0.6849652062767616,
+      0.4307427764244709
+    ],
+    "y": 71.37955381120813,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 9.0,
+    "cumulative_runs": 9
+  },
+  {
+    "x": [
+      0.9248836188548699,
+      0.646875094155867,
+      0.33936343032780486
+    ],
+    "y": 60.48007712635332,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 10.0,
+    "cumulative_runs": 10
+  },
+  {
+    "x": [
+      0.8160238062217094,
+      0.7054629576699261,
+      0.4560731216404697
+    ],
+    "y": 73.68878067684751,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 11.0,
+    "cumulative_runs": 11
+  },
+  {
+    "x": [
+      0.7917899891495552,
+      0.43111233984924935,
+      0.39147978892712376
+    ],
+    "y": 75.68723429376344,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 12.0,
+    "cumulative_runs": 12
+  },
+  {
+    "x": [
+      0.8190628618099401,
+      0.39618462608052973,
+      0.4784744828414935
+    ],
+    "y": 82.90720248949435,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 13.0,
+    "cumulative_runs": 13
+  },
+  {
+    "x": [
+      0.8339415244501236,
+      0.31666427764661853,
+      0.5291808125730928
+    ],
+    "y": 88.78703471129349,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 14.0,
+    "cumulative_runs": 14
+  },
+  {
+    "x": [
+      0.8657911846602309,
+      0.15506977426099722,
+      0.606206729740346
+    ],
+    "y": 97.25122174033963,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 15.0,
+    "cumulative_runs": 15
+  },
+  {
+    "x": [
+      0.9096983363582617,
+      0.0349899356213134,
+      0.6147000768281697
+    ],
+    "y": 67.07118836334351,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 16.0,
+    "cumulative_runs": 16
+  },
+  {
+    "x": [
+      0.790496998141232,
+      0.2027366642601891,
+      0.632801544537929
+    ],
+    "y": 96.30887970350301,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 17.0,
+    "cumulative_runs": 17
+  },
+  {
+    "x": [
+      0.8536483133064537,
+      0.2676991036985691,
+      0.6394164620614251
+    ],
+    "y": 90.72402198685467,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 18.0,
+    "cumulative_runs": 18
+  },
+  {
+    "x": [
+      0.8161568051223416,
+      0.07622933298691507,
+      0.6073829588831035
+    ],
+    "y": 91.87341000673695,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 19.0,
+    "cumulative_runs": 19
+  },
+  {
+    "x": [
+      0.8248553669037594,
+      0.24816920992826788,
+      0.58802830782552
+    ],
+    "y": 94.38324379991144,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 20.0,
+    "cumulative_runs": 20
+  },
+  {
+    "x": [
+      0.861495889444479,
+      0.15846586351327077,
+      0.5924175804513749
+    ],
+    "y": 97.62751993488132,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 21.0,
+    "cumulative_runs": 21
+  },
+  {
+    "x": [
+      0.6955259604093182,
+      0.16709989434513287,
+      0.7129078255006306
+    ],
+    "y": 85.48358374982786,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 22.0,
+    "cumulative_runs": 22
+  },
+  {
+    "x": [
+      0.66370107669268,
+      0.2928228931191894,
+      0.6043746172154384
+    ],
+    "y": 81.0469110095464,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 23.0,
+    "cumulative_runs": 23
+  },
+  {
+    "x": [
+      0.01329046828114766,
+      0.29192154827640593,
+      0.01986968570282177
+    ],
+    "y": 43.612286104261976,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 24.0,
+    "cumulative_runs": 24
+  },
+  {
+    "x": [
+      0.6655978784563699,
+      0.8487938246083668,
+      0.7360521168896867
+    ],
+    "y": 63.95946030444112,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 25.0,
+    "cumulative_runs": 25
+  },
+  {
+    "x": [
+      0.9838260155590186,
+      0.6096520031149908,
+      0.012647279045808535
+    ],
+    "y": 42.70348656681422,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 26.0,
+    "cumulative_runs": 26
+  },
+  {
+    "x": [
+      0.8517596303311338,
+      0.1973221764379074,
+      0.5956242894442396
+    ],
+    "y": 96.82858096133587,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 27.0,
+    "cumulative_runs": 27
+  },
+  {
+    "x": [
+      0.8362140219378346,
+      0.1549772748278877,
+      0.5997758388221117
+    ],
+    "y": 99.24824264113485,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 28.0,
+    "cumulative_runs": 28
+  },
+  {
+    "x": [
+      0.7945769281212773,
+      0.17645613767792795,
+      0.46274711474652613
+    ],
+    "y": 94.28305704616527,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 29.0,
+    "cumulative_runs": 29
+  },
+  {
+    "x": [
+      0.8316579719951742,
+      0.15099861544724147,
+      0.6591621356709241
+    ],
+    "y": 97.5928349329193,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 30.0,
+    "cumulative_runs": 30
+  },
+  {
+    "x": [
+      0.718342899994455,
+      0.12794433582841833,
+      0.49173477095078233
+    ],
+    "y": 91.9511412712486,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 31.0,
+    "cumulative_runs": 31
+  },
+  {
+    "x": [
+      0.7382602487334068,
+      0.19873426660668858,
+      0.533733767336874
+    ],
+    "y": 93.20493643764976,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 32.0,
+    "cumulative_runs": 32
+  },
+  {
+    "x": [
+      0.8126100863505384,
+      0.14621083785207517,
+      0.621567974078715
+    ],
+    "y": 100.1001241160436,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 33.0,
+    "cumulative_runs": 33
+  },
+  {
+    "x": [
+      0.8069992615225469,
+      0.13926263873426833,
+      0.589010852717033
+    ],
+    "y": 100.16345976374821,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 34.0,
+    "cumulative_runs": 34
+  },
+  {
+    "x": [
+      0.799207340519747,
+      0.1625023204651946,
+      0.6029466648699002
+    ],
+    "y": 99.65343106038175,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 35.0,
+    "cumulative_runs": 35
+  },
+  {
+    "x": [
+      0.7803121102522125,
+      0.14251806164487302,
+      0.5902000019946573
+    ],
+    "y": 99.85074530634373,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 36.0,
+    "cumulative_runs": 36
+  },
+  {
+    "x": [
+      0.8351938390249412,
+      0.6172254825526817,
+      0.7960744221539275
+    ],
+    "y": 65.71182219532483,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 37.0,
+    "cumulative_runs": 37
+  },
+  {
+    "x": [
+      0.9981778192538784,
+      0.9366421238144509,
+      0.5273466714063046
+    ],
+    "y": 45.68397642629797,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 38.0,
+    "cumulative_runs": 38
+  },
+  {
+    "x": [
+      0.7910763617475169,
+      0.14412214066188447,
+      0.6305340643262747
+    ],
+    "y": 98.5720111110532,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 39.0,
+    "cumulative_runs": 39
+  },
+  {
+    "x": [
+      0.8079668470766205,
+      0.15907564240018057,
+      0.554760029445947
+    ],
+    "y": 99.13433262889896,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 40.0,
+    "cumulative_runs": 40
+  },
+  {
+    "x": [
+      0.819055906921125,
+      0.14156734502799573,
+      0.5714698821694963
+    ],
+    "y": 99.87668778784901,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 41.0,
+    "cumulative_runs": 41
+  },
+  {
+    "x": [
+      0.06313482804573911,
+      0.7938561971436966,
+      0.004197508476394107
+    ],
+    "y": 40.72914070190939,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 42.0,
+    "cumulative_runs": 42
+  },
+  {
+    "x": [
+      1.0,
+      0.2712056928311754,
+      0.5272154872509233
+    ],
+    "y": 48.357287882395,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 43.0,
+    "cumulative_runs": 43
+  },
+  {
+    "x": [
+      0.8203768369027978,
+      0.1305166108564941,
+      0.5823511622952905
+    ],
+    "y": 100.0066682864348,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 44.0,
+    "cumulative_runs": 44
+  },
+  {
+    "x": [
+      0.805812344683526,
+      0.1373089422177618,
+      0.5914122535311057
+    ],
+    "y": 100.12460457219817,
+    "noise_variance": null,
+    "constraint": null,
+    "cost": 1.0,
+    "replicates": 1,
+    "cumulative_cost": 45,
+    "cumulative_runs": 45
+  }
+]

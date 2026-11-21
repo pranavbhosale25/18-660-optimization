@@ -1,0 +1,122 @@
+[
+  {
+    "step": 10,
+    "spent": 10.0,
+    "recommendation": [
+      1.0,
+      11.0,
+      2.0,
+      0.0,
+      13.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 93.1085240062764,
+    "feasible": true
+  },
+  {
+    "step": 20,
+    "spent": 20.0,
+    "recommendation": [
+      1.0,
+      16.0,
+      7.0,
+      0.0,
+      12.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 97.40589922333446,
+    "feasible": true
+  },
+  {
+    "step": 30,
+    "spent": 30.0,
+    "recommendation": [
+      1.0,
+      16.0,
+      6.0,
+      0.0,
+      14.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 98.75999999999999,
+    "feasible": true
+  },
+  {
+    "step": 40,
+    "spent": 40.0,
+    "recommendation": [
+      1.0,
+      16.0,
+      7.0,
+      0.0,
+      12.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 97.40589922333446,
+    "feasible": true
+  },
+  {
+    "step": 50,
+    "spent": 50.0,
+    "recommendation": [
+      1.0,
+      16.0,
+      6.0,
+      0.0,
+      11.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 99.11999999999999,
+    "feasible": true
+  },
+  {
+    "step": 60,
+    "spent": 60.0,
+    "recommendation": [
+      1.0,
+      16.0,
+      5.0,
+      0.0,
+      8.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 97.88589922333445,
+    "feasible": true
+  },
+  {
+    "step": 70,
+    "spent": 70.0,
+    "recommendation": [
+      1.0,
+      16.0,
+      7.0,
+      0.0,
+      8.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 97.88589922333445,
+    "feasible": true
+  },
+  {
+    "step": 80,
+    "spent": 80,
+    "recommendation": [
+      1.0,
+      14.0,
+      7.0,
+      0.0,
+      15.0,
+      0.0,
+      0.0
+    ],
+    "true_mean": 97.84589922333447,
+    "feasible": true
+  }
+]

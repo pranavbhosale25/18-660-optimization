@@ -1,0 +1,90 @@
+[primary] 1 observations; 1.00/45 experiments
+[primary] 10 observations; 10.00/45 experiments
+[primary] 20 observations; 20.00/45 experiments
+[primary] 30 observations; 30.00/45 experiments
+[primary] 40 observations; 40.00/45 experiments
+{
+  "recommendation": [
+    0.8069992615225469,
+    0.13926263873426833,
+    0.589010852717033
+  ],
+  "true_mean": 99.91466401380389,
+  "feasible": true,
+  "passed": true,
+  "target": 94,
+  "constraint": -1.0,
+  "validation_mean": 99.91571347352036,
+  "validation_standard_error": 0.021422318446395455,
+  "validation_runs": 256,
+  "spent": 45,
+  "completed_runs": 45,
+  "observations": 45,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 45,
+  "budget_unit": "experiments"
+}
+Saved 'primary' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/coating/instance-0/seed-0/primary
+[random_search] 1 observations; 1.00/45 experiments
+[random_search] 10 observations; 10.00/45 experiments
+[random_search] 20 observations; 20.00/45 experiments
+[random_search] 30 observations; 30.00/45 experiments
+[random_search] 40 observations; 40.00/45 experiments
+{
+  "recommendation": [
+    0.6768333918333884,
+    0.18288939979855323,
+    0.4893154808388165
+  ],
+  "true_mean": 86.94331636539066,
+  "feasible": true,
+  "passed": false,
+  "target": 94,
+  "constraint": -1.0,
+  "validation_mean": 86.94436582510713,
+  "validation_standard_error": 0.021422318446395455,
+  "validation_runs": 256,
+  "spent": 45,
+  "completed_runs": 45,
+  "observations": 45,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 45,
+  "budget_unit": "experiments"
+}
+Saved 'random_search' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/coating/instance-0/seed-0/random_search
+[rbf_kernel] 1 observations; 1.00/45 experiments
+[rbf_kernel] 10 observations; 10.00/45 experiments
+[rbf_kernel] 20 observations; 20.00/45 experiments
+[rbf_kernel] 30 observations; 30.00/45 experiments
+[rbf_kernel] 40 observations; 40.00/45 experiments
+{
+  "recommendation": [
+    0.810524656817177,
+    0.14145678075538984,
+    0.5748020525979813
+  ],
+  "true_mean": 99.9654402084983,
+  "feasible": true,
+  "passed": true,
+  "target": 94,
+  "constraint": -1.0,
+  "validation_mean": 99.96648966821476,
+  "validation_standard_error": 0.021422318446395455,
+  "validation_runs": 256,
+  "spent": 45,
+  "completed_runs": 45,
+  "observations": 45,
+  "canceled_reservation": 0.0,
+  "instance": 0,
+  "split": "development",
+  "simulator_version": "1.0",
+  "budget": 45,
+  "budget_unit": "experiments"
+}
+Saved 'rbf_kernel' results in /Users/pranav.bhosale/Downloads/Student_Distribution-5/Application/results/bayesopt/coating/instance-0/seed-0/rbf_kernel

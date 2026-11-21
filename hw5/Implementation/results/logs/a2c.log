@@ -1,0 +1,156 @@
+case=dd algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=      56 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=    0.506 critic_loss=    0.012 valid=56
+iter=  11 train_step=  11 rollout_step=     711 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=   -0.130 critic_loss=    0.002 valid=40
+iter=  21 train_step=  21 rollout_step=    1334 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=   -0.088 critic_loss=    0.000 valid=43
+iter=  31 train_step=  31 rollout_step=    1923 completed=  8 average_reward=    0.015 average_return=    0.125 actor_loss=    0.473 critic_loss=    0.047 valid=65
+iter=  41 train_step=  41 rollout_step=    2477 completed=  8 average_reward=    0.069 average_return=    0.500 actor_loss=    1.570 critic_loss=    0.122 valid=58
+iter=  51 train_step=  51 rollout_step=    2988 completed=  8 average_reward=    0.125 average_return=    0.875 actor_loss=    0.799 critic_loss=    0.056 valid=56
+iter=  61 train_step=  61 rollout_step=    3548 completed=  8 average_reward=    0.163 average_return=    1.000 actor_loss=    0.001 critic_loss=    0.004 valid=49
+iter=  71 train_step=  71 rollout_step=    4059 completed=  8 average_reward=    0.154 average_return=    1.000 actor_loss=    0.196 critic_loss=    0.004 valid=52
+iter=  81 train_step=  81 rollout_step=    4557 completed=  8 average_reward=    0.135 average_return=    0.875 actor_loss=   -0.724 critic_loss=    0.038 valid=52
+iter=  91 train_step=  91 rollout_step=    5053 completed=  8 average_reward=    0.163 average_return=    1.000 actor_loss=   -0.009 critic_loss=    0.000 valid=49
+iter= 100 train_step= 100 rollout_step=    5495 completed=  8 average_reward=    0.160 average_return=    1.000 actor_loss=    0.021 critic_loss=    0.000 valid=50
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/dd/a2c/seed-0/history.csv
+case=dc algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=       8 completed=  8 average_reward=   -0.068 average_return=   -0.068 actor_loss=    0.118 critic_loss=    0.429 valid=8
+iter=  11 train_step=  11 rollout_step=      88 completed=  8 average_reward=    0.383 average_return=    0.383 actor_loss=    0.046 critic_loss=    0.329 valid=8
+iter=  21 train_step=  21 rollout_step=     168 completed=  8 average_reward=    0.863 average_return=    0.863 actor_loss=    0.027 critic_loss=    0.062 valid=8
+iter=  31 train_step=  31 rollout_step=     248 completed=  8 average_reward=    0.887 average_return=    0.887 actor_loss=   -0.278 critic_loss=    0.024 valid=8
+iter=  41 train_step=  41 rollout_step=     328 completed=  8 average_reward=    0.884 average_return=    0.884 actor_loss=    0.128 critic_loss=    0.019 valid=8
+iter=  51 train_step=  51 rollout_step=     408 completed=  8 average_reward=    0.969 average_return=    0.969 actor_loss=    0.025 critic_loss=    0.006 valid=8
+iter=  61 train_step=  61 rollout_step=     488 completed=  8 average_reward=    0.928 average_return=    0.928 actor_loss=   -0.002 critic_loss=    0.003 valid=8
+iter=  71 train_step=  71 rollout_step=     568 completed=  8 average_reward=    0.897 average_return=    0.897 actor_loss=    0.029 critic_loss=    0.009 valid=8
+iter=  81 train_step=  81 rollout_step=     648 completed=  8 average_reward=    0.982 average_return=    0.982 actor_loss=    0.010 critic_loss=    0.001 valid=8
+iter=  91 train_step=  91 rollout_step=     728 completed=  8 average_reward=    0.991 average_return=    0.991 actor_loss=   -0.000 critic_loss=    0.000 valid=8
+iter= 100 train_step= 100 rollout_step=     800 completed=  8 average_reward=    0.996 average_return=    0.996 actor_loss=    0.009 critic_loss=    0.000 valid=8
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/dc/a2c/seed-0/history.csv
+case=cd algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=     246 completed=  8 average_reward=    1.000 average_return=   30.750 actor_loss=  113.458 critic_loss=   25.276 valid=246
+iter=  11 train_step=  11 rollout_step=    2789 completed=  8 average_reward=    1.000 average_return=   52.625 actor_loss=  181.386 critic_loss=   26.907 valid=421
+iter=  21 train_step=  21 rollout_step=    7811 completed=  8 average_reward=    1.000 average_return=   76.125 actor_loss=  203.285 critic_loss=   27.492 valid=609
+iter=  31 train_step=  31 rollout_step=   13474 completed=  8 average_reward=    1.000 average_return=   72.375 actor_loss=  175.551 critic_loss=   27.031 valid=579
+iter=  41 train_step=  41 rollout_step=   18821 completed=  8 average_reward=    1.000 average_return=   69.500 actor_loss=  166.846 critic_loss=   26.043 valid=556
+iter=  51 train_step=  51 rollout_step=   24658 completed=  8 average_reward=    1.000 average_return=   77.875 actor_loss=  164.562 critic_loss=   25.746 valid=623
+iter=  61 train_step=  61 rollout_step=   30748 completed=  8 average_reward=    1.000 average_return=   87.875 actor_loss=  167.399 critic_loss=   24.998 valid=703
+iter=  71 train_step=  71 rollout_step=   42415 completed=  8 average_reward=    1.000 average_return=  218.125 actor_loss=  236.721 critic_loss=   25.060 valid=1745
+iter=  81 train_step=  81 rollout_step=   60299 completed=  8 average_reward=    1.000 average_return=  258.625 actor_loss=  226.322 critic_loss=   23.926 valid=2069
+iter=  91 train_step=  91 rollout_step=   77919 completed=  8 average_reward=    1.000 average_return=  258.250 actor_loss=  208.796 critic_loss=   23.361 valid=2066
+iter= 100 train_step= 100 rollout_step=   90087 completed=  8 average_reward=    1.000 average_return=  139.500 actor_loss=  148.463 critic_loss=   25.168 valid=1116
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/cd/a2c/seed-0/history.csv
+case=cc algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=    1600 completed=  8 average_reward=   -6.800 average_return=-1359.955 actor_loss=-6210.691 critic_loss= 1570.516 valid=1600
+iter=  11 train_step=  11 rollout_step=   17600 completed=  8 average_reward=   -6.122 average_return=-1224.466 actor_loss=-5415.882 critic_loss= 1313.944 valid=1600
+iter=  21 train_step=  21 rollout_step=   33600 completed=  8 average_reward=   -5.367 average_return=-1073.460 actor_loss=-4956.076 critic_loss= 1196.578 valid=1600
+iter=  31 train_step=  31 rollout_step=   49600 completed=  8 average_reward=   -6.300 average_return=-1260.079 actor_loss=-5813.954 critic_loss= 1344.245 valid=1600
+iter=  41 train_step=  41 rollout_step=   65600 completed=  8 average_reward=   -6.170 average_return=-1234.021 actor_loss=-5432.571 critic_loss= 1369.330 valid=1600
+iter=  51 train_step=  51 rollout_step=   81600 completed=  8 average_reward=   -6.039 average_return=-1207.796 actor_loss=-4801.124 critic_loss= 1273.016 valid=1600
+iter=  61 train_step=  61 rollout_step=   97600 completed=  8 average_reward=   -7.565 average_return=-1513.037 actor_loss=-5604.871 critic_loss= 1753.314 valid=1600
+iter=  71 train_step=  71 rollout_step=  113600 completed=  8 average_reward=   -7.981 average_return=-1596.297 actor_loss=-5595.668 critic_loss= 1906.247 valid=1600
+iter=  81 train_step=  81 rollout_step=  129600 completed=  8 average_reward=   -7.509 average_return=-1501.765 actor_loss=-5764.959 critic_loss= 1754.971 valid=1600
+iter=  91 train_step=  91 rollout_step=  145600 completed=  8 average_reward=   -7.541 average_return=-1508.205 actor_loss=-5755.177 critic_loss= 1732.096 valid=1600
+iter= 100 train_step= 100 rollout_step=  160000 completed=  8 average_reward=   -6.655 average_return=-1330.990 actor_loss=-3806.262 critic_loss= 1464.316 valid=1600
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/cc/a2c/seed-0/history.csv
+case=dd algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=      63 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=   -0.769 critic_loss=    0.023 valid=63
+iter=  11 train_step=  11 rollout_step=     691 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=   -0.270 critic_loss=    0.001 valid=61
+iter=  21 train_step=  21 rollout_step=    1215 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=   -0.091 critic_loss=    0.001 valid=55
+iter=  31 train_step=  31 rollout_step=    1822 completed=  8 average_reward=    0.021 average_return=    0.125 actor_loss=    0.789 critic_loss=    0.061 valid=48
+iter=  41 train_step=  41 rollout_step=    2444 completed=  8 average_reward=    0.016 average_return=    0.125 actor_loss=    0.874 critic_loss=    0.042 valid=63
+iter=  51 train_step=  51 rollout_step=    3015 completed=  8 average_reward=    0.065 average_return=    0.375 actor_loss=    0.951 critic_loss=    0.099 valid=46
+iter=  61 train_step=  61 rollout_step=    3657 completed=  8 average_reward=    0.121 average_return=    1.000 actor_loss=   -0.092 critic_loss=    0.025 valid=66
+iter=  71 train_step=  71 rollout_step=    4200 completed=  8 average_reward=    0.154 average_return=    1.000 actor_loss=    0.005 critic_loss=    0.003 valid=52
+iter=  81 train_step=  81 rollout_step=    4724 completed=  8 average_reward=    0.148 average_return=    1.000 actor_loss=    0.090 critic_loss=    0.003 valid=54
+iter=  91 train_step=  91 rollout_step=    5334 completed=  8 average_reward=    0.160 average_return=    1.000 actor_loss=   -0.026 critic_loss=    0.001 valid=50
+iter= 100 train_step= 100 rollout_step=    5789 completed=  8 average_reward=    0.154 average_return=    1.000 actor_loss=   -0.035 critic_loss=    0.000 valid=52
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/dd/a2c/seed-1/history.csv
+case=dc algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=       8 completed=  8 average_reward=    0.012 average_return=    0.012 actor_loss=    0.021 critic_loss=    0.469 valid=8
+iter=  11 train_step=  11 rollout_step=      88 completed=  8 average_reward=    0.240 average_return=    0.240 actor_loss=    0.022 critic_loss=    0.223 valid=8
+iter=  21 train_step=  21 rollout_step=     168 completed=  8 average_reward=    0.541 average_return=    0.541 actor_loss=   -0.306 critic_loss=    0.188 valid=8
+iter=  31 train_step=  31 rollout_step=     248 completed=  8 average_reward=    0.875 average_return=    0.875 actor_loss=   -0.048 critic_loss=    0.013 valid=8
+iter=  41 train_step=  41 rollout_step=     328 completed=  8 average_reward=    0.957 average_return=    0.957 actor_loss=    0.085 critic_loss=    0.005 valid=8
+iter=  51 train_step=  51 rollout_step=     408 completed=  8 average_reward=    0.987 average_return=    0.987 actor_loss=    0.047 critic_loss=    0.003 valid=8
+iter=  61 train_step=  61 rollout_step=     488 completed=  8 average_reward=    0.920 average_return=    0.920 actor_loss=   -0.122 critic_loss=    0.009 valid=8
+iter=  71 train_step=  71 rollout_step=     568 completed=  8 average_reward=    0.991 average_return=    0.991 actor_loss=   -0.004 critic_loss=    0.001 valid=8
+iter=  81 train_step=  81 rollout_step=     648 completed=  8 average_reward=    0.963 average_return=    0.963 actor_loss=   -0.056 critic_loss=    0.004 valid=8
+iter=  91 train_step=  91 rollout_step=     728 completed=  8 average_reward=    0.988 average_return=    0.988 actor_loss=    0.000 critic_loss=    0.000 valid=8
+iter= 100 train_step= 100 rollout_step=     800 completed=  8 average_reward=    0.992 average_return=    0.992 actor_loss=    0.000 critic_loss=    0.000 valid=8
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/dc/a2c/seed-1/history.csv
+case=cd algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=     174 completed=  8 average_reward=    1.000 average_return=   21.750 actor_loss=   87.771 critic_loss=   23.286 valid=174
+iter=  11 train_step=  11 rollout_step=    1868 completed=  8 average_reward=    1.000 average_return=   20.750 actor_loss=   82.842 critic_loss=   22.650 valid=166
+iter=  21 train_step=  21 rollout_step=    4356 completed=  8 average_reward=    1.000 average_return=   39.875 actor_loss=  144.974 critic_loss=   25.589 valid=319
+iter=  31 train_step=  31 rollout_step=   10601 completed=  8 average_reward=    1.000 average_return=  124.000 actor_loss=  284.548 critic_loss=   28.017 valid=992
+iter=  41 train_step=  41 rollout_step=   21592 completed=  8 average_reward=    1.000 average_return=  191.500 actor_loss=  352.306 critic_loss=   27.984 valid=1532
+iter=  51 train_step=  51 rollout_step=   37954 completed=  8 average_reward=    1.000 average_return=  261.750 actor_loss=  379.298 critic_loss=   27.663 valid=2094
+iter=  61 train_step=  61 rollout_step=   65294 completed=  8 average_reward=    1.000 average_return=  395.750 actor_loss=  399.665 critic_loss=   27.704 valid=3166
+iter=  71 train_step=  71 rollout_step=   89564 completed=  8 average_reward=    1.000 average_return=  222.125 actor_loss=  370.532 critic_loss=   26.130 valid=1777
+iter=  81 train_step=  81 rollout_step=  104185 completed=  8 average_reward=    1.000 average_return=  140.000 actor_loss=  291.202 critic_loss=   24.279 valid=1120
+iter=  91 train_step=  91 rollout_step=  116483 completed=  8 average_reward=    1.000 average_return=  165.125 actor_loss=  317.913 critic_loss=   24.941 valid=1321
+iter= 100 train_step= 100 rollout_step=  128428 completed=  8 average_reward=    1.000 average_return=  166.625 actor_loss=  290.066 critic_loss=   25.492 valid=1333
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/cd/a2c/seed-1/history.csv
+case=cc algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=    1600 completed=  8 average_reward=   -6.005 average_return=-1201.052 actor_loss=-5520.777 critic_loss= 1306.703 valid=1600
+iter=  11 train_step=  11 rollout_step=   17600 completed=  8 average_reward=   -7.424 average_return=-1484.848 actor_loss=-6267.738 critic_loss= 1761.130 valid=1600
+iter=  21 train_step=  21 rollout_step=   33600 completed=  8 average_reward=   -6.215 average_return=-1242.905 actor_loss=-4971.935 critic_loss= 1348.645 valid=1600
+iter=  31 train_step=  31 rollout_step=   49600 completed=  8 average_reward=   -5.538 average_return=-1107.632 actor_loss=-4153.994 critic_loss= 1199.341 valid=1600
+iter=  41 train_step=  41 rollout_step=   65600 completed=  8 average_reward=   -5.970 average_return=-1194.026 actor_loss=-4164.289 critic_loss= 1399.233 valid=1600
+iter=  51 train_step=  51 rollout_step=   81600 completed=  8 average_reward=   -6.697 average_return=-1339.418 actor_loss=-2507.727 critic_loss= 1491.910 valid=1600
+iter=  61 train_step=  61 rollout_step=   97600 completed=  8 average_reward=   -6.845 average_return=-1368.922 actor_loss=-2754.832 critic_loss= 1530.596 valid=1600
+iter=  71 train_step=  71 rollout_step=  113600 completed=  8 average_reward=   -5.888 average_return=-1177.534 actor_loss=-4290.252 critic_loss= 1258.887 valid=1600
+iter=  81 train_step=  81 rollout_step=  129600 completed=  8 average_reward=   -6.718 average_return=-1343.674 actor_loss=-5123.026 critic_loss= 1419.002 valid=1600
+iter=  91 train_step=  91 rollout_step=  145600 completed=  8 average_reward=   -7.717 average_return=-1543.472 actor_loss=-5421.949 critic_loss= 1774.941 valid=1600
+iter= 100 train_step= 100 rollout_step=  160000 completed=  8 average_reward=   -7.951 average_return=-1590.277 actor_loss=-6098.145 critic_loss= 1864.977 valid=1600
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/cc/a2c/seed-1/history.csv
+case=dd algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=      71 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=    0.185 critic_loss=    0.003 valid=71
+iter=  11 train_step=  11 rollout_step=     623 completed=  8 average_reward=    0.016 average_return=    0.125 actor_loss=    1.236 critic_loss=    0.057 valid=63
+iter=  21 train_step=  21 rollout_step=    1248 completed=  8 average_reward=    0.013 average_return=    0.125 actor_loss=    0.996 critic_loss=    0.039 valid=80
+iter=  31 train_step=  31 rollout_step=    1803 completed=  8 average_reward=    0.000 average_return=    0.000 actor_loss=   -0.257 critic_loss=    0.003 valid=42
+iter=  41 train_step=  41 rollout_step=    2389 completed=  8 average_reward=    0.014 average_return=    0.125 actor_loss=   -0.126 critic_loss=    0.046 valid=74
+iter=  51 train_step=  51 rollout_step=    2963 completed=  8 average_reward=    0.099 average_return=    0.875 actor_loss=    2.382 critic_loss=    0.121 valid=71
+iter=  61 train_step=  61 rollout_step=    3563 completed=  8 average_reward=    0.123 average_return=    1.000 actor_loss=   -0.671 critic_loss=    0.016 valid=65
+iter=  71 train_step=  71 rollout_step=    4088 completed=  8 average_reward=    0.151 average_return=    1.000 actor_loss=    0.061 critic_loss=    0.004 valid=53
+iter=  81 train_step=  81 rollout_step=    4593 completed=  8 average_reward=    0.154 average_return=    1.000 actor_loss=   -0.025 critic_loss=    0.001 valid=52
+iter=  91 train_step=  91 rollout_step=    5097 completed=  8 average_reward=    0.154 average_return=    1.000 actor_loss=   -0.095 critic_loss=    0.001 valid=52
+iter= 100 train_step= 100 rollout_step=    5561 completed=  8 average_reward=    0.163 average_return=    1.000 actor_loss=    0.008 critic_loss=    0.000 valid=49
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/dd/a2c/seed-2/history.csv
+case=dc algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=       8 completed=  8 average_reward=    0.528 average_return=    0.528 actor_loss=    0.414 critic_loss=    0.382 valid=8
+iter=  11 train_step=  11 rollout_step=      88 completed=  8 average_reward=    0.024 average_return=    0.024 actor_loss=   -0.253 critic_loss=    0.269 valid=8
+iter=  21 train_step=  21 rollout_step=     168 completed=  8 average_reward=    0.675 average_return=    0.675 actor_loss=   -0.674 critic_loss=    0.231 valid=8
+iter=  31 train_step=  31 rollout_step=     248 completed=  8 average_reward=    0.642 average_return=    0.642 actor_loss=   -0.375 critic_loss=    0.067 valid=8
+iter=  41 train_step=  41 rollout_step=     328 completed=  8 average_reward=    0.962 average_return=    0.962 actor_loss=   -0.067 critic_loss=    0.004 valid=8
+iter=  51 train_step=  51 rollout_step=     408 completed=  8 average_reward=    0.950 average_return=    0.950 actor_loss=    0.034 critic_loss=    0.001 valid=8
+iter=  61 train_step=  61 rollout_step=     488 completed=  8 average_reward=    0.891 average_return=    0.891 actor_loss=   -0.110 critic_loss=    0.010 valid=8
+iter=  71 train_step=  71 rollout_step=     568 completed=  8 average_reward=    0.936 average_return=    0.936 actor_loss=   -0.100 critic_loss=    0.003 valid=8
+iter=  81 train_step=  81 rollout_step=     648 completed=  8 average_reward=    0.987 average_return=    0.987 actor_loss=   -0.027 critic_loss=    0.001 valid=8
+iter=  91 train_step=  91 rollout_step=     728 completed=  8 average_reward=    0.976 average_return=    0.976 actor_loss=    0.052 critic_loss=    0.000 valid=8
+iter= 100 train_step= 100 rollout_step=     800 completed=  8 average_reward=    0.973 average_return=    0.973 actor_loss=    0.004 critic_loss=    0.001 valid=8
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/dc/a2c/seed-2/history.csv
+case=cd algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=     193 completed=  8 average_reward=    1.000 average_return=   24.125 actor_loss=   97.335 critic_loss=   23.968 valid=193
+iter=  11 train_step=  11 rollout_step=    2240 completed=  8 average_reward=    1.000 average_return=   27.000 actor_loss=  106.859 critic_loss=   24.308 valid=216
+iter=  21 train_step=  21 rollout_step=    5047 completed=  8 average_reward=    1.000 average_return=   27.250 actor_loss=  103.215 critic_loss=   23.997 valid=218
+iter=  31 train_step=  31 rollout_step=    8875 completed=  8 average_reward=    1.000 average_return=   66.375 actor_loss=  213.287 critic_loss=   27.126 valid=531
+iter=  41 train_step=  41 rollout_step=   16706 completed=  8 average_reward=    1.000 average_return=  176.250 actor_loss=  354.466 critic_loss=   28.118 valid=1410
+iter=  51 train_step=  51 rollout_step=   34267 completed=  8 average_reward=    1.000 average_return=  233.375 actor_loss=  364.558 critic_loss=   27.714 valid=1867
+iter=  61 train_step=  61 rollout_step=   53126 completed=  8 average_reward=    1.000 average_return=  211.000 actor_loss=  303.628 critic_loss=   26.787 valid=1688
+iter=  71 train_step=  71 rollout_step=   68730 completed=  8 average_reward=    1.000 average_return=  181.625 actor_loss=  260.796 critic_loss=   26.420 valid=1453
+iter=  81 train_step=  81 rollout_step=   81303 completed=  8 average_reward=    1.000 average_return=  150.250 actor_loss=  251.384 critic_loss=   26.720 valid=1202
+iter=  91 train_step=  91 rollout_step=   93865 completed=  8 average_reward=    1.000 average_return=  155.500 actor_loss=  232.499 critic_loss=   26.407 valid=1244
+iter= 100 train_step= 100 rollout_step=  105978 completed=  8 average_reward=    1.000 average_return=  159.000 actor_loss=  232.918 critic_loss=   25.914 valid=1272
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/cd/a2c/seed-2/history.csv
+case=cc algorithm=a2c tail=v dtype=float32 devices=[CpuDevice(id=0)] collection=episodes
+iter=   1 train_step=   1 rollout_step=    1600 completed=  8 average_reward=   -5.783 average_return=-1156.570 actor_loss=-5233.238 critic_loss= 1275.526 valid=1600
+iter=  11 train_step=  11 rollout_step=   17600 completed=  8 average_reward=   -7.508 average_return=-1501.623 actor_loss=-5636.580 critic_loss= 1779.493 valid=1600
+iter=  21 train_step=  21 rollout_step=   33600 completed=  8 average_reward=   -7.436 average_return=-1487.110 actor_loss=-4018.785 critic_loss= 1755.870 valid=1600
+iter=  31 train_step=  31 rollout_step=   49600 completed=  8 average_reward=   -6.901 average_return=-1380.173 actor_loss= 2559.288 critic_loss= 1578.754 valid=1600
+iter=  41 train_step=  41 rollout_step=   65600 completed=  8 average_reward=   -7.305 average_return=-1461.064 actor_loss= 1201.522 critic_loss= 1706.334 valid=1600
+iter=  51 train_step=  51 rollout_step=   81600 completed=  8 average_reward=   -6.768 average_return=-1353.525 actor_loss=-1730.165 critic_loss= 1478.517 valid=1600
+iter=  61 train_step=  61 rollout_step=   97600 completed=  8 average_reward=   -6.027 average_return=-1205.461 actor_loss=-4668.847 critic_loss= 1252.618 valid=1600
+iter=  71 train_step=  71 rollout_step=  113600 completed=  8 average_reward=   -6.047 average_return=-1209.335 actor_loss=-3924.083 critic_loss= 1299.453 valid=1600
+iter=  81 train_step=  81 rollout_step=  129600 completed=  8 average_reward=   -6.626 average_return=-1325.266 actor_loss=-3318.598 critic_loss= 1418.179 valid=1600
+iter=  91 train_step=  91 rollout_step=  145600 completed=  8 average_reward=   -7.772 average_return=-1554.461 actor_loss=-4749.286 critic_loss= 1815.186 valid=1600
+iter= 100 train_step= 100 rollout_step=  160000 completed=  8 average_reward=   -7.929 average_return=-1585.772 actor_loss=-4404.087 critic_loss= 1831.152 valid=1600
+wrote /Users/pranav.bhosale/Downloads/Student_Distribution-5/Implementation/results/gym-comparison/cc/a2c/seed-2/history.csv

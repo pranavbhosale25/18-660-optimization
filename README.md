@@ -22,4 +22,12 @@
 - [Application — Geometry compensation](hw4/Application/writeup.md)
 - [Submission ZIP](hw4/output/HW4_Submission.zip)
 
+## Homework 5
+
+- [Handwritten theory PDF](hw5/Theory/hw5.pdf)
+- [Setup and reproduction commands](hw5/README.md)
+- [Implementation — REINFORCE and A2C](hw5/Implementation/writeup.md)
+- [Application — Bayesian optimization and learned warm starts](hw5/Application/writeup.md)
+- [Submission ZIP](hw5/Optimization_HW5_Submission.zip)
+
 ChatGPT was used to update this README and to help develop and check the Homework 4 code and solutions.

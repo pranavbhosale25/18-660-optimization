@@ -1,0 +1,9 @@
+include *.md *.txt LICENSE
+recursive-include examples *.py
+recursive-include scripts *.py
+recursive-include tests *.py
+global-exclude *.ipynb *.pyc *.pyo
+prune results
+prune build
+prune .test_tmp
+prune pytest-of-agent

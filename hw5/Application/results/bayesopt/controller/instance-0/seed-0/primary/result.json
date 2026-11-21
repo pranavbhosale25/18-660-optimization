@@ -1,0 +1,108 @@
+{
+  "task": "controller",
+  "seed": 0,
+  "config": {
+    "strategy": "bo",
+    "surrogate": "gp",
+    "kernel": "matern52",
+    "warp": "none",
+    "mixed_encoding": "activity",
+    "acquisition": "ei",
+    "optimizer": "candidates",
+    "hyper_method": "map",
+    "hyper_steps": 30,
+    "refit_every": 6,
+    "hyper_optimizer": "adam",
+    "lengthscale": 0.3,
+    "noise": 0.04,
+    "beta": 2.0,
+    "xi": 0.01,
+    "candidates": 768,
+    "local_fraction": 0.5,
+    "local_scale": 0.12,
+    "optimizer_steps": 35,
+    "optimizer_restarts": 4,
+    "known_noise": false,
+    "incumbent": "observed",
+    "recommendation": "posterior",
+    "feasibility": false,
+    "cost_aware": false,
+    "cost_mode": "divide_expected_cost",
+    "n_trees": 32,
+    "tree_depth": 5,
+    "min_leaf": 2,
+    "embedding_dimension": 5,
+    "embeddings": 1,
+    "embedding_bound": 0.75,
+    "replicates": 1,
+    "allow_repeats": false
+  },
+  "score": {
+    "recommendation": [
+      -0.11900892968144583,
+      -0.7275439854657176,
+      -0.327827660132912,
+      -0.505688042119298,
+      -0.05747145221804051,
+      -0.3321089324704709,
+      -0.5191021418079008,
+      -0.6086170576631471,
+      -0.2545323487093345,
+      -0.08862070310907644,
+      -0.31346013189952426,
+      -0.23641901650818997,
+      0.3502709061829039,
+      -0.021560427179544317,
+      0.23115634732551005,
+      0.8090524138163895,
+      -0.32468607361698654,
+      0.14446317917940066,
+      0.2052147898007728,
+      0.6269238845679457,
+      -0.2758690591906314,
+      -0.002711268743339157,
+      0.27256009842397333,
+      0.7286346996254471
+    ],
+    "true_mean": 99.80036338400406,
+    "feasible": true,
+    "passed": true,
+    "target": 97,
+    "constraint": -1.0,
+    "validation_mean": 99.80111299808725,
+    "validation_standard_error": 0.015301656033139616,
+    "validation_runs": 256,
+    "spent": 75,
+    "completed_runs": 75,
+    "observations": 75,
+    "canceled_reservation": 0.0,
+    "instance": 0,
+    "split": "development",
+    "simulator_version": "1.0",
+    "budget": 75,
+    "budget_unit": "experiments"
+  },
+  "diagnostics": {
+    "counts_by_embedding": [
+      75
+    ],
+    "fitted_parameters": [
+      [
+        {
+          "log_amplitude": -0.3060820621413101,
+          "log_lengthscale": [
+            -2.0971216942150788,
+            -2.7327516841017627,
+            -0.9803865343015665,
+            -1.7767000208778971,
+            -2.6764475464898565
+          ]
+        },
+        -3.4800307777446955,
+        -1.1064518903383809
+      ]
+    ],
+    "pending": false
+  },
+  "elapsed_seconds": 2.5399099580245093
+}
